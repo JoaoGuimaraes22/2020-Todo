@@ -74,3 +74,14 @@ Here it is:
 - Start generating side-money, aside from current job;
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
+
+## Stuff I'm super good at:
+
+- HTML5;
+- CSS3;
+- Modern Javascipt; 
+- Sass;
+- Adobe XD;
+- Natural language processing (Microsoft's LUIS and Google's Dialogflow);
+- Bash, NPM, webpack;
+- Git, Github;
