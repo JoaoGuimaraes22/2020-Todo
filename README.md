@@ -7,8 +7,8 @@ Here it is:
 
 **Main**:
 - Fully master React.js:
-  - Learn about props and state;
-  - Learning about components and class-based lifecycles methods;
+  - ~~Learn about props and state~~;
+  - ~~Learning about components and class-based lifecycles methods~~;
   - Mastering class based lifecycle methods;
   - Learn React development best practises;
   - useState and useState (and custom hooks);
