@@ -31,8 +31,11 @@ Here it is:
   - Learn about routing;
   - Learn middleware;
   - Learn about db integration;
-  
+ 
 - Master Node.js:
+
+- Learn Next.js:
+  - For being able to do server side client rendering,
 
 - Learn Firebase:
   - Learn about fb integration with web apps;
