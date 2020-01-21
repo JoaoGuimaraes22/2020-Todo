@@ -1,7 +1,11 @@
 # 2020-Todo
 
-# Todo:
-**Main**:  
+This is my todo file for what I'll do in 2020. I'm currently 18 years old, looking to learn abou tech, because it's fun I guess.
+Here it is:
+
+## Todo:
+**Main**:
+
     * Fully master React.js:
       * ~~Learn about props and state~~;
       * ~~Learning about components and class-based lifecycles methods~~;
