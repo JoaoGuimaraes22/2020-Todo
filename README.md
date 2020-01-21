@@ -4,8 +4,8 @@ This is my todo file for what I'll do in 2020. I'm currently 18 years old, looki
 Here it is:
 
 ## Todo:
-**Main**:
 
+**Main**:
     * Fully master React.js:
       * ~~Learn about props and state~~;
       * ~~Learning about components and class-based lifecycles methods~~;
@@ -14,15 +14,10 @@ Here it is:
       * ~~useState and useState (and custom hooks)~~;
       * useRef and useCallbacks;
       * Check rest of React to see what's left to master;
-
     * Experiment more with Redux:
-      
     * Master Express.js: 
-    
     * Master Node.js:
-    
     * Learn Firebase:
-    
     * Master MySQL:
     * Master ASP.NET and become better at server-client interaction;
     * Learn Docker and Kubernetes;
