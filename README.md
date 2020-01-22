@@ -88,5 +88,7 @@ Here it is:
 - Sass;
 - Adobe XD;
 - Natural language processing (Microsoft's LUIS and Google's Dialogflow);
-- Bash, NPM, webpack;
+- Bash;
+- NPM;
+- Webpack;
 - Git, Github;
