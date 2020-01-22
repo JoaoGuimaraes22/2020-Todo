@@ -11,11 +11,11 @@ Here it is:
 - Fully master React.js:
   - ~~Learn about props and state~~;
   - ~~Learning about components and class-based lifecycles methods~~;
-  - Mastering class based lifecycle methods;
+  - ~~Mastering class based lifecycle methods (ended up not doing, I'm basically only using arrow function components, with hooks)~~;
   - ~~Learn React development best practises~~;
   - ~~useState and useState (and custom hooks)~~;
-  - useRef and useCallback;
-  - Other hooks;
+  - ~~useRef and useCallback~~;
+  - ~~useReducer and useContext~~;
   - Check rest of React to see what's left to master;
       
 - Experiment more with Redux:
@@ -76,6 +76,7 @@ Here it is:
 
 - Learn more about AI and ML;
 - ~~Integrate tensorflow into an augmented application using Unity3D~~;
+- React testing / other React hooks;
 - Start generating side-money, aside from current job;
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
