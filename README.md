@@ -35,13 +35,15 @@ Here it is:
 - Master Node.js:
 
 - Learn Next.js:
-  - For being able to do server side client rendering,
+  - For being able to do server-side rendering,
 
 - Learn Firebase:
   - Learn about fb integration with web apps;
   - Learn about fb databases;
   - Learn about fb cloud;
   - Learn about rapid deployment with firebase;
+  
+- Learn Nginx;
   
 - Build and deploy full stack web app with Node, Express, React and Firebase; 
   
