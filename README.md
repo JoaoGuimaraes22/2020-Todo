@@ -77,6 +77,7 @@ Here it is:
 - Learn more about AI and ML;
 - ~~Integrate tensorflow into an augmented application using Unity3D~~;
 - React testing / other React hooks;
+- Research "safer" investing strategies (dividen yield, dividend growth, others)
 - Start generating side-money, aside from current job;
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
