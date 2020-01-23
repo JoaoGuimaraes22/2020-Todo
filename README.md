@@ -96,3 +96,10 @@ Here it is:
 - NPM;
 - Webpack;
 - Git, Github;
+
+## NOTES
+
+- For Redux (with React):
+  - Wrap App in root `index.js` with `Provider` from `react-redux`;
+  - Create reducers folder, with an index.js where you import all reducers;
+  - Use `combineReducers` from `redux` in and assign a constant to it, and give `combineReducers` an object with your reducers;
