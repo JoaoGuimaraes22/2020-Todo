@@ -22,8 +22,7 @@ Here it is:
   - ~~Learn abbout why use Redux~~;
   - Master Redux syntax and be able to development quick and efficiently;
   - Learn about Redux use best practises;
-  - Learn about "global" state (still learning); 
-  - Do actual project where using Redux is necessary;
+  - ~~Learn about "global" state (still learning)~~; 
   
 - Master Express.js:
   - Learn what is express and when to use express;
