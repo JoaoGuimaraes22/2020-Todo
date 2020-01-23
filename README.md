@@ -81,6 +81,7 @@ Here it is:
 - Start generating side-money, aside from current job;
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
+- Get a raspberry pi and do the equivalent of an "Hello World" with it;
 
 ## Stuff I'm pretty good at:
 
