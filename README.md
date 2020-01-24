@@ -102,4 +102,9 @@ Here it is:
 - For Redux (with React):
   - Wrap App in root `index.js` with `Provider` from `react-redux`;
   - Create reducers folder, with an index.js where you import all reducers;
-  - Use `combineReducers` from `redux` in and assign a constant to it, and give `combineReducers` an object with your reducers;
+  - Reducers are created by using a function and giving it conditional statements to alter state, ex: `function(state = x, action){if(action.type == "INCREMENT"){return state++}}`
+  - Use `combineReducers` from `redux` in the reducers' folder index.js and assign a constant to it, and give `combineReducers` an object with your reducers;
+  - In root index.js, import `createStore` from `redux` and the constant assigned to `combineReducers` from /reducers;
+  - In root index.js, assign a constant to `createStore(constant from combineReducers)`; 
+  - To use Redux DevTools extension, in createStore from root index.js, do `createStore(constant from combineReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())`;
+  - In the `<Provider> <App/> </Provider>` in root index.js, add `store = {constant assigned to createStore}` as a paremetr to the Provider, like `<Provider store = {constant assigned to createStore}> <App/> </Provider>`
