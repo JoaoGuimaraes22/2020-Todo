@@ -36,7 +36,9 @@ Here it is:
   - Learn about db integration;
  
 - Learn Next.js:
-  - For being able to do server-side rendering,
+  - ~~Learn and test the different Next.js concepts using documentation / tutorials~~;
+  - ~~For being able to do server-side rendering~~;
+  - Learn about deployment;
 
 - Learn Firebase:
   - Learn about fb integration with web apps;
