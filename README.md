@@ -55,10 +55,10 @@ Here it is:
   - Fully master data CRUD with MySQL;
   - Learn about db deployment and db integration with client;
   
-- Make full stack production appplication with MERN;
+- Make full stack production application with MERN;
 
 - Learn basic-medium concepts about data structures and algorithms:
-  - Using udemy free course/freecodecamp youtube video;
+  - Using Udemy free course/freecodecamp youtube video;
   
 - Master C#, .NET, ASP.NET and become better at server-client interaction;
   - Learn OOP principles;
@@ -71,14 +71,14 @@ Here it is:
   
 - Learn Docker and Kubernetes;
 
-- Build and deploy a full scalabale web app using Digital Ocean with kubernetes, ASP.NET and or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end; 
+- Build and deploy a full scalable web app using Digital Ocean with kubernetes, ASP.NET and or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end; 
 
 **Side wishes:**
 
 - Learn more about AI and ML;
 - ~~Integrate tensorflow into an augmented application using Unity3D~~;
 - React testing / other React hooks;
-- Research "safer" investing strategies (dividen yield, dividend growth, others)
+- Research "safer" investing strategies (dividend yield, dividend growth, others)
 - Start generating side-money, aside from current job;
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
