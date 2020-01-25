@@ -159,23 +159,27 @@ Here it is:
     - pages (where you put your applicattion's pages);
     - layout (where you create your layout components, ones you use in multiple pages);
     - components (for creating components)
-  - In a page, you can fetch data in the server side using `getInitialProps` and, `fetch` imported from `isomorphic-unfetch`, for example, if you wanted to get data from an api to the Home page, you could do this: 
-  ``` 
-  const Home = () => {
+  - In a page, you can fetch data in the server side using `getInitialProps` and, `fetch` imported from `isomorphic-unfetch`, for example, if you wanted to get data from an api to the Home page, you could do this:  
+  ```
+  const Home = ({stars}) => {
   return (
     <Layout>
       <div style={{ padding: "4rem", background: "lightblue" }}>
         <h1>Hello World</h1>
         <h2>Next starts: {stars}</h2>
-        <h3>Test starts: {myStars}</h3>
       </div>
     </Layout>
    );
   };
+  
   Home.getInitialProps = async () => {
   const res = await fetch("https://api.github.com/repos/zeit/next.js");
   const data = await res.json();
   return { stars: data.stargazers_count };
-  }; 
-```
-- Test
+  };
+
+- If you want the data fetched on the client-side and not server rendered, run `npm i swr`, then import `useSWR` from `swr` in the page you want to fetch the data, and finnaly fetch data like so:
+- Then, make an asyncronous generic fetch function, like you would do with react;
+- Then use `useSWR` inside the page-generating function, like so, `const { data, error } = useSWR('/repos/zeit/next.js', fetcher)`;
+- If you want, you can have your api routes in the next.js app, by adding a /api folder into the  /pages folder, making it /pages/api;
+- 
