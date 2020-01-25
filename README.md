@@ -46,8 +46,6 @@ Here it is:
   - Learn about fb cloud;
   - Learn about rapid deployment with firebase;
   
-- Learn Nginx;
-  
 - Build and deploy full stack web app with Node, Express, React and Firebase; 
   
 - Learn MongoDB:
@@ -69,7 +67,9 @@ Here it is:
   - Learn the syntax;
   - Learn the principal libraries and how the .NET environment works;
   - Learn about integrating backend ASP.NET services with a client (React) application;
-  - Learn about hangfire
+  - Learn about hangfire;
+
+- Learn Nginx;
   
 - Learn Docker and Kubernetes;
 
