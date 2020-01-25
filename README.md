@@ -1,4 +1,4 @@
-# 2020-Todo
+# 2020-Todo / Progress Notes
 
 This is my todo file for what I'll do in 2020. I'm an 18 years old portuguese guy with passions for tech, volleyball and entrepreneurship.
 
@@ -15,14 +15,18 @@ Here it is:
   - ~~Learn React development best practises~~;
   - ~~useState and useState (and custom hooks)~~;
   - ~~useRef and useCallback~~;
-  - ~~useReducer and useContext~~;
+  - ~~useReducer~~
+  - Context, createContext, useContext;
+  - Memoization and useMemo;
+  - React optimization;
   - Check rest of React to see what's left to master;
       
-- Experiment more with Redux:
+- Experiment more with Redux and React:
   - ~~Learn abbout why use Redux~~;
-  - Master Redux syntax and be able to development quick and efficiently;
-  - Learn about Redux use best practises;
+  - ~~Become able to developm quickly and efficiently with redux and react~~;
+  - ~~Learn about Redux use best practises~~;
   - ~~Learn about "global" state (still learning)~~; 
+  - Fully master Redux;
   
 - Master Express.js:
   - Learn what is express and when to use express;
@@ -100,7 +104,7 @@ Here it is:
 ## NOTES
 
 - For Redux (with React -> assuming you already know React):
-  - Import `redux` and `react-redux`;
+  - Npm install `redux` and `react-redux`;
   - Create reducers folder, with an index.js where you import all the reducers you create (reducers handle your global state altering in your application);
   - Create reducers, for example, by using a function and giving it conditional statements to alter `state`, ex: `function counterReducer(state = x, action){if(action.type == "INCREMENT"){return state++}}`;
   - Then, use `combineReducers` imported from `redux`, in the reducers' folder index.js, and assign a constant to it (ex: `allReducers`, and assign it `combineReducers()`;
@@ -111,4 +115,14 @@ Here it is:
   - In root index.js, import `Provider` from `react-redux`, and wrap your `<App/>` component in the `Provider`, like so, `<Provider> <App/> <Provider/>`;
   - In root index.js, add `store` parameter to the `Provider` wrapper, and assign it `myStore`, for example, `<Provider store={myStore}> <App/> <Provider/>`;
   - Now we have access to global state in our app!
-  - To access state in a component, `useSelector` from `react-redux`;
+  - To access global state in a component, `useSelector` from `react-redux`;
+  - Then assign a constant, example `counter`, to `useSelector()`;
+  - Then add state altering function in useSelector, in which you pass your state as a paremeter and return the specific type of state you which to alter, for example, `counter = useSelector(state => state.counter)` or `const x = useSelector(state = state.x)`;
+  - To alter global state, create an actions folder;
+  - In the actions folder, create an index.js, in which you can create all your actions;
+  - Your actions are functions that return the `type` of the action you activated, for example, an action for handling increments in a component could be: `export const increment = () => { return {type: "INCREMENT"}}`;
+  - Now in your component, import your action from actions, like `import {increment} from "../actions"`;
+  - Then import `useDispatch` from `react-redux`, and assign a constant to the `dispatch()` method, for example `const dispatch = dispatch()`;
+  - To alter the global state in your componet, just use `dispatch()` with an imported function action as a parameter and it will alter global state, for example: `<button onClick={()=>{dispatch(increment())}}>` --> in each click, increments counter by one;
+  - That's pretty much it to use redux in a simple way in a create-react-app application!;
+  
