@@ -28,15 +28,13 @@ Here it is:
   - ~~Learn about "global" state (still learning)~~; 
   - Fully master Redux;
   
-- Master Express.js:
-  - Learn what is express and when to use express;
+- Master Node.js and Express.js:
+  - ~~Learn what they are and when to use them~~;
   - Learn syntax, check documentation;
   - Learn about routing;
   - Learn middleware;
   - Learn about db integration;
  
-- Master Node.js:
-
 - Learn Next.js:
   - For being able to do server-side rendering,
 
@@ -103,7 +101,23 @@ Here it is:
 
 ## NOTES
 
-- For Redux (with React -> assuming you already know React):
+- **What I use when developing currently:**
+  - Windows 10 Laptop;
+  - Visual Studio for .NET applications;
+  - PyCharm fo pyhton developing;
+  - Visual Studio Code for basically any other language that I currently use;
+  - For Visual Studio Extensions, I use:
+    - Auto Rename Tag;
+    - ES7 React/Redux/React-Native/JS snippets;
+    - Live Sass Compiler;
+    - Live Server;
+    - Material Icon Theme;
+    - Material Theme - Ocean High Contrast;
+    - Prettier;
+    - SQL Server (mssql);
+    - Sublime Importer;
+
+- **Redux (with React -> assuming you already know React):**
   - Npm install `redux` and `react-redux`;
   - Create reducers folder, with an index.js where you import all the reducers you create (reducers handle your global state altering in your application);
   - Create reducers, for example, by using a function and giving it conditional statements to alter `state`, ex: `function counterReducer(state = x, action){if(action.type == "INCREMENT"){return state++}}`;
@@ -127,3 +141,9 @@ Here it is:
   - To alter the global state in your componet, just use `dispatch()` with an imported function action as a parameter and it will alter global state, for example: `<button onClick={()=>{dispatch(increment())}}>` --> in each click, increments counter by one;
   - **And now you can alter your global state**;
   
+- **Express**:
+  - Npm install `express`;
+  - Npm install `nodemon` and `concurrently` (as dev dependencies, `npm i -D ...`);
+  - Optional: if using express with react, make a seperate /server folder for the express node.js backend, with a main file named  server.js or index.js , and another /client folder for the create-react-app, both in the same root directory if you want;
+  - Optional: create the following npm scripts for faster development, on the root package.json, like so: `{server: "cd server && nodemon server.js", client: "cd client && npm start", dev: "concurrently \"npm run server\" "\npm run client\" "}`;
+  - 
