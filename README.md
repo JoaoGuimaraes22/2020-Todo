@@ -142,8 +142,12 @@ Here it is:
   - **And now you can alter your global state**;
   
 - **Express**:
-  - Npm install `express`;
-  - Npm install `nodemon` and `concurrently` (as dev dependencies, `npm i -D ...`);
+  - Run `npm init -y`;
+  - Run `npm i express`;
+  - Run `npm i -D nodemon concurrently`;
   - Optional: if using express with react, make a seperate /server folder for the express node.js backend, with a main file named  server.js or index.js , and another /client folder for the create-react-app, both in the same root directory if you want;
   - Optional: create the following npm scripts for faster development, on the root package.json, like so: `{server: "cd server && nodemon server.js", client: "cd client && npm start", dev: "concurrently \"npm run server\" "\npm run client\" "}`;
   - 
+  
+- **Next.js:**
+  - N
