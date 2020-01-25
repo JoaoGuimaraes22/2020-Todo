@@ -99,12 +99,16 @@ Here it is:
 
 ## NOTES
 
-- For Redux (with React):
-  - Wrap App in root `index.js` with `Provider` from `react-redux`;
-  - Create reducers folder, with an index.js where you import all reducers;
-  - Reducers are created by using a function and giving it conditional statements to alter state, ex: `function(state = x, action){if(action.type == "INCREMENT"){return state++}}`
-  - Use `combineReducers` from `redux` in the reducers' folder index.js and assign a constant to it, and give `combineReducers` an object with your reducers;
-  - In root index.js, import `createStore` from `redux` and the constant assigned to `combineReducers` from /reducers;
-  - In root index.js, assign a constant to `createStore(constant from combineReducers)`; 
-  - To use Redux DevTools extension, in createStore from root index.js, do `createStore(constant from combineReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())`;
-  - In the `<Provider> <App/> </Provider>` in root index.js, add `store = {constant assigned to createStore}` as a paremetr to the Provider, like `<Provider store = {constant assigned to createStore}> <App/> </Provider>`
+- For Redux (with React -> assuming you already know React):
+  - Import `redux` and `react-redux`;
+  - Create reducers folder, with an index.js where you import all the reducers you create (reducers handle your global state altering in your application);
+  - Create reducers, for example, by using a function and giving it conditional statements to alter `state`, ex: `function counterReducer(state = x, action){if(action.type == "INCREMENT"){return state++}}`;
+  - Then, use `combineReducers` imported from `redux`, in the reducers' folder index.js, and assign a constant to it (ex: `allReducers`, and assign it `combineReducers()`;
+  - Still in the reducers' index.js, pass your reducers as key-value pairs in the `combineReducers()` method, for example, `const allReducers = combineReducers({counter: counterReducer, xReducer: reducer2, yReducer: reducer3})`;
+  - In root index.js, import `createStore` from `redux` and `allReducers` from /reducers/index or just from /reducers;
+  - In root index.js, assign a constant to `createStore(allReducers)`, for example `const myStore = createStore(allReducers)`; 
+  - To use Redux DevTools extension, in root index.js, add to code like so `createStore(allReducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())`;
+  - In root index.js, import `Provider` from `react-redux`, and wrap your `<App/>` component in the `Provider`, like so, `<Provider> <App/> <Provider/>`;
+  - In root index.js, add `store` parameter to the `Provider` wrapper, and assign it `myStore`, for example, `<Provider store={myStore}> <App/> <Provider/>`;
+  - Now we have access to global state in our app!
+  - To access state in a component, `useSelector` from `react-redux`;
