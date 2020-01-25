@@ -159,10 +159,23 @@ Here it is:
     - pages (where you put your applicattion's pages);
     - layout (where you create your layout components, ones you use in multiple pages);
     - components (for creating components)
-  - In a page, you can fetch data using `getInitialProps` and, `fetch` imported from `isomorphic-unfetch`, for example: 
+  - In a page, you can fetch data in the server side using `getInitialProps` and, `fetch` imported from `isomorphic-unfetch`, for example, if you wanted to get data from an api to the Home page, you could do this: 
   ``` 
+  const Home = () => {
+  return (
+    <Layout>
+      <div style={{ padding: "4rem", background: "lightblue" }}>
+        <h1>Hello World</h1>
+        <h2>Next starts: {stars}</h2>
+        <h3>Test starts: {myStars}</h3>
+      </div>
+    </Layout>
+   );
+  };
   Home.getInitialProps = async () => {
   const res = await fetch("https://api.github.com/repos/zeit/next.js");
   const data = await res.json();
   return { stars: data.stargazers_count };
-  };```
+  }; 
+```
+- Test
