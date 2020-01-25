@@ -99,7 +99,7 @@ Here it is:
 - Webpack;
 - Git, Github;
 
-## NOTES
+## NOTES 
 
 - **What I use when developing currently:**
   - Windows 10 Laptop;
@@ -150,4 +150,19 @@ Here it is:
   - 
   
 - **Next.js:**
-  - N
+  - Run `npm init -y`;
+  - Run `npm i next react react-dom isomorphic-unfetch @zeit/next-css`;
+  - Next create a next.config.js file in the root directory and add to it `const withCSS = require("@zeit/next-css"); module.exports = withCSS({});`, to settup styling in the project;
+  - Then create the following folders:
+    - scss (for making .scss files for styling);
+    - styles (where the .scss files go when compiled by live sass compiler);
+    - pages (where you put your applicattion's pages);
+    - layout (where you create your layout components, ones you use in multiple pages);
+    - components (for creating components)
+  - In a page, you can fetch data using `getInitialProps` and, `fetch` imported from `isomorphic-unfetch`, for example: 
+  ``` 
+  Home.getInitialProps = async () => {
+  const res = await fetch("https://api.github.com/repos/zeit/next.js");
+  const data = await res.json();
+  return { stars: data.stargazers_count };
+  };```
