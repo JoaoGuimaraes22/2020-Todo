@@ -46,10 +46,14 @@ Here it is:
   - Learn about fb cloud;
   - Learn about rapid deployment with firebase;
   
-- Build and deploy full stack web app with Node, Express, React and Firebase; 
+- Build and deploy full stack web app React and Firebase; 
   
 - Learn MongoDB:
   - (I know nothing of mongoDB, only that it's used a lot with node, express, react);
+
+- Learn about simple full-stack deployment, maybe with Heroku;
+
+- Build and deploty a full stack web app with React, Express, and MongoDB;
 
 - Master SQL (MySQL):
   - Fully understand RDBMS;
