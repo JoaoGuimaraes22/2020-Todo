@@ -158,6 +158,7 @@ Here it is:
 - **Next.js:**
   - Run `npm init -y`;
   - Run `npm i next react react-dom isomorphic-unfetch @zeit/next-css`;
+  - Add the following scripts to your package.json, `dev: "next", build: "next build", start: "next start"`
   - Next create a next.config.js file in the root directory and add to it `const withCSS = require("@zeit/next-css"); module.exports = withCSS({});`, to settup styling in the project;
   - Then create the following folders:
     - scss (for making .scss files for styling);
@@ -188,4 +189,3 @@ Here it is:
 - Then, make an asyncronous generic fetch function, like you would do with react;
 - Then use `useSWR` inside the page-generating function, like so, `const { data, error } = useSWR('/repos/zeit/next.js', fetcher)`;
 - If you want, you can have your api routes in the next.js app, by adding a /api folder into the  /pages folder, making it /pages/api;
-- 
