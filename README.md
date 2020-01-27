@@ -90,6 +90,7 @@ Here it is:
 - Eat more and bulk up;
 - Get a whiteboard;
 - Get a medium quality filming camera/webcam + microphone;
+- Learn and use video editing software - Davinci Resolve;
 - Get a raspberry pi and do the equivalent of an "Hello World" with it;
 
 ## Stuff I'm pretty good at:
