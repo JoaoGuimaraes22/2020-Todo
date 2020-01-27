@@ -108,11 +108,11 @@ Here it is:
 ## NOTES 
 
 - **What I use when developing currently:**
-  - Windows 10 Laptop;
+  - Windows 10 Laptop (looking to change ti Linux OS -> probably Kubuntu);
   - Visual Studio for .NET applications;
-  - PyCharm fo pyhton developing;
+  - PyCharm for pyhton developing;
   - Visual Studio Code for basically any other language that I currently use;
-  - For Visual Studio Extensions, I use:
+  - For Visual Studio Code Extensions, I use:
     - Auto Rename Tag;
     - ES7 React/Redux/React-Native/JS snippets;
     - Live Sass Compiler;
