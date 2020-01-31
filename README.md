@@ -75,9 +75,11 @@ Here it is:
 
 - Learn Nginx;
   
-- Learn Docker and Kubernetes;
+- Learn Docker;
 
-- Build and deploy a full scalable web app using Digital Ocean with kubernetes, ASP.NET and or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end; 
+- Learn Kubernetes;
+
+- Build and deploy a full scalable web app with kubernetes, ASP.NET and/or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end; 
 
 **Side wishes:**
 
