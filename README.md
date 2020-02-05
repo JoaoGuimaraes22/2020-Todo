@@ -121,7 +121,7 @@ Here it is:
     - Live Sass Compiler;
     - Live Server;
     - Material Icon Theme;
-    - Material Theme - Ocean High Contrast;
+    - Material Theme - Darker High Contrast;
     - Prettier;
     - SQL Server (mssql);
     - Sublime Importer;
