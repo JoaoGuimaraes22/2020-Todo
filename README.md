@@ -41,12 +41,12 @@ Here it is:
   - Learn about deployment;
 
 - Learn Firebase:
-  - Learn about fb integration with web apps;
-  - Learn about fb databases;
-  - Learn about fb cloud;
+  - ~~Learn about fb integration with web apps~~;
+  - ~~Learn about fb databases~~;
+  - ~~Learn about fb cloud~~;
   - Learn about rapid deployment with firebase;
   
-- Build and deploy full stack web app React and Firebase; 
+- Build and deploy full stack web app React and Firebase (optional); 
   
 - Learn MongoDB:
   - (I know nothing of mongoDB, only that it's used a lot with node, express, react);
