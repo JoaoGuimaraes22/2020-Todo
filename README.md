@@ -81,6 +81,8 @@ Here it is:
 
 - Build and deploy a full scalable web app with kubernetes, ASP.NET and/or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end; 
 
+- Build a really nice workstation;
+
 **Side wishes:**
 
 - Learn more about AI and ML;
