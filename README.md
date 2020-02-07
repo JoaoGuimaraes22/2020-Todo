@@ -133,7 +133,7 @@ Here it is:
 ## NOTES 
 
 #### What I use when developing currently:
-- Windows 10 Laptop (looking to change ti Linux OS -> probably Kubuntu);
+- Windows 10 Laptop (looking to change to a Some Linux OS Distro -> probably Kubuntu);
 - Visual Studio for .NET applications;
 - PyCharm for pyhton developing;
 - Visual Studio Code for basically any other language that I currently use;
@@ -143,7 +143,7 @@ Here it is:
 - Live Sass Compiler;
 - Live Server;
 - Material Icon Theme;
-- Material Theme - Palenight;
+- Material Theme - Palenight High Contrast;
 - Prettier;
 - SQL Server (mssql);
 - Sublime Importer;
@@ -180,6 +180,7 @@ Here it is:
 - Optional: create the following npm scripts for faster development, on the root package.json, like so: `{server: "cd server && nodemon server.js", client: "cd client && npm start", dev: "concurrently \"npm run server\" "\npm run client\" "}`;
 - Now, on server.js, import `express` and assign it to a constant like `const express = require("express");`;
 - Use `const app = express();`;
+- For this, we want to handle our responses and requests as JSON, but we could use express with other things other than JSON;
 - Make a middleware section, like `// Middleware`, on server.js;
 - On `// Middleware`, use the body parser middleware to parse requests comming through express to json, like so `app.use(express.json());`;
 - Make an express section, like `// Express`, on server.js.
@@ -220,6 +221,10 @@ router.delete('/:id(// here we are finding our item by id)', auth (// optional),
     .catch(err => res.status(404).json({ success: false }));
 });
 ```
+- **PUT** To set a route for PUT methods, do some research, because I haven't really been using it; :P;
+- To use these routes in your express applicaton, use `module.exports = router` on your /api/:api_name file;
+- Finnaly, import them in your server.js, like so, for example: `app.use('/api/items', require('./routes/api/items'));`;
+- **Now you you can all your routes APIs in your application**;
   
 #### Next.js:
 - Run `npm init -y`;
