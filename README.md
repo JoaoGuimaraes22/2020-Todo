@@ -30,9 +30,10 @@ Here it is:
   
 #### Master Node.js and Express.js:
 - ~~Learn what they are and when to use them~~;
-- Learn syntax, check documentation;
-- Learn about routing;
+- ~~Learn syntax, check documentation~~;
+- ~~Learn about routing~~;
 - Learn middleware;
+- Master all syntax;
 - ~~Learn about db integration~~;
 - ~~Learn about integrating with MongoDB~~;
 - Learn about integrating with MySQL;
@@ -190,9 +191,9 @@ Here it is:
 - For each api in the api folder, use `const express = require("express")`, importing express;
 - Use routing to make this file, /api/:api_name, a route for the express server;
 - To use routing, use `const route = express.Router()`;
-- For each HTTP request, be it GET, POST, PUT or DELETE, make a commented description about what route (@route) is that method going towards, the description (@desc) of the service, and the access (@access) level of the api (public or private), for example, when documenting a GET request, do this `// @route GET api/items; // @desc Get All Items; // @access Public`;
-- The routing for each roue will be /websitename(when developing will be localhost:5000/api/:api_name; 
-- **GET** To set a route for GET (to fecth items from source), use something like:
+- For each HTTP request, be it GET, POST, PUT or DELETE, make a commented description about what route (@route) is that method going towards, the description (@desc) of the service, and the access (@access) level of the api (public or private), for example, when documenting a GET request, do this `// @route GET api/items; // @desc Gets All Items; // @access Public`;
+- The routing for each api will be /websitename(when developing will be localhost:5000/api/:api_name; 
+- **GET** To set a route for GET methods (to fecth items from source), use something like:
 ```
 router.get('/', auth (// optional) , (req, res) => {
   Item.find()
@@ -200,7 +201,7 @@ router.get('/', auth (// optional) , (req, res) => {
     .then(items => res.json(items));
 });
 ```
-- **POST** To set a route for POST (to create items on your source), use something like:
+- **POST** To set a route for POST methods (to create items on your source), use something like:
 ```
 router.post('/', auth (// optional), (req, res) => {
   const newItem = new Item({
@@ -211,7 +212,7 @@ router.post('/', auth (// optional), (req, res) => {
   newItem.save().then(item => res.json(item));
 });
 ```
-- **DELETE** To set a route for DELETE (to delete items from your source), use something like:
+- **DELETE** To set a route for DELETE methods (to delete items from your source), use something like:
 ```
 router.delete('/:id(// here we are finding our item by id)', auth (// optional), (req, res) => {
   Item.findById(req.params.id)
