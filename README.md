@@ -164,7 +164,7 @@ Here it is:
   - On `// Middleware`, use the body parser middleware to parse requests comming through express to json, like so `app.use(express.json());`;
   - Make an express section, like `// Express`, on server.js.
   - Use `const port = process.env.PORT || 5000`, on server.js, setting the port that will be used for the express API;
-  - **Now you can run an express server using `npm run server`;
+  - **Now you can run an express server, using npm run server!**;
   - Then, create the routes folder
   
 - **Next.js:**
