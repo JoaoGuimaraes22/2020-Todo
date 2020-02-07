@@ -6,9 +6,9 @@ Here it is:
 
 ## Todo:
 
-## Main:
+### Main:
 
-### Fully master React.js:
+#### Fully master React.js:
 - ~~Learn about props and state~~;
 - ~~Learning about components and class-based lifecycles methods~~;
 - ~~Mastering class based lifecycle methods (ended up not doing, I'm basically only using arrow function components, with hooks)~~;
@@ -21,69 +21,81 @@ Here it is:
 - React optimization;
 - Check rest of React to see what's left to master;
       
-- Experiment more with Redux and React:
-  - ~~Learn abbout why use Redux~~;
-  - ~~Become able to developm quickly and efficiently with redux and react~~;
-  - ~~Learn about Redux use best practises~~;
-  - ~~Learn about "global" state (still learning)~~; 
-  - Fully master Redux;
+### Experiment more with Redux and React:
+- ~~Learn abbout why use Redux~~;
+- ~~Become able to developm quickly and efficiently with redux and react~~;
+- ~~Learn about Redux use best practises~~;
+- ~~Learn about "global" state (still learning)~~; 
+- Fully master Redux;
   
-- Master Node.js and Express.js:
-  - ~~Learn what they are and when to use them~~;
-  - Learn syntax, check documentation;
-  - Learn about routing;
-  - Learn middleware;
-  - Learn about db integration;
- 
-- Learn Next.js:
-  - ~~Learn and test the different Next.js concepts using documentation / tutorials~~;
-  - ~~For being able to do server-side rendering~~;
-  - Learn about deployment;
+### Master Node.js and Express.js:
+- ~~Learn what they are and when to use them~~;
+- Learn syntax, check documentation;
+- Learn about routing;
+- Learn middleware;
+- Learn about db integration;
 
-- Learn Firebase:
-  - ~~Learn about fb integration with web apps~~;
-  - ~~Learn about fb databases~~;
-  - ~~Learn about fb cloud~~;
-  - Learn about rapid deployment with firebase;
+### Learn Next.js:
+- ~~Learn and test the different Next.js concepts using documentation / tutorials~~;
+- ~~For being able to do server-side rendering~~;
+- Learn about deployment;
+
+### Learn Firebase:
+- ~~Learn about fb integration with web apps~~;
+- ~~Learn about fb databases~~;
+- ~~Learn about fb cloud~~;
+- Learn about rapid deployment with firebase;
   
-- Build and deploy full stack web app React and Firebase (optional); 
+### Build and deploy full stack web app React and Firebase (optional); 
   
-- Learn MongoDB:
-  - (I know nothing of mongoDB, only that it's used a lot with node, express, react);
+### Learn MongoDB:
+- (I know nothing of mongoDB, only that it's used a lot with node, express, react);
 
-- Learn about simple full-stack deployment, maybe with Heroku;
+### ~~Learn about simple full-stack deployment~~;
 
-- Build and deploty a full stack web app with React, Express, and MongoDB;
+### Master simple full-stack web application deployment
 
-- Master SQL (MySQL):
-  - Fully understand RDBMS;
-  - Thoroughly understand SQL;
-  - Fully master data CRUD with MySQL;
-  - Learn about db deployment and db integration with client;
+### Build and deploty a full stack web app with React, Express, and MongoDB;
+
+### Master SQL (MySQL):
+- Fully understand RDBMS;
+- Thoroughly understand SQL;
+- Fully master data CRUD with MySQL;
+- Learn about db deployment and db integration with client;
+
+### Make full stack production application with MERN (MongoDB or MySQL);
+
+### Learn basic to medium concepts about data structures and algorithms:
+- Using Udemy free course/freecodecamp youtube video;
   
-- Make full stack production application with MERN;
+### Master C#, .NET, ASP.NET and become better at server-client interaction;
+- Learn OOP principles;
+- Learn the syntax;
+- Learn the principal libraries and how the .NET environment works;
+- Learn about integrating backend ASP.NET services with a client (React) application;
+- Learn about hangfire;
 
-- Learn basic-medium concepts about data structures and algorithms:
-  - Using Udemy free course/freecodecamp youtube video;
+### Learn Nginx:
+- Learn Nginx Ingress Controllers
   
-- Master C#, .NET, ASP.NET and become better at server-client interaction;
-  - Learn OOP principles;
-  - Learn the syntax;
-  - Learn the principal libraries and how the .NET environment works;
-  - Learn about integrating backend ASP.NET services with a client (React) application;
-  - Learn about hangfire;
+### Learn Docker:
+- Learn about containerization with the Docker app;
+- Learn about Docker with Azure;
 
-- Learn Nginx;
-  
-- Learn Docker;
+### Learn Kubernetes:
+- Learn about docker and kubernetes;
+- Learn about pods, images, etc.;
+- Use on DigitalOcean;
+- Use on Azure, with Kubernetes Azure Service;
 
-- Learn Kubernetes;
+### Build and deploy a full scalable web app with kubernetes, ASP.NET and/or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end:
+- A good one;
 
-- Build and deploy a full scalable web app with kubernetes, ASP.NET and/or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end; 
+### Build a really nice workstation:
+- https://nickcraver.com/desktop-build/, one day, I will have something like this, if I have the money;
+- Using part builder;
 
-- Build a really nice workstation;
-
-**Side wishes:**
+## Side wishes:**
 
 - Learn more about AI and ML;
 - ~~Integrate tensorflow into an augmented application using Unity3D~~;
