@@ -33,7 +33,10 @@ Here it is:
 - Learn syntax, check documentation;
 - Learn about routing;
 - Learn middleware;
-- Learn about db integration;
+- ~~Learn about db integration~~;
+- ~~Learn about integrating with MongoDB~~;
+- Learn about integrating with MySQL;
+- Master database integration;
 
 #### Learn Next.js:
 - ~~Learn and test the different Next.js concepts using documentation / tutorials~~;
@@ -183,7 +186,39 @@ Here it is:
 - **Now you can run an express server, using npm run server!**;
 - Create a /routes folder;
 - Create a /api folder inside the /routes folder, making it /routes/api;
-  - 
+- In this /api folder, you will put all your HTTP method calls (GET, POST, DELETE, PUT);
+- For each api in the api folder, use `const express = require("express")`, importing express;
+- Use routing to make this file, /api/:api_name, a route for the express server;
+- To use routing, use `const route = express.Router()`;
+- For each HTTP request, be it GET, POST, PUT or DELETE, make a commented description about what route (@route) is that method going towards, the description (@desc) of the service, and the access (@access) level of the api (public or private), for example, when documenting a GET request, do this `// @route GET api/items; // @desc Get All Items; // @access Public`;
+- The routing for each roue will be /websitename(when developing will be localhost:5000/api/:api_name; 
+- **GET** To set a route for GET (to fecth items from source), use something like:
+```
+router.get('/', auth (// optional) , (req, res) => {
+  Item.find()
+    .sort({ date: -1 })
+    .then(items => res.json(items));
+});
+```
+- **POST** To set a route for POST (to create items on your source), use something like:
+```
+router.post('/', auth (// optional), (req, res) => {
+  const newItem = new Item({
+    name: req.body.name
+    (// here we are setting the new item's name through our request's body)
+  });
+
+  newItem.save().then(item => res.json(item));
+});
+```
+- **DELETE** To set a route for DELETE (to delete items from your source), use something like:
+```
+router.delete('/:id(// here we are finding our item by id)', auth (// optional), (req, res) => {
+  Item.findById(req.params.id)
+    .then(item => item.remove().then(() => res.json({ success: true })))
+    .catch(err => res.status(404).json({ success: false }));
+});
+```
   
 #### Next.js:
 - Run `npm init -y`;
@@ -214,6 +249,7 @@ const res = await fetch("https://api.github.com/repos/zeit/next.js");
 const data = await res.json();
 return { stars: data.stargazers_count };
 };
+```
 - **That's the basic Next.js setup!**
 - If you want the data fetched on the client-side and not server rendered, run `npm i swr`, then import `useSWR` from `swr` in the page you want to fetch the data, and finnaly fetch data like so:
 - Make an asyncronous generic fetch function, like you would do with react;
