@@ -61,6 +61,8 @@ Here it is:
 
 #### Build and deploty a full stack web app with React, Express, and MongoDB;
 
+#### Start being better at DevOps with Github and Azure DevOps;
+
 #### Master SQL (MySQL):
 - Fully understand RDBMS;
 - Thoroughly understand SQL;
