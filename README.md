@@ -108,7 +108,7 @@ Here it is:
 
 #### Learn Linux:
 - ~~Learn about basic installation (probably using a usb drive)~~;
-- ~~Install~~;
+- ~~Boot and install~~;
 - ~~Learn basic Linux~~;
 - ~~Use Ubuntu~~;
 - Learn intermediate Linux / Unix;
@@ -118,10 +118,10 @@ Here it is:
 - A good one;
 
 #### Build a really nice workstation:
-- https://nickcraver.com/desktop-build/, one day, I will have something like this, if I have the money;
+- https://nickcraver.com/desktop-build/, one day, I will have something like this, **IF I HAVE THE MONEY** and knowledge I guess;
 - Using part builder;
 
-### Side wishes:
+### Side wishes -> not the focus:
 - ~~Integrate tensorflow into an augmented application using Unity3D~~;
 - React testing / other React hooks;
 - Research "safer" investing strategies (dividend yield, dividend growth, others)
@@ -129,7 +129,7 @@ Here it is:
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
 - Get a whiteboard;
-- - (not very important, but want to install and learn eventually) Kali Linux and Ethical Hacking (George Hotz is cool);
+- Kali Linux and Ethical Hacking (George Hotz is cool);
 - Get a medium quality filming camera/webcam - got my eyes on this(https://www.amazon.es/dp/B01L6L52K4?ref=emc_p_m_9_b&th=1) - + microphone (still checking);
 - Learn and use video editing software - Davinci Resolve Probably ;
 - Get a raspberry pi and do the equivalent of an "Hello World" with it;
@@ -141,6 +141,8 @@ Here it is:
 - Modern Javascipt; 
 - Sass;
 - Adobe XD;
+- Azure Fundamentals;
+- Microsoft Bot Framework;
 - Natural language processing (Microsoft's LUIS and Google's Dialogflow);
 - Bash;
 - React;
