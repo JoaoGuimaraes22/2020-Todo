@@ -1,9 +1,9 @@
 # 2020-Todo / Progress Notes
 
 This is my todo file for what I'll do in 2020. I'm an 18 years old portuguese guy with passions for tech, volleyball and entrepreneurship.
+In here, I list what I wish to do. Also, when I say "master" I mean know enought that I can do anything I wish to do with it pretty efficiently, not that I completely memorized every detail / use case;
 
 Here it is:
-
 ## Todo:
 
 ### Main:
@@ -17,7 +17,7 @@ Here it is:
 - ~~useRef and useCallback~~;
 - ~~useReducer~~
 - Context, createContext, useContext;
-- Memoization and useMemo;
+- ~~Memoization and useMemo~~;
 - React optimization;
 - Check rest of React to see what's left to master;
       
@@ -26,6 +26,7 @@ Here it is:
 - ~~Become able to developm quickly and efficiently with redux and react~~;
 - ~~Learn about Redux use best practises~~;
 - ~~Learn about "global" state (still learning)~~; 
+- Optimization techniques with Redux;
 - Fully master Redux;
   
 #### Master Node.js and Express.js:
@@ -37,7 +38,7 @@ Here it is:
 - ~~Learn about db integration~~;
 - ~~Learn about integrating with MongoDB~~;
 - Learn about integrating with MySQL;
-- Master database integration;
+- Master database integration with other databases;
 
 #### Learn Next.js:
 - ~~Learn and test the different Next.js concepts using documentation / tutorials~~;
@@ -49,11 +50,17 @@ Here it is:
 - ~~Learn about fb databases~~;
 - ~~Learn about fb cloud~~;
 - Learn about rapid deployment with firebase;
-  
-#### Build and deploy full stack web app React and Firebase (optional); 
+- ~~Build and deploy full stack web app React and Firebase (optional) -> Canceled~~;
   
 #### Learn MongoDB:
-- (I know nothing of mongoDB, only that it's used a lot with node, express, react);
+- ~~Install MongoDB~~;
+- ~~Use MongoDB CLI~~;
+- ~~Use MongoDB Atlas~~;
+- ~~Connect to MongoDB atlas database from a web app~~;
+- Memorize and learn the syntax for using with JavaScript;
+- ~~Know what mongoose is and why use it~~;
+- Learn why / how to use mongoose;
+- ~~Master MongoDB~~;
 
 #### ~~Learn about simple full-stack deployment~~;
 
@@ -95,10 +102,11 @@ Here it is:
 - Use on Azure, with Kubernetes Azure Service;
 
 #### Learn Linux:
-- Learn about basic installation (probably using a usb drive);
-- Learn basic linux;
-- Learn Ubuntu;
-- Learn Kubuntu;
+- ~~Learn about basic installation (probably using a usb drive)~~;
+- ~~Install~~;
+- ~~Learn basic linux~~;
+- ~~Learn and use Ubuntu~~;
+- ~~Learn and use Kubuntu~~;
 
 #### Build and deploy a full scalable web app with kubernetes, ASP.NET and/or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end:
 - A good one;
@@ -108,7 +116,6 @@ Here it is:
 - Using part builder;
 
 ### Side wishes:
-- Learn more about AI and ML;
 - ~~Integrate tensorflow into an augmented application using Unity3D~~;
 - React testing / other React hooks;
 - Research "safer" investing strategies (dividend yield, dividend growth, others)
@@ -116,9 +123,11 @@ Here it is:
 - Plant and harvest tomatoes and spinach (have been into planting and stuff for some reason);
 - Eat more and bulk up;
 - Get a whiteboard;
-- Get a medium quality filming camera/webcam + microphone;
-- Learn and use video editing software - Davinci Resolve;
+- - (not very important, but want to install and learn eventually) Kali Linux and Ethical Hacking (George Hotz is cool);
+- Get a medium quality filming camera/webcam - got my eyes on this(https://www.amazon.es/dp/B01L6L52K4?ref=emc_p_m_9_b&th=1) - + microphone (still checking);
+- Learn and use video editing software - Davinci Resolve Probably ;
 - Get a raspberry pi and do the equivalent of an "Hello World" with it;
+- Learn more about AI and ML;
 
 ## Stuff I'm pretty good at:
 - HTML5;
@@ -128,6 +137,7 @@ Here it is:
 - Adobe XD;
 - Natural language processing (Microsoft's LUIS and Google's Dialogflow);
 - Bash;
+- React;
 - NPM;
 - Webpack;
 - Git, Github;
