@@ -92,12 +92,17 @@ Here it is:
 - Learn Nginx Ingress Controllers
   
 #### Learn Docker:
-- Learn about containerization with the Docker app;
+- ~~Learn about containerization~~;
+- ~~Learn Docker containers~~;
+- ~~Learn Docker commands~~;
+- ~~Learn Docker production deployment~~;
 - Learn about Docker with Azure;
 
 #### Learn Kubernetes:
-- Learn about docker and kubernetes;
-- Learn about pods, images, etc.;
+- ~~Learn about Docker and Kubernetes~~;
+- ~~Learn about pods, images, nodes, etc.~~;
+- Learn YAML really well;
+- Learn about deployment;
 - Use on DigitalOcean;
 - Use on Azure, with Kubernetes Azure Service;
 
