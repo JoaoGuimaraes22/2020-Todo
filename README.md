@@ -241,7 +241,7 @@ router.delete('/:id(// here we are finding our item by id)', auth (// optional),
     .catch(err => res.status(404).json({ success: false }));
 });
 ```
-- **PUT** To set a route for PUT methods, do some research, because I haven't really been using it; :P;
+- **PUT** To set a route for PUT methods (to alter items from your source), do some research, because I haven't really been using it; :P;
 - To use these routes in your express applicaton, use `module.exports = router` on your /api/:api_name file;
 - Finnaly, import them in your server.js, like so, for example: `app.use('/api/items', require('./routes/api/items'));`;
 - **Now you you can all your routes APIs in your application**;
