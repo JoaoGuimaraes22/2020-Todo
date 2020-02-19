@@ -211,7 +211,7 @@ Here it is:
 - In this /api folder, you will put all your HTTP method calls (GET, POST, DELETE, PUT);
 - For each api in the api folder, use `const express = require("express")`, importing express;
 - Use routing to make this file, /api/:api_name, a route for the express server;
-- To use routing, use `const route = express.Router()`;
+- To use routing, use `const router = express.Router()`;
 - For each HTTP request, be it GET, POST, PUT or DELETE, make a commented description about what route (@route) is that method going towards, the description (@desc) of the service, and the access (@access) level of the api (public or private), for example, when documenting a GET request, do this `// @route GET api/items; // @desc Gets All Items; // @access Public`;
 - The routing for each api will be /websitename(when developing will be localhost:5000/api/:api_name; 
 - **GET** To set a route for GET methods (to fecth items from source), use something like:
