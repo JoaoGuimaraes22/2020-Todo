@@ -256,30 +256,28 @@ router.delete('/:id(// here we are finding our item by id)', auth (// optional),
 ```
 const express = require("express");
 const axios = require("axios");
-
 const router = express.Router();
-
+const getData = () => {
+  return axios.get("https://jsonplaceholder.typicode.com/posts");
+};
 // @route GET api/movies
 // @desc Fetches all of the movies from external API
 // @access Public
-router.get("/", (req, res, next) => {
-  axios
-    .get("https://jsonplaceholder.typicode.com/posts")
-    .then((response) => {
-      let postsData = [];
-      response.data.map((post) => {
-        postsData.push(post);
-      });
-
-      res.render("posts", postsData);
-    })
-    .catch((err) => {
-      console.log(err);
+router.get("/", async (req, res, next) => {
+  try {
+    const response = await getData();
+    console.log(response);
+    const formatData = [];
+    await response.data.map((post) => {
+      formatData.push(post.title);
     });
+    console.log(formatData);
+    await res.send(formatData);
+  } catch (err) {
+    console.log(err);
+  }
 });
-
 module.exports = router;
-
 ```
 - The `params` are the query strings for the request;
 
