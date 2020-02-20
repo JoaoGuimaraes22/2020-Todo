@@ -113,7 +113,7 @@ Here it is:
 - ~~Learn basic Linux~~;
 - ~~Use Ubuntu~~;
 - Learn intermediate Linux / Unix;
-- Learn and use Kubuntu;
+- ~~Use and customize Kubuntu~~;
 
 #### Build and deploy a full scalable web app with kubernetes, ASP.NET and/or Node.js, MySQL / MongoDB / (Firebase) database and a React front-end:
 - A good one;
