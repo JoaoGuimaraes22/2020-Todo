@@ -179,4 +179,21 @@ Here it is:
 - PyCharm for pyhton developing;
 - Visual Studio Code for basically any other language that I currently use;
 - Sometimes Visual Studio for C# developing (I use VS Code usually even for C#);
-- For Visual Studio Code Extensions, I use: - Auto Rename Tag; - C#; - Docker; - ES7 React/Redux/React-Native/JS snippets; - GitLens - Git supercharged; - Live Sass Compiler; - Live Server; - Material Icon Theme; - Material Theme - Palenight High Contrast; - NuGet Package Manager; - Prettier; - Python; - SQL Server (mssql); - Visual Studio IntelliCode; - AREPL for Python;
+- For Visual Studio Code Extensions, I use:
+  - Auto Rename Tag;
+  - C#;
+  - Docker;
+  - ES7 React/Redux/React-Native/JS snippets;
+  - GitLens
+  - Git supercharged;
+  - Live Sass Compiler;
+  - Live Server;
+  - Material Icon Theme;
+  - Material Theme;
+  - Palenight High Contrast;
+  - NuGet Package Manager;
+  - Prettier;
+  - Python;
+  - SQL Server (mssql);
+  - Visual Studio IntelliCode;
+  - AREPL for Python;
