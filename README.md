@@ -72,11 +72,19 @@ Here it is:
 
 #### ~~Learn about simple full-stack deployment~~;
 
-#### Master simple full-stack web application deployment
-
 #### Build and deploty a full stack web app with React, Express, and MongoDB;
 
-#### Start being better at DevOps with Github and Azure DevOps;
+#### Master DevOps:
+
+- ~~Learn simple Bash~~;
+- ~~Learn about Git~~;
+- ~~Learn git config~~;
+- ~~Learn git intit, add, commit~~;
+- ~~Learn git push, sync, pull~~;
+- ~~Learn git branching~~;
+- ~~Learn git merging~~;
+- Master git;
+- Learn Azure DevOps;
 
 #### Master SQL (MySQL):
 
@@ -99,9 +107,10 @@ Here it is:
 - Learn about integrating backend ASP.NET services with a client (React) application;
 - Learn about hangfire;
 
-#### Learn Nginx:
+#### Learn NGINX:
 
-- Learn Nginx Ingress Controllers
+- Learn NGINX for accessing in-server data and manage it;
+- Learn NGINX Ingress Controllers;
 
 #### Learn Docker:
 
