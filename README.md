@@ -153,10 +153,10 @@ Here it is:
 ## NOTES 
 
 #### What I use when developing currently:
-- Windows 10 Laptop (looking to change to a Some Linux OS Distro -> probably Kubuntu);
-- Visual Studio for .NET applications;
+- Kubuntu + Windows 10 dual boot Laptop
 - PyCharm for pyhton developing;
 - Visual Studio Code for basically any other language that I currently use;
+- Sometimes Visual Studio for C# developing (I use VS Code usually even for C#);
 - For Visual Studio Code Extensions, I use:
 - Auto Rename Tag;
 - ES7 React/Redux/React-Native/JS snippets;
@@ -166,7 +166,6 @@ Here it is:
 - Material Theme - Palenight High Contrast;
 - Prettier;
 - SQL Server (mssql);
-- Sublime Importer;
 
 #### Redux ( (with React) -> assuming you already know React):
 - Npm install `redux` and `react-redux`;
