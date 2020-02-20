@@ -99,6 +99,14 @@ Here it is:
 
 - Using Udemy free course/freecodecamp youtube video;
 
+#### Learn about data scraping:
+
+- ~~Learn about the concept of data scraping~~;
+- ~~Learn about different data scraping libraries / tools~~;
+- ~~Learn about web data scraping with NodeJS~~;
+- ~~Learn about data scraping with Puppeteer~~;
+- Make a full stack data scraping project, with NodeJS, Express, React and MongoDB / mySQL;
+
 #### Master C#, .NET, ASP.NET and become better at server-client interaction;
 
 - Learn OOP principles;
