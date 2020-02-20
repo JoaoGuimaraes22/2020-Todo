@@ -254,15 +254,26 @@ router.delete('/:id(// here we are finding our item by id)', auth (// optional),
 - For example, to make GET requests, use `axios.get()`, and for POST, use `axios.post()`;
 - A request in axios looks something like (ex: GET):
 ```
-const getData = async () => {
-      await axios
-            .get("http://www.site.com/", {
-                  params: {
-                        foo: "bar"
-                  }})
-            .then((response) => {return response})
-            .catch((error) => {console.log(error)})
-}
+const express = require("express");
+const axios = require("axios");
+
+const router = express.Router();
+
+// @route GET api/movies
+// @desc Fetches all of the movies from external API
+// @access Public
+router.get("/", (req, res, next) => {
+  axios
+    .get("https://jsonplaceholder.typicode.com/posts")
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+
+module.exports = router;
 ```
 - The `params` are the query strings for the request;
 
