@@ -266,7 +266,12 @@ router.get("/", (req, res, next) => {
   axios
     .get("https://jsonplaceholder.typicode.com/posts")
     .then((response) => {
-      console.log(response);
+      let postsData = [];
+      response.data.map((post) => {
+        postsData.push(post);
+      });
+
+      res.render("posts", postsData);
     })
     .catch((err) => {
       console.log(err);
@@ -274,6 +279,7 @@ router.get("/", (req, res, next) => {
 });
 
 module.exports = router;
+
 ```
 - The `params` are the query strings for the request;
 
