@@ -205,6 +205,7 @@ Here it is:
 - Optional: if using express with a client application, run `npm i -D nodemon concurrently`;
 - Optional: if using express with react, make a seperate /server folder for the express node.js backend, with a main file named  server.js or index.js , and another /client folder for the create-react-app, both in the same root directory if you want;
 - Optional: create the following npm scripts for faster development, on the root package.json, like so: `{server: "cd server && nodemon server.js", client: "cd client && npm start", dev: "concurrently \"npm run server\" "\npm run client\" "}`;
+- Optional: in the package.json file of your client app, add `"proxy": "http://localhost:5000"` to it, to better use your api backend server;
 - Now, on server.js, import `express` and assign it to a constant like `const express = require("express");`;
 - Use `const app = express();`;
 - For this, we want to handle our responses and requests as JSON, but we could use express with other things other than JSON;
