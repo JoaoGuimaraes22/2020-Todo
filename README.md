@@ -191,7 +191,7 @@ Here it is:
 - To alter the global state in your componet, just use `dispatch()` with an imported function action as a parameter and it will alter global state, for example: `<button onClick={()=>{dispatch(increment())}}>` --> in each click, increments counter by one;
 - **And now you can alter your global state**;
   
-#### Express:
+#### Express (mainly with MongoDB):
 - Run `npm init -y`;
 - Run `npm i express`;
 - Optional: if using express with a client application, run `npm i -D nodemon concurrently`;
@@ -204,6 +204,7 @@ Here it is:
 - On `// Middleware`, use the body parser middleware to parse requests comming through express to json, like so `app.use(express.json());`;
 - Make an express section, like `// Express`, on server.js.
 - Use `const port = process.env.PORT || 5000`, on server.js, setting the port that will be used for the express API;
+- Then, make your app listen on that port, with `app.listen(port, ()=>{console.log("App listening on port ${port}")})`;
 - **Now you can run an express server, using npm run server!**;
 - Create a /routes folder;
 - Create a /api folder inside the /routes folder, making it /routes/api;
@@ -243,7 +244,29 @@ router.delete('/:id(// here we are finding our item by id)', auth (// optional),
 - **PUT** To set a route for PUT methods (to alter items from your source), do some research, because I haven't really been using it; :P;
 - To use these routes in your express applicaton, use `module.exports = router` on your /api/:api_name file;
 - Finnaly, import them in your server.js, like so, for example: `app.use('/api/items', require('./routes/api/items'));`;
-- **Now you you can all your routes APIs in your application**;
+- **Now you can use all your routes APIs in your application**;
+  
+#### Axios w/ Express :
+- First check the initial Express notes to follow along;
+- This if for data handling with Axios;
+- First, run `npm i axios` to install axios to your project;
+- Import axios, with `const axios = require("axios")`;
+- For example, to make GET requests, use `axios.get()`, and for POST, use `axios.post()`;
+- A request in axios looks something like (ex: GET):
+```
+const getData = async () => {
+      await axios
+            .get("http://www.site.com/", {
+                  params: {
+                        foo: "bar"
+                  }})
+            .then((response) => {return response})
+            .catch((error) => {console.log(error)})
+}
+```
+- The `params` are the query strings for the request;
+
+
   
 #### Next.js:
 - Run `npm init -y`;
