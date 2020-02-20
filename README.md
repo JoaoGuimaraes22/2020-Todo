@@ -171,7 +171,7 @@ Here it is:
 
 ## NOTES
 
-- See folder `Notes` for everything notes I made about what I learned / am learning.
+- See folder `Notes` for all the notes I made about what I learned / am learning.
 
 #### What I use when developing currently:
 
