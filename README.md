@@ -35,6 +35,7 @@ Here it is:
 - ~~Learn about routing~~;
 - Learn middleware;
 - Master all syntax;
+- ~~Learn data handling with Axios~~;
 - ~~Learn about db integration~~;
 - ~~Learn about integrating with MongoDB~~;
 - Learn about integrating with MySQL;
