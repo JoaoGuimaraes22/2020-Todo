@@ -215,4 +215,6 @@ Here it is:
   - Visual Studio IntelliCode;
   - AREPL for Python;
 
+#### Zoom in to see diagram, details all of what I aim to learn
+
 ![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/img/Development_Roadmap_2020.png)
