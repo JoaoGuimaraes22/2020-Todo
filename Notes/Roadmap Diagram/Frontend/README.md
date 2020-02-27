@@ -1,0 +1,71 @@
+#### The Frontend Route
+
+- Here you will learn:
+  - Basic Understanding:
+    - Domain Name;
+    - How does the internet work;
+    - HTTP;
+    - Browsers;
+    - DNS;
+    - Hosting;
+  - The Basic Web Components:
+    - HTML:
+      - Basic Syntax;
+      - Forms and validation;
+      - Learn to write semantic HTML;
+      - Conventions and best practises;
+      - Accessibility;
+      - SEO Basics;
+    - CSS:
+      - Basic Syntax:
+      - Layouts:
+        - Flexbox;
+        - CSS Grid;
+      - Contents & Components:
+        - Position;
+        - Navigation and mobile navigation;
+        - Box Model;
+        - Display;
+        - Floats;
+        - Media queries and responsive;
+        - Images, SVG and video;
+        - Responsive images;
+        - CSS animations;
+    - JavaScript:
+      - Syntax and basic construct;
+      - Basic programming;
+      - Querying, selecting and working with the DOM;
+      - XHR (AJAX) w/ Fetch;
+      - Modern ES6+;
+      - Hoisting;
+      - First-Class Functions;
+      - Closures;
+      - Scope;
+      - Context;
+      - Modular JS;
+      - Event bubbling;
+      - Prototype;
+      - Shadow DOM;
+      - strict;
+  - Front End Enginner:
+    - Hosting:
+      - Digital Ocean;
+      - Zeit NOW;
+      - Netlify;
+      - AWS;
+    - Package Manager:
+      - NPM;
+    - Web Security:
+      - HTTPS;
+      - CORS;
+      - Content Security Policy;
+      - OWASP Security Risks;
+    - Better CSS:
+      - CSS Preprocessor:
+        - SASS / SCSS;
+      - CSS Organization:
+        - BEM;
+      - CSS Framework:
+        - Bootstrap;
+        - Others;
+    - Javascript Framework - React
