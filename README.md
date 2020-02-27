@@ -214,3 +214,5 @@ Here it is:
   - SQL Server (mssql);
   - Visual Studio IntelliCode;
   - AREPL for Python;
+
+![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/img/Development_Roadmap_2020.png)
