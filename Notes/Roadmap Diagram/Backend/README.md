@@ -7,7 +7,6 @@
   - How OSs work in general;
   - Process Management;
   - Threads and concurrency;
-  - Basic Terminal Commands;
   - Memory Management;
   - I/O Management;
   - POSIX Basics;
@@ -23,7 +22,8 @@
         - Entity Framework;
         - LINQ;
         - Others;
-    - Java (opt.);
+    - Java (opt.):
+      - Learn the language;
   - Scripting Language:
     - NodeJS:
       - Learn the language;
