@@ -1,7 +1,14 @@
 #### The General Knowledge Route
 
-- My opinion;
-- Here you will find the info that every developer should a little bit about;
+- Here you will find the info that every developer should a little bit about, IMO;
 - This is the where you should start to learn, even before learning any programming;
 - This is not to be done completely before starting any other section;
 - Learn these concepts gradually, while learning about the other non-general concepts in the other routes;
+- In here you will learn about:
+  - Version Control;
+  - Basic Command Line;
+  - Web;
+  - Good Practises;
+  - Research;
+  - Code Editor;
+  - Data Structures and Algorithms;
