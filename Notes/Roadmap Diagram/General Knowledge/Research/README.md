@@ -1,6 +1,7 @@
-#### Research - learn to / how to research effectively
+## Research - learn to / how to research effectively
 
-- Here you learn about:
-  - Documentation;
-  - Github;
-  - Stack Overflow;
+**Here you learn about:**
+
+- Documentation;
+- Github;
+- Stack Overflow;

@@ -1,4 +1,5 @@
-#### Version Control - Locally
+## Version Control - Locally
 
-- Here you will learn:
-  - Git;
+**Here you will learn:**
+
+- Git;

@@ -1,5 +1,6 @@
-#### Version Control - Remote
+## Version Control - Remote
 
-- Here you will learn about:
-  - Github;
-  - Gitlab;
+**Here you will learn about:**
+
+- Github;
+- Gitlab;
