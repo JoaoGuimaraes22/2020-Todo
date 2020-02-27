@@ -1,0 +1,42 @@
+## Basic Web Components - learn what makes a web app
+
+**What you will learn is:**
+
+- HTML:
+  - Basic Syntax;
+  - Forms and validation;
+  - Learn to write semantic HTML;
+  - Conventions and best practises;
+  - Accessibility;
+  - SEO Basics;
+- CSS:
+  - Basic Syntax:
+  - Layouts:
+    - Flexbox;
+    - CSS Grid;
+  - Contents & Components:
+    - Position;
+    - Navigation and mobile navigation;
+    - Box Model;
+    - Display;
+    - Floats;
+    - Media queries and responsive;
+    - Images, SVG and video;
+    - Responsive images;
+    - CSS animations;
+- JavaScript:
+  - Syntax and basic construct;
+  - Basic programming;
+  - Querying, selecting and working with the DOM;
+  - XHR (AJAX) w/ Fetch;
+  - Modern ES6+;
+  - Hoisting;
+  - First-Class Functions;
+  - Closures;
+  - Scope;
+  - Context;
+  - Modular JS;
+  - Event bubbling;
+  - Prototype;
+  - Shadow DOM;
+  - strict;
