@@ -22,4 +22,4 @@
   - CSS Framework:
     - Bootstrap;
     - Others;
-- Javascript Framework - React -> separated for better organizing
+- Javascript Framework - React(separated for better organizing, but it's a big part of becominga front end enginneer)
