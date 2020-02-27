@@ -1,0 +1,85 @@
+## The Dev Ops Route
+
+**What you will learn is:**
+
+- OS Concepts:
+  - Startup Management (initd);
+  - Process Managemnt;
+  - Threads and concurrency;
+  - Sockets;
+  - POSIX;
+  - Networking;
+  - I/O Managent;
+  - Virtualization;
+  - Memory / Storage;
+  - File Systems;
+  - Service Management (systemd);
+- Operating Systems:
+  - Linux;
+  - Unix;
+  - Linux Distros;
+- Terminal:
+  - screen;
+  - tmux;
+  - terminal multiplexers;
+  - Bash scripting;
+  - Vim;
+  - Compiling apps from source;
+  - System performance;
+  - Text manipulation;
+  - Process monitoring;
+  - Networking;
+- Networking, security and protocols:
+  - Email:
+    - SMTP;
+    - Others;
+  - HTTP & HTTPS;
+  - FTP;
+  - SSL & TLS;
+  - SSH;
+  - Port forwarding;
+- Learn to setup:
+  - Reverse Proxy;
+  - Forward Proxy;
+  - Caching Server;
+  - Load Balancer;
+  - Firewall;
+- Web Server:
+  - NGINX;
+  - Apache;
+- Containers:
+  - Docker;
+- Container Orchestration:
+  - Kubernetes;
+  - Helm;
+- Configuration Management:
+  - Ansible;
+- Infrastructure Provisioning:
+  - Terraform;
+- CI & CD:
+  - Jenkins;
+  - CircleCI;
+  - Gitlab & Github actions;
+    -TeamCity;
+- Monitoring:
+  - Infrastructure Monitoring:
+    - Prometheus;
+    - Nagions;
+    - Grafana;
+  - Application Monitoring:
+    - App Dynamics;
+    - New Relic;
+  - Logs Management:
+    - Elastic Stack (ELK Stack);
+- The Cloud:
+  - Cloud Providers:
+    - Digital Ocean;
+    - AWS;
+  - Cloud Design Patterns:
+    - Availability;
+    - Data Management;
+    - Design and implementation;
+    - Management and Monitoring;
+  - File Servers;
+    - Cloudinary;
+    - AWS;
