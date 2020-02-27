@@ -2,113 +2,115 @@
 
 **What you will learn is:**
 
-- OSs and General Knowledge:
-  - Terminal Usage;
-  - How OSs work in general;
-  - Process Management;
-  - Threads and concurrency;
-  - Memory Management;
-  - I/O Management;
-  - POSIX Basics;
-  - Basic Networking Concepts;
-- Learn a language:
-  - Functional Language:
-    - C# / .NET:
-      - Learn the language;
-      - Frameworks and tools:
-        - .NET Core;
-        - .NET Framework;
-        - ASP.NET;
-        - Entity Framework;
-        - LINQ;
-        - Others;
-    - Java (opt.):
-      - Learn the language;
-  - Scripting Language:
-    - NodeJS:
-      - Learn the language;
-      - Frameworks and tools:
-        - ExpressJS;
-        - Mocha;
-        - Others;
-    - Python:
-      - Learn the language;
-      - Frameworks and Tools:
-        - Django;
-        - Flask;
-        - Others;
-  - High-Performance Language:
-    - Go (Golang);
-      - Learn the language;
-    - C / C++;
-      - Learn the language;
-- Databases:
-  - Database Concepts:
-    - ORMs;
-    - ACID;
-    - Transactions;
-    - N + 1 Problem;
-    - Database Normalization;
-    - Indexes;
-    - Data Replication;
-    - Sharding Strategies;
-    - Cap Theorem;
-  - Relational Databases:
-    - MySQL;
-    - PostgreSQL;
-  - Non-Relational / No-SQL Databases:
-    - MongoDB;
-  - Graph Databases:
-    - ArangoDB;
-- APIs:
-  - Concepts:
-    - REST;
-    - JSON APIs;
-    - SOAP;
-    - HATEOAS;
-    - Opean API Spec and Swagger;
-  - Authentication:
-    - Cookie Based;
-    - OAuth;
-    - Basic Authentication;
-    - Token Authentication;
-    - JWT;
-    - OpenId;
-- Containerization and virtualization:
-  - Docker;
-- Web Servers:
-  - NGINX;
-  - Apache (opt.);
-- GraphQL:
-  - Concepts;
-  - Apollo;
-- Web Sockets:
-  - Concepts;
-- Caching:
-  - CDN;
-  - Client-side;
-  - Server-side:
-    - Redis;
-- Search Engine:
-  - ElastiSearch;
-- Message Broker:
-  - RabbitMQ;
-- Web Security:
-  - Hashing Algorithms;
-  - HTTPS;
-  - CORS;
-  - Content Security Policy;
-  - SSL & TLS;
-  - OWASP;
-- Architectural Patterns:
-  - Monolithic Apps;
-  - Microservices;
-  - SOA;
-  - CQRS and Event sourcing;
-  - Serverless;
-- Building for scale:
-  - Mitigation Strategies;
-  - Understand the Diff;
-  - Migration Strategies;
-  - Horizontal & Vertical Scaling;
-  - Building with Observability in mind;
+- Intial Learning:
+  - OSs and General Knowledge:
+    - Terminal Usage;
+    - How OSs work in general;
+    - Process Management;
+    - Threads and concurrency;
+    - Memory Management;
+    - I/O Management;
+    - POSIX Basics;
+    - Basic Networking Concepts;
+  - Learn a language:
+    - Functional Language:
+      - C# / .NET:
+        - Learn the language;
+        - Frameworks and tools:
+          - .NET Core;
+          - .NET Framework;
+          - ASP.NET;
+          - Entity Framework;
+          - LINQ;
+          - Others;
+      - Java (opt.):
+        - Learn the language;
+    - Scripting Language:
+      - NodeJS:
+        - Learn the language;
+        - Frameworks and tools:
+          - ExpressJS;
+          - Mocha;
+          - Others;
+      - Python:
+        - Learn the language;
+        - Frameworks and Tools:
+          - Django;
+          - Flask;
+          - Others;
+    - High-Performance Language:
+      - Go (Golang);
+        - Learn the language;
+      - C / C++;
+        - Learn the language;
+  - Databases:
+    - Database Concepts:
+      - ORMs;
+      - ACID;
+      - Transactions;
+      - N + 1 Problem;
+      - Database Normalization;
+      - Indexes;
+      - Data Replication;
+      - Sharding Strategies;
+      - Cap Theorem;
+    - Relational Databases:
+      - MySQL;
+      - PostgreSQL;
+    - Non-Relational / No-SQL Databases:
+      - MongoDB;
+    - Graph Databases:
+      - ArangoDB;
+  - APIs:
+    - Concepts:
+      - REST;
+      - JSON APIs;
+      - SOAP;
+      - HATEOAS;
+      - Open API Spec and Swagger;
+    - Authentication:
+      - Cookie Based;
+      - OAuth;
+      - Basic Authentication;
+      - Token Authentication;
+      - JWT;
+      - OpenId;
+- No need to learn as fast:
+  - Containerization and virtualization:
+    - Docker;
+  - Web Servers:
+    - NGINX;
+    - Apache (opt.);
+  - GraphQL:
+    - Concepts;
+    - Apollo;
+  - Web Sockets:
+    - Concepts;
+  - Caching:
+    - CDN;
+    - Client-side;
+    - Server-side:
+      - Redis;
+  - Search Engine:
+    - ElastiSearch;
+  - Message Broker:
+    - RabbitMQ;
+  - Web Security:
+    - Hashing Algorithms;
+    - HTTPS;
+    - CORS;
+    - Content Security Policy;
+    - SSL & TLS;
+    - OWASP;
+  - Architectural Patterns:
+    - Monolithic Apps;
+    - Microservices;
+    - SOA;
+    - CQRS and Event sourcing;
+    - Serverless;
+  - Building for scale:
+    - Mitigation Strategies;
+    - Understand the Diff;
+    - Migration Strategies;
+    - Horizontal & Vertical Scaling;
+    - Building with Observability in mind;

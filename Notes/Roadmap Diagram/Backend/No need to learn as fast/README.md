@@ -1,0 +1,42 @@
+## No need to learn as fast
+
+**What you will learn here is:**
+
+- Containerization and virtualization:
+  - Docker;
+- Web Servers:
+  - NGINX;
+  - Apache (opt.);
+- GraphQL:
+  - Concepts;
+  - Apollo;
+- Web Sockets:
+  - Concepts;
+- Caching:
+  - CDN;
+  - Client-side;
+  - Server-side:
+    - Redis;
+- Search Engine:
+  - ElastiSearch;
+- Message Broker:
+  - RabbitMQ;
+- Web Security:
+  - Hashing Algorithms;
+  - HTTPS;
+  - CORS;
+  - Content Security Policy;
+  - SSL & TLS;
+  - OWASP;
+- Architectural Patterns:
+  - Monolithic Apps;
+  - Microservices;
+  - SOA;
+  - CQRS and Event sourcing;
+  - Serverless;
+- Building for scale:
+  - Mitigation Strategies;
+  - Understand the Diff;
+  - Migration Strategies;
+  - Horizontal & Vertical Scaling;
+  - Building with Observability in mind;

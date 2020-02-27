@@ -1,0 +1,76 @@
+## Initial Learning
+
+**What you will learn here is:**
+
+- OSs and General Knowledge:
+  - Terminal Usage;
+  - How OSs work in general;
+  - Process Management;
+  - Threads and concurrency;
+  - Memory Management;
+  - I/O Management;
+  - POSIX Basics;
+  - Basic Networking Concepts;
+- Learn a language:
+  - Functional Language:
+    - C# / .NET:
+      - Learn the language;
+      - Frameworks and tools:
+        - .NET Core;
+        - .NET Framework;
+        - ASP.NET;
+        - Entity Framework;
+        - LINQ;
+        - Others;
+    - Java (opt.):
+      - Learn the language;
+  - Scripting Language:
+    - NodeJS:
+      - Learn the language;
+      - Frameworks and tools:
+        - ExpressJS;
+        - Mocha;
+        - Others;
+    - Python:
+      - Learn the language;
+      - Frameworks and Tools:
+        - Django;
+        - Flask;
+        - Others;
+  - High-Performance Language:
+    - Go (Golang);
+      - Learn the language;
+    - C / C++;
+      - Learn the language;
+- Databases:
+  - Database Concepts:
+    - ORMs;
+    - ACID;
+    - Transactions;
+    - N + 1 Problem;
+    - Database Normalization;
+    - Indexes;
+    - Data Replication;
+    - Sharding Strategies;
+    - Cap Theorem;
+  - Relational Databases:
+    - MySQL;
+    - PostgreSQL;
+  - Non-Relational / No-SQL Databases:
+    - MongoDB;
+  - Graph Databases:
+    - ArangoDB;
+- APIs:
+  - Concepts:
+    - REST;
+    - JSON APIs;
+    - SOAP;
+    - HATEOAS;
+    - Open API Spec and Swagger;
+  - Authentication:
+    - Cookie Based;
+    - OAuth;
+    - Basic Authentication;
+    - Token Authentication;
+    - JWT;
+    - OpenId;
