@@ -40,7 +40,7 @@
 - Type checking:
   - Typescript;
 - Testing:
-  - Unit testing, inegration testing and functional testing;
+  - Unit testing, integration testing and functional testing;
   - Run you tests:
     - Mocha;
     - react-testing-library;
