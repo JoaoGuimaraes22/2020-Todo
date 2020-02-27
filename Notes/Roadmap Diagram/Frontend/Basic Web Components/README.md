@@ -10,7 +10,7 @@
   - Accessibility;
   - SEO Basics;
 - CSS:
-  - Basic Syntax:
+  - Basics and syntax:
   - Layouts:
     - Flexbox;
     - CSS Grid;

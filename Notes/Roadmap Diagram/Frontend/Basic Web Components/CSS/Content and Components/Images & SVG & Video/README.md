@@ -1,0 +1,1 @@
+## Images, SVG and video
