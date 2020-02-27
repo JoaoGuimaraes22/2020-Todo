@@ -28,5 +28,7 @@
       - Flask;
       - Others;
 - High-Performance Language:
-  - Go (Golang);
+  - Go (Golang):
+    - Learn the language;
   - C / C++;
+    - Learn the language;

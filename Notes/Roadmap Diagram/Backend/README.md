@@ -39,7 +39,9 @@
         - Others;
   - High-Performance Language:
     - Go (Golang);
+      - Learn the language;
     - C / C++;
+      - Learn the language;
 - Databases:
   - Database Concepts:
     - ORMs;
