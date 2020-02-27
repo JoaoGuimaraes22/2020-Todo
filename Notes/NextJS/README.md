@@ -1,4 +1,4 @@
-#### Next.js:
+## Next.js:
 
 - Run `npm init -y`;
 - Run `npm i next react react-dom isomorphic-unfetch @zeit/next-css`;
