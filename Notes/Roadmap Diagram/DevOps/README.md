@@ -2,75 +2,77 @@
 
 **Here you will learn about:**
 
-- OS Concepts:
-  - Startup Management (initd);
-  - Process Managemnt;
-  - Threads and concurrency;
-  - Sockets;
-  - POSIX;
-  - Networking;
-  - I/O Managent;
-  - Virtualization;
-  - Memory / Storage;
-  - File Systems;
-  - Service Management (systemd);
-- Operating Systems:
-  - Linux;
-  - Unix;
-  - Linux Distros;
-- Terminal:
-  - screen;
-  - tmux;
-  - terminal multiplexers;
-  - Bash scripting;
-  - Vim;
-  - Compiling apps from source;
-  - System performance;
-  - Text manipulation;
-  - Process monitoring;
-  - Networking;
-- Networking, security and protocols:
-  - Email:
-    - SMTP;
-    - Others;
-  - HTTP & HTTPS;
-  - FTP;
-  - SSL & TLS;
-  - SSH;
-  - Port forwarding;
-- Learn to setup:
-  - Reverse Proxy;
-  - Forward Proxy;
-  - Caching Server;
-  - Load Balancer;
-  - Firewall;
-- Web Server:
-  - NGINX;
-  - Apache;
-- Containers:
-  - Docker;
-- Container Orchestration:
-  - Kubernetes;
-  - Helm;
-- Configuration Management:
-  - Ansible;
-- Infrastructure Provisioning:
-  - Terraform;
-- CI & CD:
-  - Jenkins;
-  - CircleCI;
-  - Gitlab & Github actions;
-    -TeamCity;
-- Monitoring:
-  - Infrastructure Monitoring:
-    - Prometheus;
-    - Nagions;
-    - Grafana;
-  - Application Monitoring:
-    - App Dynamics;
-    - New Relic;
-  - Logs Management:
-    - Elastic Stack (ELK Stack);
+- Main Concepts:
+  - OS Concepts:
+    - Startup Management (initd);
+    - Process Management;
+    - Threads and concurrency;
+    - Sockets;
+    - POSIX;
+    - Networking;
+    - I/O Managent;
+    - Virtualization;
+    - Memory / Storage;
+    - File Systems;
+    - Service Management (systemd);
+  - Operating Systems:
+    - Linux;
+    - Unix;
+    - Linux Distros;
+  - Terminal:
+    - screen;
+    - tmux;
+    - terminal multiplexers;
+    - Bash scripting;
+    - Vim;
+    - Compiling apps from source;
+    - System performance;
+    - Text manipulation;
+    - Process monitoring;
+    - Networking;
+  - Networking, security and protocols:
+    - Email:
+      - SMTP;
+      - Others;
+    - HTTP & HTTPS;
+    - FTP;
+    - SSL & TLS;
+    - SSH;
+    - Port forwarding;
+  - Learn to setup:
+    - Reverse Proxy;
+    - Forward Proxy;
+    - Caching Server;
+    - Load Balancer;
+    - Firewall;
+  - Web Server:
+    - NGINX;
+    - Apache;
+  - Containers:
+    - Docker;
+  - Container Orchestration:
+    - Kubernetes;
+    - Helm;
+  - CI & CD:
+    - Jenkins;
+    - CircleCI;
+    - Gitlab & Github actions;
+      -TeamCity;
+- Intermediate Concepts:
+  - Configuration Management:
+    - Ansible;
+  - Infrastructure Provisioning:
+    - Terraform;
+  - Monitoring:
+    - Infrastructure Monitoring:
+      - Prometheus;
+      - Nagions;
+      - Grafana;
+    - Application Monitoring:
+      - App Dynamics;
+      - New Relic;
+    - Logs Management:
+      - Elastic Stack (ELK Stack);
 - The Cloud:
   - Cloud Providers:
     - Digital Ocean;
