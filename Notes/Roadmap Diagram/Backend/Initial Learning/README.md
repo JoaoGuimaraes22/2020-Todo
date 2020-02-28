@@ -1,6 +1,6 @@
 ## Initial Learning
 
-**What you will learn here is:**
+**What you will learn is:**
 
 - OSs and General Knowledge:
   - Terminal Usage;

@@ -75,7 +75,7 @@
       - Token Authentication;
       - JWT;
       - OpenId;
-- No need to learn as fast:
+- Intermediate to Advanced:
   - Containerization and virtualization:
     - Docker;
   - Web Servers:
