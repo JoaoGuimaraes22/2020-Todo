@@ -1,1 +1,24 @@
 ## Redux
+
+- Npm install `redux` and `react-redux`;
+- Create /reducers folder, with an index.js where you import all the reducers you create (reducers handle your global state altering in your application);
+- Create reducers, for example, by using a function and giving it conditional statements to alter `state`, ex: `function counterReducer(state = x, action){if(action.type == "INCREMENT"){return state++}}`;
+- Use `combineReducers` imported from `redux`, in the /reducers' folder index.js, and assign a constant to it (ex: `allReducers = combineReducers()`;
+- Still in the /reducers' index.js, pass your reducers as key-value pairs in the `combineReducers()` method, for example, `const allReducers = combineReducers({counter: counterReducer, xReducer: reducer2, yReducer: reducer3})`;
+- In root index.js, import `createStore` from `redux`, and import `allReducers` from /reducers/index or just from /reducers;
+- In root index.js, assign a constant to `createStore(allReducers)`, for example `const myStore = createStore(allReducers)`;
+- To use Redux DevTools extension, in root index.js, add to code like so `createStore(allReducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())`;
+- In root index.js, import `Provider` from `react-redux`, and wrap your `<App/>` component in the `Provider`, like so, `<Provider> <App/> <Provider/>`;
+- In root index.js, add `store` parameter to the `Provider` wrapper, and assign it `createStore` constant, for example, `<Provider store={myStore}> <App/> <Provider/>`;
+- **Now we have access to global state in our app!**
+- To access global state in a component, import `useSelector` from `react-redux` in that component;
+- Assign a constant, for example `counter`, to `useSelector()`, like `counter = useSelector()`, in the component;
+- Add your state altering function within useSelector, where you pass your state as a paremeter and return the type of state you want to alter, for example, `counter = useSelector(state => state.counter)` or `const x = useSelector(state = state.x)`;
+- **That´s how you access your global state!**
+- To alter global state, create an /actions folder;
+- In the /actions folder, create an index.js, in which you can create all your actions;
+- Your actions are functions that return the `type` of the action you activated, for example, an action for handling increments in a component could be: `export const increment = () => { return {type: "INCREMENT"}}`;
+- Now in your component, import your action from /actions, like `import {increment} from "../actions"`;
+- Then import `useDispatch` from `react-redux`, and assign a constant to the `dispatch()` method, for example `const dispatch = dispatch()`;
+- To alter the global state in your componet, just use `dispatch()` with an imported function action as a parameter and it will alter global state, for example: `<button onClick={()=>{dispatch(increment())}}>` --> in each click, increments counter by one;
+- **And now you can alter your global state**;

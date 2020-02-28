@@ -96,6 +96,8 @@
     - Reactsrapp;
     - CSS Emotion / Styled Components;
     - Gatsby.js;
+    - Puppeteer (Data Scraping);
+    - Axios;
   - State Management:
     - Redux;
     - MobX (opt.);

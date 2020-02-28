@@ -9,3 +9,4 @@
 - Reacstrap;
 - CSS Emotion / Styled Components;
 - Gatsby.js;
+- Puppeteer (Data Scraping)
