@@ -7,7 +7,8 @@
   - Frameworks and tools:
     - ExpressJS;
     - Mocha;
-    - Others;
+    - Others:
+      - Puppeteer;
 - Python:
   - Learn the language;
   - Frameworks and Tools:

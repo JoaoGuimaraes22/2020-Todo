@@ -6,4 +6,5 @@
 - Frameworks and tools:
   - ExpressJS;
   - Mocha;
-  - Others;
+  - Others:
+    - Puppeteer;

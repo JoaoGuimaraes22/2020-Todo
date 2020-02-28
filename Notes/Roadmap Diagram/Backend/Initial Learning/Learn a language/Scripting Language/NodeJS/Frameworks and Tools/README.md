@@ -4,4 +4,5 @@
 
 - ExpressJS;
 - Mocha;
-- Others;
+- Others:
+  - Puppeteer
