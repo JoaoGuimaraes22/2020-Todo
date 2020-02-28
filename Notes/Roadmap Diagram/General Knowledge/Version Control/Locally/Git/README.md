@@ -1,6 +1,6 @@
 ## Git
 
-- See documentation after inicial overview;
+- See documentation after reading this;
 
 **What is it:**
 

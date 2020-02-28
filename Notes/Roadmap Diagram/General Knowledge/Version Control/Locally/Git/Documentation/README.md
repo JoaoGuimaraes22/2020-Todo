@@ -1,7 +1,5 @@
 ## Git Documentation
 
-### Learn Git - Roadmap:
-
 **Setup:**
 
 - Download Git:
@@ -99,3 +97,15 @@
   - To fix this, you choose which changes you want to apply;
 - You can fetch from a repo with:
   - `git pull origin <branch_name>`
+
+**Helpfull optionall stuff:**
+
+- Check this stuff out:
+  - Visual Studio Code Extension - GitLens;
+  - GitKraken, a free Git GUI client, voted best developer tool 2019;
+
+**Links:**
+
+- https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR;
+- https://git-scm.com/docs/
+- https://www.youtube.com/watch?v=SWYqp7iY_Tc

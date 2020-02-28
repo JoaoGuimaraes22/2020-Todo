@@ -12,6 +12,6 @@
 
 **Links:**
 
-- https://en.wikipedia.org/wiki/Version_control#Specialized_strategies
-- https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-- https://blog.eduonix.com/software-development/learn-three-types-version-control-systems/
+- https://en.wikipedia.org/wiki/Version_control#Specialized_strategies ;
+- https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control ;
+- https://blog.eduonix.com/software-development/learn-three-types-version-control-systems/ ;
