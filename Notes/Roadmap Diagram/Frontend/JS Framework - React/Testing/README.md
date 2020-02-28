@@ -1,6 +1,6 @@
 ## Testing
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Unit testing, integration testing and functional testing;
 - Run you tests:

@@ -1,6 +1,6 @@
 ## Hosting
 
-**What I will learn is:**
+**Here you will learn about:**
 
 - Digital Ocean;
 - Zeit NOW;

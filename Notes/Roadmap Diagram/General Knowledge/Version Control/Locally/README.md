@@ -1,5 +1,5 @@
 ## Version Control - Locally
 
-**Here you will learn:**
+**Here you will learn about:**
 
 - Git;

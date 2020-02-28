@@ -1,5 +1,5 @@
 ## Non-Relational / No-SQL Databases
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - MongoDB

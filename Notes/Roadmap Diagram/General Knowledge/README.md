@@ -5,7 +5,7 @@
 - This is not to be done completely before starting any other section;
 - Learn these concepts gradually, while learning about the other non-general concepts in the other routes;
 
-**In here you will learn about:**
+**Here you will learn about:**
 
 - Version Control;
 - Basic Command Line;

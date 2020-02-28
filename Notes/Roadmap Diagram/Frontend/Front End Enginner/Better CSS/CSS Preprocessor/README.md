@@ -1,5 +1,5 @@
 ## CSS Preprocessor
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - SASS / SCSS

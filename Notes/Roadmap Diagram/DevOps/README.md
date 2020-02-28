@@ -1,6 +1,6 @@
 ## The Dev Ops Route
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - OS Concepts:
   - Startup Management (initd);

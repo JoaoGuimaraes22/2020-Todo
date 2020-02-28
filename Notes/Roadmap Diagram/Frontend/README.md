@@ -1,6 +1,6 @@
 ## The Frontend Route
 
-**Here you will learn:**
+**Here you will learn about:**
 
 - Basic Understanding:
   - Domain Name;

@@ -1,6 +1,6 @@
 ## Going Deeper
 
-**What I will learn is:**
+**Here you will learn about:**
 
 - Desktop Apps:
   - Electron;

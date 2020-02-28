@@ -1,6 +1,6 @@
 ## Web Assembly
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Rust;
 - Others...;

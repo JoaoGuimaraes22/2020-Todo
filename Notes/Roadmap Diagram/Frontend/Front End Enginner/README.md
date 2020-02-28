@@ -1,6 +1,6 @@
 ## Front End Engineer
 
-**What I will learn is:**
+**Here you will learn about:**
 
 - Hosting:
   - Digital Ocean;

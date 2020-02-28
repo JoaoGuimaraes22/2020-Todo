@@ -1,5 +1,5 @@
 ## Graph Databases
 
-**What you will learn here is:**
+**Here you will learn about:**
 
 - ArangoDB;

@@ -1,6 +1,6 @@
 ## CSS - positioning, styling, animating
 
-**What you will learn is**:
+**Here you will learn about:**:
 
 - Basics and syntax:
 - Layouts:

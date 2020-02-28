@@ -1,6 +1,6 @@
 ## Concepts
 
-**What you will learn here is:**
+**Here you will learn about:**
 
 - REST;
 - JSON APIs;

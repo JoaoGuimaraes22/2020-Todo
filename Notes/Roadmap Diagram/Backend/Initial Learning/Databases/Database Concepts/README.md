@@ -1,6 +1,6 @@
 ## Database Concepts
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - ORMs;
 - ACID;

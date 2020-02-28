@@ -1,6 +1,6 @@
 ## The Backend Route
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Intial Learning:
   - OSs and General Knowledge:

@@ -1,6 +1,6 @@
 ## HTML - the skeleton of the web
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Basic Syntax;
 - Forms and validation;

@@ -3,7 +3,7 @@
 - Learn what fundamentally makes the web;
 - Learn what you will interact with;
 
-**In here you will learn about:**
+**Here you will learn about:**
 
 - Licenses;
 - REST & SOAP;

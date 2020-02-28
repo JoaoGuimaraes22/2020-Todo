@@ -1,6 +1,6 @@
 ## Basic Web Components - learn what makes a web app
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - HTML:
   - Basic Syntax;

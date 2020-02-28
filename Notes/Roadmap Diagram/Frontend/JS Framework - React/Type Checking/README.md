@@ -1,5 +1,5 @@
 ## Type checking
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Typescript;

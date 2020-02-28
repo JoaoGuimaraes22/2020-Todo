@@ -1,6 +1,6 @@
 ## Better CSS
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - CSS Preprocessor:
   - SASS / SCSS;

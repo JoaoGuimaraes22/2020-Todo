@@ -1,6 +1,6 @@
 ## Javascript
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Syntax and basic construct;
 - Basic programming;

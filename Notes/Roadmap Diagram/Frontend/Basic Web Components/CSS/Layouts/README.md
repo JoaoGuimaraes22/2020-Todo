@@ -1,6 +1,6 @@
 ## Layouts - position your components effectively
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Flexbox;
 - CSS Grid;

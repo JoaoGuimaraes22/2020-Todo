@@ -1,6 +1,6 @@
 ## Research - learn to / how to research effectively
 
-**Here you learn about:**
+**Here you will learn about:**
 
 - Documentation;
 - Github;

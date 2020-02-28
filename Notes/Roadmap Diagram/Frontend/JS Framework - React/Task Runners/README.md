@@ -1,6 +1,6 @@
 ## Task Runners
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - npm scripts;
 - gulp (opt.);

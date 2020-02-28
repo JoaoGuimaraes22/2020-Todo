@@ -1,6 +1,6 @@
 ## Web Security
 
-**What you will learn is:**
+**Here you will learn about:**
 
 - Hashing Algorithms;
 - HTTPS;
