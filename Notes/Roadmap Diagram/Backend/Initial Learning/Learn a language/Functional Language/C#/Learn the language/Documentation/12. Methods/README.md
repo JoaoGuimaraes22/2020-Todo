@@ -99,6 +99,16 @@ Max value is : 200
 
 **Passing paramethers to a method:**
 
+- There are three ways paramethers can be passed to a method:
+  - Value parameters:
+    - Copies the actual value of an argument into the formal parameter of the function;
+    - In this case, changes made to the parameter inside the function have no effect on the argument;
+  - Reference parameters:
+    - Copies the reference to the memory location of an argument into the formal parameter;
+    - This means that changes made to the parameter affect the argument;
+  - Output parameters:
+    - Helps in returning more than one value;
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_methods.htm ;
