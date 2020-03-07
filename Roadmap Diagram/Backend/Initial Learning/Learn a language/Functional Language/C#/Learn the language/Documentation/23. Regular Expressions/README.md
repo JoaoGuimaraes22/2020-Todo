@@ -30,7 +30,7 @@
   - In a specified input string, replaces all strings that match a regular expression pattern with a specified replacement string;
 - Split(string input):
   - Splits an input string into an array of substrings at the positions defined by a regular expression pattern specified in the Regex constructor
-- See all at -> https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=netframework-4.8
+- See all at -> https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=netframework-4.8 ;
 
 **Links:**
 
