@@ -12,12 +12,11 @@
 
 - An access specifier defines the scope and visibility of a class member;
 - C# has the following specifiers:
-
-      	- Public;
-      	- Private;
-      	- Protected;
-      	- Internal;
-      	- Protected internal;
+  - Public;
+  - Private;
+  - Protected;
+  - Internal;
+  - Protected internal;
 
 **Public access specifier:**
 
