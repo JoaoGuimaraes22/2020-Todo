@@ -9,7 +9,7 @@
 
 **Creating a Queue:**
 
-- Queue queue = new Queue();
+- `Queue queue = new Queue();`;
 
 **Properties:**
 

@@ -8,7 +8,7 @@
 
 **Creating a Stack:**
 
--
+- `Stack myStack = new Stack();`;
 
 **Properties:**
 
