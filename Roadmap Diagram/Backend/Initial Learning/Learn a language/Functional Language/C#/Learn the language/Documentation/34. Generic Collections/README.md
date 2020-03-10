@@ -8,7 +8,10 @@
 
 - List<T>;
 - Dictionary<TKey, TValue>;
-- SortedList<TKey, TValue>;
+- SortedList<TKey, TValue>:
+  - SortedList stores key and value pairs;
+  - It automatically adds the elements in ascending order of key by default;
+  - Elements are indexed;
 - HashSet<T>:
   - Hashset<T> contains non-duplicate elements;
   - It eliminates duplicate elements;
