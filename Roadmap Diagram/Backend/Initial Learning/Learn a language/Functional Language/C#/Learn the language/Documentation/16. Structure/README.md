@@ -4,80 +4,51 @@
 
 - A structure is a value data type;
 - Helps you make a singe variable hold related data of various data types;
+- Useful to hold small data value;
 - Structures are used to represent a record;
 
 **Defining a structure:**
 
-- To define a structure, you must use the struct statement;
+- To define a structure, you must use the struct statement with public or internal modifier;
+- Default is internal;
+- You can use private or protected modifier when declared inside a class;
 - The struct statement defines a new data type, with more than one member for your program;
 - For example:
 
 ```
-struct Books {
-   public string title;
-   public string author;
-   public string subject;
-   public int book_id;
-};
-```
-
-- Example:
-
-```
-using System;
-
-struct Books {
-   public string title;
-   public string author;
-   public string subject;
-   public int book_id;
-};
-
-public class testStructure {
-   public static void Main(string[] args) {
-      Books Book1;   /* Declare Book1 of type Book */
-      Books Book2;   /* Declare Book2 of type Book */
-
-      /* book 1 specification */
-      Book1.title = "C Programming";
-      Book1.author = "Nuha Ali";
-      Book1.subject = "C Programming Tutorial";
-      Book1.book_id = 6495407;
-
-      /* book 2 specification */
-      Book2.title = "Telecom Billing";
-      Book2.author = "Zara Ali";
-      Book2.subject =  "Telecom Billing Tutorial";
-      Book2.book_id = 6495700;
-
-      /* print Book1 info */
-      Console.WriteLine( "Book 1 title : {0}", Book1.title);
-      Console.WriteLine("Book 1 author : {0}", Book1.author);
-      Console.WriteLine("Book 1 subject : {0}", Book1.subject);
-      Console.WriteLine("Book 1 book_id :{0}", Book1.book_id);
-
-      /* print Book2 info */
-      Console.WriteLine("Book 2 title : {0}", Book2.title);
-      Console.WriteLine("Book 2 author : {0}", Book2.author);
-      Console.WriteLine("Book 2 subject : {0}", Book2.subject);
-      Console.WriteLine("Book 2 book_id : {0}", Book2.book_id);
-
-      Console.ReadKey();
-   }
+struct Employee
+{
+    public int EmpId;
+    public string FirstName;
+    public string LastName;
 }
 ```
 
-- Returns:
+**Constructors in Struct:**
 
+- A struct cannot contain parameterless constructor;
+- Good for initializing struct members;
+- Example:
 ```
-Book 1 title : C Programming
-Book 1 author : Nuha Ali
-Book 1 subject : C Programming Tutorial
-Book 1 book_id : 6495407
-Book 2 title : Telecom Billing
-Book 2 author : Zara Ali
-Book 2 subject : Telecom Billing Tutorial
-Book 2 book_id : 6495700
+struct Employee
+{
+    public int EmpId;
+    public string FirstName;
+    public string LastName;
+
+    public Employee(int empid, string fname, string lname)
+    {
+        EmpId = empid;
+        FirstName = fname;
+        LastName = lname;
+    }
+}
+
+Employee emp = new Employee(10, "Bill", "Gates");
+
+Console.Write(emp.EmpId); // prints 10  
+Console.Write(emp.FirstName); // prints Bill  
+Console.Write(emp.LastName); // prints Gates  
 ```
 
 **Features of Structures:**
@@ -99,8 +70,11 @@ Book 2 book_id : 6495700
 
 - Classes are reference types and structs are value types;
 - Structures do not support inheritance;
-- Structures cannot have default constructor;
+- Structures cannot have default constructor or destructor. However, it can have parametrized constructors;
+- Struct can be instasntiated without the new operator. However, you won't be able to use any of its methods, events or properties if you do so;
+- However, you won't be able to use any of its methods, events or properties if you do so;
 
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_struct.htm ;
+- https://www.tutorialsteacher.com/csharp/csharp-struct ;

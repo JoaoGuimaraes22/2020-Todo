@@ -394,7 +394,47 @@ public int MyAutoImplementedProperty { get; set; }
 ```
 - And the backing field will be created automatically by the compiler;
 
+**Partial Class and Methods:**
+
+- C# provides the ability to have a single class implementation in multiple .cs files using the partial modifier keyword;
+- For example, partial methods :
+
+```
+PartialClass1.cs:
+
+public partial class MyPartialClass
+{
+    public MyPartialClass()
+    {
+    }
+
+    public void Method1(int val)
+    {
+        Console.WriteLine(val);
+    }
+}
+
+PartialClass2.cs:
+
+public partial class MyPartialClass
+{
+    public void Method1(int val)
+    {
+        Console.WriteLine(val);
+    }
+
+    partial void PartialMethod(int val)
+    {
+        Console.WriteLine(val);
+    }
+}
+```
+- PartialClassFile1.cs contains the declaration of the partial method and PartialClassFile2.cs contains the implementation of the partial method;
+
+ 
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_classes.htm ;
 - https://www.tutorialsteacher.com/csharp/csharp-class ;
+- https://www.tutorialsteacher.com/csharp/csharp-partial-class ;
