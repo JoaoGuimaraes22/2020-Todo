@@ -5,6 +5,7 @@
 - An enumeration is a set of named integer constants;
 - Enumerations are value data types;
 - Enumeration contains its own values and cannot inherit or cannot pass inheritance;
+- Used to define a constant set of values;
 
 **Declaring `enum` Variables:**
 
@@ -53,3 +54,4 @@ Friday: 5
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_enums.htm ;
+- https://www.guru99.com/c-sharp-enum.html ;

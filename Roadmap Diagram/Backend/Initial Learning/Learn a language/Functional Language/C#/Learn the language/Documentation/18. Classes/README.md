@@ -4,6 +4,7 @@
 
 - When you define a class, you define a blueprint for a data type;
 - Objects are instances of a class;
+- Defines the kinds of data and the functionality their objects will have
 - The methods and variables that constitute a class are called members of the class;
 
 **Defining a class:**
@@ -33,7 +34,7 @@
 }
 ```
 
-- Access specifiers specify the access rules for the members as well as the class itself;
+- **Access specifiers**  specify the access rules for the members as well as the class itself;
 - Example:
 
 ```
@@ -151,6 +152,7 @@ Volume of Box2 : 1560
 **Constructors:**
 
 - It's a special member function of a class that is executed whenever we create new objects of that class;
+- Are called when you create an instance of a class;
 - It has exactly the same name as that of class and it does not have any return type;
 - For example:
 
@@ -367,6 +369,32 @@ When the above code is compiled and executed, it produces the following result â
 Variable num: 3
 ```
 
+**Properties:**
+
+- Defined using getters and setters;
+- Property encapsulates a private field;
+- It provides getters (get{}) to retrieve the value of the underlying field and setters (set{}) to set the value of the underlying field;
+- For example:
+```
+private int _myPropertyVar;
+
+public int MyProperty
+{
+    get { return _myPropertyVar; }
+    set { _myPropertyVar = value; }
+}
+```
+
+**Auto-implemented Property:**
+
+- From C# 3.0 onwards, property declaration has been made easy if you don't want to apply some logic in get or set;
+- You can now just do this:
+```
+public int MyAutoImplementedProperty { get; set; }
+```
+- And the backing field will be created automatically by the compiler;
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_classes.htm ;
+- https://www.tutorialsteacher.com/csharp/csharp-class ;

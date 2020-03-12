@@ -2,7 +2,7 @@
 
 **What is a variable:**
 
-- A name given to a storage area that our programs can manipulate;
+- A name given to a storage area used to store values of various data types;
 - They have a specific type, which determine their size and layout of the variable's memory the range of values that can be stored within that memory and the set of operations that can be applied to the variable;
 - Basic variables examples:
   - Integral Types:
@@ -29,6 +29,12 @@
   - `variable_name = value;`
 - Variables can be initalized in their definition:
   - `<data_type> <variable_name> = value;`;
+- You can also do multi-line declarations, for example:
+```
+int i, j, k, l = 0;
+
+int amount, num;
+```
 
 **Accepting values from user:**
 
@@ -50,6 +56,22 @@ num = Convert.ToInt32(Console.ReadLine());
 - Variables are lvalues;
 - Numeric literals are rvalues and hence they may not be assigned and can not appear on the left-hand side;
 
+**Implicitly-Typed Local Variable - var:**
+
+- Var can only be defined in a method as a local variable;
+- The compiler will infer its type based on the value to the right of the "=" operator;
+- Example:
+```
+int i = 100;// explicitly typed 
+var j = 100; // implicitly typed
+```
+- Implicitly-typed variables must be initialized;
+- Multiple declerations of var variables in a single statement is not allowed;
+- var cannot be used for function parameters;
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_variables.htm ;
+- https://www.guru99.com/c-sharp-variables-operator.html ;
+- https://www.tutorialsteacher.com/csharp/csharp-variable ;
+- https://www.tutorialsteacher.com/csharp/csharp-var-implicit-typed-local-variable ;

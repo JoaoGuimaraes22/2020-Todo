@@ -4,7 +4,7 @@
 
 - Is a group of statements that together perform a task;
 - Every program has at least one class with a method named Main;
-- To use a method, you need to:
+- To use a method, you need to:  
   - Define method;
   - Call the method;
 

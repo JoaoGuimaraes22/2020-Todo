@@ -62,3 +62,4 @@ class Test
 
 - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions ;
 - https://www.tutorialspoint.com/csharp/csharp_type_conversion.htm ;
+- https://www.tutorialsteacher.com/csharp/csharp-data-types ;
