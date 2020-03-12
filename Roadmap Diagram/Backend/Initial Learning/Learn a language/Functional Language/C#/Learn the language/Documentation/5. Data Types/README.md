@@ -32,33 +32,89 @@
   - Can be assigned values of any other types, value types, reference types, predefined or user-defined types;
   - When a value type is converted to object type, and when an object type is converted to a value type, it is called unboxing.
   - For example:
-
     ```
     object obj;
     obj = 100; // this is boxing
     ```
+  
 
-- **Dynamic Type:**
+**Dynamic Type:**
 
-  - Can store any type of value;
-  - Type checking for these types of variables takes place at run-time;
-  - For example:
+- Can store any type of value;
+- Avoids compile time type checking;
+- Dynamic types are similar to object types except that type checking for object type variables takes place at compile time, whereas that for the dynamic type variables takes place at run time;
+- Example:
+  - `dynamic dynamicVariable = 1;`;
 
-    ```
-    dynamic d = 20;
-    ```
+**Methods and Properties of Dynamic Type:**
 
-  - Dynamic types are similar to object types except that type checking for object type variables takes place at compile time, whereas that for the dynamic type variables takes place at run time;
+- If you assign class object to the dynamic type then the compiler would not check for correct methods and properties name of a dynamic type that holds the custom class object;
 
-- **String Type:**
+**Dynamic Type as a Method Parameter:**
 
-  - Allows you to assign any string values to a variable;
-  - Is an alias for the System.String class;
-  - For example:
+- A method can have dynamic type parameters so that it can accept any type of parameter at run time;
 
-  ```
-  String str = "Tutorials Point";
-  ```
+**Anonymous Type:**
+
+- Is a type that doesn't have any name;
+- The implicitly typed variable- var is used to hold the reference of anonymous types;
+- Example:
+```
+var myAnonymousType = new { firstProperty = "First", 
+    secondProperty = 2, 
+    thirdProperty = true 
+};
+``` 
+- An anonymous type is a temporary data type that is inferred based on the data that you include in an object initializer;
+- Properties of anonymous types will be read-only properties so you cannot change their values;
+
+**Nested Anonymous Type:**
+
+- An anonymous type can have another anonymous type as a property;
+- For example:
+```
+var myAnonymousType = new
+                        {
+                            firstProperty = "First",
+                            secondProperty = 2,
+                            thirdProperty = true,
+                            anotherAnonymousType = new { nestedProperty = "Nested"}
+                        };
+```
+
+**Scope of Anonymous Type:**
+
+- An anonymous type will always be local to the method where it is defined;
+- You can only pass them a method that accepts a parameter of dynamic type;
+- Example:
+```
+static void Main(string[] args)
+{
+
+    var myAnonymousType = new
+                            {
+                                firstProperty = "First Property",
+                                secondProperty = 2,
+                                thirdProperty = true               
+                            };
+
+    DoSomethig(myAnonymousType);
+}
+
+static void DoSomethig(dynamic param)
+{
+    Console.WriteLine(param.firstProperty);
+}
+```
+- Returns:
+```
+First Property
+```
+
+
+
+
+
 
 **Pointer Type:**
 
@@ -102,3 +158,4 @@ char c = default;// '\0'
 - https://www.tutorialspoint.com/csharp/csharp_data_types.htm ;
 - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types ;
 - https://www.tutorialsteacher.com/csharp/csharp-data-types ;
+- https://www.tutorialsteacher.com/csharp/csharp-anonymous-type ;

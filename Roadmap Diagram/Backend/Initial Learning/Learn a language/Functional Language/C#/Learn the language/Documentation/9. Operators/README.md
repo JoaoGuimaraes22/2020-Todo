@@ -3,13 +3,17 @@
 **What is it:**
 
 - It's a symbol that tells the compiler to perform specific mathematical or logical manipulations;
+- Some operators behave differently based on the type of the operands;
 - For example, there are operators of the type:
-  - Arithmetic;
-  - Relational;
-  - Logical;
-  - Bitwise;
-  - Assignment;
-  - Misc;
+  - Arithmetic operators;
+  - Assignment operators;
+  - Comparison operators;
+  - Equality operators;
+  - Boolean logical operators;
+  - Betwise and shift operators;
+  - Member access operators;
+  - Type-cast operators;
+  - Pointer related operators;
 
 **Arithmetic Operators:**
 
@@ -111,3 +115,4 @@
 
 - https://www.tutorialspoint.com/csharp/csharp_operators.htm ;
 - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/ ;
+- https://www.tutorialsteacher.com/csharp/csharp-operators ;

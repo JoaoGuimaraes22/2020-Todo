@@ -13,6 +13,7 @@
 - nested `if` statements;
 - `switch` statements;
 - nested `switch` statements;
+- ternary statements;
 
 **If statement:**
 
@@ -80,21 +81,64 @@ switch(expression) {
 - When a break statement is reached, the switch terminates, and the flow of control jumps to the next line following the switch statement;
 - A switch statement can have an optional default case, which must appear at the end of the switch. The default case can be used for performing a task when none of the cases is true;
 
-**The ? operators:**
+**Goto in switch:**
+
+- The switch case can use goto to jump over a different case;
+- Example:
+```
+string statementType = "switch";
+
+switch (statementType)
+{
+    case "DecisionMaking":
+        Console.Write(" is a decision making statement.");
+        break;
+    case "if.else":
+        Console.Write("if-else");
+        break;
+    case "ternary":
+        Console.Write("Ternary operator");
+        break;
+    case "switch":
+        Console.Write("switch statement");
+        goto case "DecisionMaking";
+}
+```
+
+**The ternary operator:**
 
 - Can be used to replace if...else statements;
 - Syntax:
 
 ```
-Exp1 ? Exp2 : Exp3;
+Boolean Expression ? First Statement : Second Statement;
 ```
 
 - The value of a ? expression is determined as follows:
-  - Exp1 is evaluated, if is true, then Exp2 is evaluated and becomes the value of the entire ? expression;
-  - If Exp1 is false, then Exp3 is evaluated and its value becomes the value of the expression;
+  - First part (before ?) includes conditional expression that returns boolean value true or false;
+  - Second part (after ? and before :) contains a statement which will be returned if the conditional expression in the first part evalutes to true;
+  - The third part includes another statement which will be returned if the conditional expression returns false;
+
+- Can return a value of any type;
+
+**Nested Ternary Operator:**
+
+- Possible by including conditional expression as a second (after ?) or third part (after :) of the ternary operator;
+- Example:
+```
+int x = 2, y = 10;
+
+string result = x > y ? "x is greater than y" : x < y ? 
+                "x is less than y" : x == y ? 
+                "x is equal to y" : "No result";
+```
+- The ternary operator is right-associative;
+- The expression `a ? b : c ? d : e` is evaluated as `a ? b : (c ? d : e)`, not as `(a ? b : c) ? d : e`.
 
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_decision_making.htm ;
 - https://www.tutorialspoint.com/csharp/if_statement_in_csharp.htm ;
 - https://www.tutorialspoint.com/csharp/switch_statement_in_csharp.htm ;
+- https://www.tutorialsteacher.com/csharp/csharp-ternary-operator ;
+- https://www.tutorialsteacher.com/csharp/csharp-switch
