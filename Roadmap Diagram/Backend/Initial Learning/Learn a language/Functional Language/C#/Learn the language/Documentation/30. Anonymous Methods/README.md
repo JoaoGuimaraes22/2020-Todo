@@ -15,11 +15,26 @@
 
 ```
 delegate void NumberChanger(int n);
-...
+...   
 NumberChanger nc = delegate(int x) {
    Console.WriteLine("Anonymous Method: {0}", x);
 };
 ```
+
+**Anonymous Method Limitations:**
+
+- It cannot contain jump statement like goto, break or continue;
+- It cannot access ref or out parameter of an outer method;
+- It cannot have or access unsafe code;
+- It cannot be used on the left side of the is operator;
+
+**Points to Remember:**
+
+- Anonymous method can be defined using the delegate keyword;
+- Anonymous method must be assigned to a delegate;
+- Anonymous method can access outer variables or functions;
+- Anonymous method can be passed as a parameter;
+- Anonymous method can be used as event handlers;
 
 **Links:**
 
