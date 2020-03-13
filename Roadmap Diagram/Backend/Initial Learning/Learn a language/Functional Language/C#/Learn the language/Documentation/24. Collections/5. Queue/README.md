@@ -35,6 +35,13 @@
 
 - See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=netframework-4.8 ;
 
+**Points to Remember:**
+
+- The Queue stores the values in FIFO (First in First out) style. The element which is added first will come out First;
+- Use the Enqueue() method to add elements into Queue;
+- The Dequeue() method returns and removes elements from the beginning of the Queue. Calling the Dequeue() method on an empty queue will throw an exception;
+- The Peek() method always returns top most element;
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_queue.htm ;

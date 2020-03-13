@@ -43,6 +43,14 @@
 
 - See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.hashtable?view=netframework-4.8 ;
 
+**Points to Remember:**
+
+- Hashtable stores key-value pairs of any datatype where the Key must be unique;
+- The Hashtable key cannot be null whereas the value can be null;
+- Hashtable retrieves an item by comparing the hashcode of keys. So it is slower in performance than Dictionary collection;
+- Hashtable uses the default hashcode provider which is object.GetHashCode(). You can also use a custom hashcode provider;
+- Use DictionaryEntry with foreach statement to iterate Hashtable;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-hashtable ;

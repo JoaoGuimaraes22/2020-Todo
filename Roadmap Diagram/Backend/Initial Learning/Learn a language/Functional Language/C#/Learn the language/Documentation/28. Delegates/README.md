@@ -2,7 +2,7 @@
 
 **Overview:**
 
-- Are similar to pointers to functions;
+- A delegate is like a pointer to a function;
 - Is a reference type variable that holds the reference to a method;
 - Used for implementing events and the call-back methods;
 - Derived from the System.Delegate class;
@@ -13,7 +13,7 @@
 - For example:
   - `public delegate int MyDelegate (string s);`;
 - Syntax:
-  - `delegate <return type> <delegate-name> <parameter list>`;
+  - `<access modifier> delegate <return type> <delegate_name>(<parameters>)`;
 
 **Instantiating Delegates:**
 
@@ -30,46 +30,48 @@ printString ps2 = new printString(WriteToFile);
 - Example:
 
 ```
-using System;
+class Program
+{
+    // declare delegate
+    public delegate void Print(int value);
 
-delegate int NumberChanger(int n);
-namespace DelegateAppl {
+    static void Main(string[] args)
+    {
+        // Print delegate points to PrintNumber
+        Print printDel = PrintNumber;
+        
+        // or
+        // Print printDel = new Print(PrintNumber);
+            
+        printDel(100000);
+        printDel(200);
 
-   class TestDelegate {
-      static int num = 10;
+        // Print delegate points to PrintMoney
+        printDel = PrintMoney;
 
-      public static int AddNum(int p) {
-         num += p;
-         return num;
-      }
-      public static int MultNum(int q) {
-         num *= q;
-         return num;
-      }
-      public static int getNum() {
-         return num;
-      }
-      static void Main(string[] args) {
-         //create delegate instances
-         NumberChanger nc1 = new NumberChanger(AddNum);
-         NumberChanger nc2 = new NumberChanger(MultNum);
+        printDel(10000);
+        printDel(200);
+    }
 
-         //calling the methods using the delegate objects
-         nc1(25);
-         Console.WriteLine("Value of Num: {0}", getNum());
-         nc2(5);
-         Console.WriteLine("Value of Num: {0}", getNum());
-         Console.ReadKey();
-      }
-   }
+    public static void PrintNumber(int num)
+    {
+        Console.WriteLine("Number: {0,-12:N0}",num);
+    }
+
+    public static void PrintMoney(int money)
+    {
+        Console.WriteLine("Money: {0:C}", money);
+    }
 }
 ```
 
 - Returns:
 
 ```
-Value of Num: 35
-Value of Num: 175
+Number: 10,000
+Number: 200
+Money: $ 10,000.00
+Money: $ 200.00
 ```
 
 **Multicasting of a Delegate:**
@@ -178,6 +180,16 @@ namespace DelegateAppl {
 The String is: Hello World
 ```
 
+**Points to remember:**
+
+- Delegate is a function pointer. It is reference type data type;
+- Syntax: public delegate void <function name>(<parameters>);
+- A method that is going to assign to delegate must have same signature as delegate;
+- Delegates can be invoke like a normal function or Invoke() method;
+- Multiple methods can be assigned to the delegate using "+" operator. It is called multicast delegate;
+
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_delegates.htm ;
+- https://www.tutorialsteacher.com/csharp/csharp-delegates ;

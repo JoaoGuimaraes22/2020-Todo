@@ -30,6 +30,16 @@
 
 **See more:**
 
-- See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.stack?view=netframework-4.8
+- See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.stack?view=netframework-4.8 ;
+
+**Points to Remember:**
+
+- Stack stores the values in LIFO (Last in First out) style. The element which is added last will be the element to come out first;
+- Use the Push() method to add elements into Stack;
+- The Pop() method returns and removes elements from the top of the Stack. Calling the Pop() method on the empty Stack will throw an exception;
+- The Peek() method always returns top most element in the Stack;
 
 **Links:**
+
+- https://www.tutorialsteacher.com/csharp/csharp-stack ;
+- https://www.tutorialspoint.com/csharp/csharp_stack.htm ;

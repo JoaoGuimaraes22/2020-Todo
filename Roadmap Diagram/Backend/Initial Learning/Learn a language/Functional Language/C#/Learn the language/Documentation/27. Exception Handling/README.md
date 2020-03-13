@@ -153,6 +153,26 @@ Catch(Exception e) {
 }
 ```
 
+**Points to Remember:**
+
+- Exception is a base class for any type of exception class in C#;
+- Exception types: SystemException and ApplicationException;
+- SystemException class is used for CLR related runtime errors;
+- Exception class includes important properties e.g Message, StackTrack, InnerException, data etc. to associate important information with every exception;
+- Use the try, catch and finally blocks to handle exceptions in C#;
+- The try block must be followed by a catch or finally block or both;
+- A multiple catch block is allowed with different exception filters. General catch{..} block must come last;
+- `catch{..}` and `catch(Exception ex){ }` both cannot be used;
+- The finally block must come after the try or catch block;
+- The finally block will always execute irrespective of whether an exception occured or not;
+- The finally block is appropriate place for disposing objects;
+- The finally block cannot have a return or break because it isn't allow to leave the control;
+- Nested try-catch blocks are allowed in C#;
+- An Exception will be catched in the inner catch block if appropriate filter found, otherwise will be catched by outer catch block;
+- 
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm ;
+- https://www.tutorialsteacher.com/csharp/csharp-exception ;
+- https://www.tutorialsteacher.com/csharp/csharp-exception-handling ;

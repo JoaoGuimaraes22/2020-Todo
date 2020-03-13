@@ -54,6 +54,14 @@
 
 - See more in -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.8 ;
 
+**Points to Remember:**
+
+- C# has generic and non-generic SortedList;
+- SortedList stores the key-value pairs in ascending order of the key. Key must be unique and cannot be null whereas value can be null or duplicate;
+- Non-generic SortedList stores keys and values of any data types. So values needs to be cast to appropriate data type;
+- Key-value pair can be cast to DictionaryEntry;
+- Access individual value using indexer. SortedList indexer accepts key to return value associated with it;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-sortedlist ;

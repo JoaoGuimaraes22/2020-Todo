@@ -1,5 +1,10 @@
 ## Generics
 
+**Here you will learn about:**
+
+- Generics;
+   - Generics Constraints;
+
 **Overview:**
 
 - Allow you to write a class or method that can work with any data type;
@@ -199,6 +204,19 @@ namespace GenericDelegateAppl {
 Value of Num: 35
 Value of Num: 175
 ```
+
+**Advantages of Generics:**
+
+- Increases the reusability of the code;
+- Generic are type safe. You get compile time errors if you try to use a different type of data than the one specified in the definition;
+- Generic has a performance advantage because it removes the possibilities of boxing and unboxing;
+
+**Points to Remember:**
+
+- Generics denotes with angel bracket <>;
+- Compiler applys specified type for generics at compile time;
+- Generics can be applied to interface, abstrct class, method, static method, property, event, delegate and operator;
+- Generics performs faster by not doing boxing & unboxing;
 
 **Links:**
 

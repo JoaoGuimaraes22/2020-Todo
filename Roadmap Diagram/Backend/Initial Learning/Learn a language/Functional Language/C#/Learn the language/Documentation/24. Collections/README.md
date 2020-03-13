@@ -1,5 +1,14 @@
 ## Collections
 
+**Here you will learn about:**
+
+- Collections;
+  - ArrayList;
+  - Hastable;
+  - SortedList;
+  - Stack;
+  - Queue;
+
 **Overview:**
 
 - Collection classes are specialized classes for data storage and retrieval;

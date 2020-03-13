@@ -1,5 +1,11 @@
 ## Generic Collections
 
+**Here you will learn about:**
+
+- Generic Collections;
+  - List<T>;
+  - Dictionary<TKey, TValue>;
+
 **Overview:**
 
 - These types of collections can store any type of items;

@@ -58,6 +58,15 @@
 
 - See more in -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=netframework-4.8 ;
 
+**Points to Remember:**
+
+- ArrayList can store items(elements) of any datatype;
+- ArrayList resizes automatically as you add the elements;
+- ArrayList values must be cast to appropriate data types before using it;
+- ArrayList can contain multiple null and duplicate items;
+- ArrayList can be accessed using foreach or for loop or indexer;
+- Use Add(), AddRange(), Remove(), RemoveRange(), Insert(), InsertRange(), Sort(), Reverse() methods;
+
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_arraylist.htm ;

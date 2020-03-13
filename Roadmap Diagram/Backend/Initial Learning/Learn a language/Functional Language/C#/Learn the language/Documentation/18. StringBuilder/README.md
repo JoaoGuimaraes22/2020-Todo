@@ -34,6 +34,15 @@ StringBuilder sb = new StringBuilder("Hello World!!");
 
 - Use the `.ToString()` method to get a string of a StringBuilder;
 
+**Points to Remember:**
+
+- StringBuilder is mutable;
+- StringBuilder performs faster than string when appending multiple string values;
+- Initialize StringBuilder as class e.g. `StringBuilder sb = new StringBuilder()`;
+- Use StringBuilder when you need to append more than three or four strings;
+- Use Append() method to add or append strings with StringBuilder.;
+- Use ToString() method to get the string from StringBuilder;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-stringbuilder ;

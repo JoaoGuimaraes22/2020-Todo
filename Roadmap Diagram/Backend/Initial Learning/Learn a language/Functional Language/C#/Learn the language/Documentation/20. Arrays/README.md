@@ -1,5 +1,14 @@
 ## Arrays
 
+**Here you will learn about:**
+
+- Arrays:
+  - Multi-dimensional arrays;
+  - Jagged Arrays;
+  - Passing arrays to functions;
+  - Param arrays;
+  - The Array class;
+
 **Overview:**
 
 - Stores a fixed-size sequential collection of elements of the same type;

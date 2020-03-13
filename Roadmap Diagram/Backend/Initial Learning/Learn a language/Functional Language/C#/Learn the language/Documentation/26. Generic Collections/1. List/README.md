@@ -46,6 +46,15 @@
 
 - See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=netframework-4.8#constructors ;
 
+**Points to remember:**
+
+- List<T> stores elements of the specified type and it grows automatically;
+- List<T> can store multiple null and duplicate elements;
+- List<T> can be assigned to IList<T> or List<T> type of variable. It provides more helper method When assigned to List<T> variable;
+- List<T> can be access using indexer, for loop or foreach statement;
+- LINQ can be use to query List<T> collection;
+- List<T> is ideal for storing and retrieving large number of elements;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-list ;
