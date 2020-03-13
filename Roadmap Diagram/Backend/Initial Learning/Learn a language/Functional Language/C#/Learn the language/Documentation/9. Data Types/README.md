@@ -1,6 +1,15 @@
 ## Data Types
 
-**Variables:**
+**Here you will learn about:**
+
+- Data Types;
+  - Numbers;
+  - String;
+  - DateTime;
+  - Anonymous Type;
+  - Dynamic Type;
+
+**Overview:**
 
 - Variables in C# can be:
   - Value Types;
@@ -11,7 +20,7 @@
 
 - Value type variables can be assigned a value directly;
 - Derived from the class System.ValueType;
-- Directly contain data;
+- Directly contain data, in it's own memory space;
 - Value types include simple types (e.g. int, float, bool, and char), enum types, struct types, and Nullable value types;
 - When you declare, for example, an **int** type, the system allocates memory to store the value;
 - You can get the syze of a variable with the `syzeof` method, for example like `syzeof(int)`;
@@ -25,18 +34,18 @@
   - **object**;
   - **dynamic**;
   - **string**;
-- **Object Type:**
 
-  - Is the ultimate base class for all data types;
-  - An alias for System.Object class;
-  - Can be assigned values of any other types, value types, reference types, predefined or user-defined types;
-  - When a value type is converted to object type, and when an object type is converted to a value type, it is called unboxing.
-  - For example:
-    ```
-    object obj;
-    obj = 100; // this is boxing
-    ```
-  
+**Object Type:**
+
+- Is the ultimate base class for all data types;
+- An alias for System.Object class;
+- Can be assigned values of any other types, value types, reference types, predefined or user-defined types;
+- When a value type is converted to object type, and when an object type is converted to a value type, it is called unboxing.
+- For example:
+```
+object obj;
+obj = 100; // this is boxing
+```
 
 **Dynamic Type:**
 
@@ -111,11 +120,6 @@ static void DoSomethig(dynamic param)
 First Property
 ```
 
-
-
-
-
-
 **Pointer Type:**
 
 - Store the memory address of another type;
@@ -145,12 +149,23 @@ decimal d = default;// 0
 bool b = default;// false
 char c = default;// '\0'
 ```
-**More:**
+**See More:**
 
-- See more in-depth about numbers in:
+- See more in-depth about:
   - Numbers;
   - String;
   - DateTime;
+  - Anonymous Type;
+  - Dynamic Type;
+
+**Points to remember:**
+
+- Value type stores the value in its memory space, whereas reference type stores the address of the value where it is stored.;
+- Primitive data types and struct are of the 'Value' type;
+- Class objects, string, array, delegates are reference types;
+- Value type passes byval by default;
+- Reference type passes byref by default;
+- Value types and reference types stored in Stack and Heap in the memory depends on the scope of the variable;
 
 
 **Links:**

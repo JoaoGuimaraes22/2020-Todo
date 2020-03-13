@@ -1,6 +1,11 @@
 ## Variables
 
-**What is a variable:**
+**Here you will learn:**
+
+- Variables;
+  - Implicitly-typed variables;
+
+**Overview:**
 
 - A name given to a storage area used to store values of various data types;
 - They have a specific type, which determine their size and layout of the variable's memory the range of values that can be stored within that memory and the set of operations that can be applied to the variable;
@@ -68,6 +73,15 @@ var j = 100; // implicitly typed
 - Implicitly-typed variables must be initialized;
 - Multiple declerations of var variables in a single statement is not allowed;
 - var cannot be used for function parameters;
+
+**Points to remember:**
+
+- The variable is a name given to a data value;
+- A variable holds the value of specific data type e.g string, int, float etc;
+- A variable can be declared and initialized in separate statements and also in the single statement;
+- The value of a variable can be changed at any time throught out the program as long as it is accessible;
+- Multiple variables can be defined seperated by comma (,) in a single or multiple line till semicolon(;);
+- A value must be assigned to a variable before using it otherwise it will give compile time error;
 
 **Links:**
 

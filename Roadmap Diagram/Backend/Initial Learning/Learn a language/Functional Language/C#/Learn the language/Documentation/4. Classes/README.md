@@ -1,5 +1,10 @@
 ## Classes
 
+**Here you will learn:**
+
+- Classes;
+   - Partial Classes;
+
 **Overview:**
 
 - When you define a class, you define a blueprint for a data type;

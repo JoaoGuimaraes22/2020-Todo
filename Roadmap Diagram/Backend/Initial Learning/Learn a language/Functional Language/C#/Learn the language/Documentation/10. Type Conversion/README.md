@@ -44,7 +44,7 @@ class Test
 
 - List of explictit conversions -> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/numeric-conversions#explicit-numeric-conversions ;
 
-**Type conversion methods:**
+**Type conversion Example Methods:**
 
 - ToBoolean;
 - To(S)Byte;

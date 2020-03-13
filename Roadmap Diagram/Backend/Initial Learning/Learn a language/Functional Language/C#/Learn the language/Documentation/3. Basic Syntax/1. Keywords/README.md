@@ -154,6 +154,13 @@
   - ascending;
   - descending;
 
+**Points to remember:**
+
+- Keywords are reserved words that cannot be used as name or identifier;
+- Prefix '@' with keywords if you want to use it as identifier;
+- C# includes various categories of keywords e.g. modifier keywords, access modifiers keywords, statement keywords, method param keywords etc;
+- Contextual keywords can be used as identifier;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-keywords ;

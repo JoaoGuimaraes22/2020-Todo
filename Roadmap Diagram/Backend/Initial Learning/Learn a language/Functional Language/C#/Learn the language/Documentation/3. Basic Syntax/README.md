@@ -1,9 +1,15 @@
 ## Basic Syntax
 
+**Here you will learn about:**
+
+- Basic Syntax;
+   - Keywords;
+
 **Overview:**
 
 - A program consists of various objects that interact with each other by means of actions;
 - The actions that an object may take are called methods;
+- There are multiple keywords in C#;
 
 **Example Program:**
 
