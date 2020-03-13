@@ -12,6 +12,7 @@
 **Writing an Anonymous method:**
 
 - For example:
+
 ```
 delegate void NumberChanger(int n);
 ...

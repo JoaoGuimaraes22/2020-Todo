@@ -9,8 +9,9 @@
 - Is a variable whose value is the address of another variable;
 - You must declare a pointer before you can use it to store any variable address;
 - Syntax:
-    - `type *var-name`;
+  - `type *var-name`;
 - For example:
+
 ```
 using System;
 
@@ -19,7 +20,7 @@ namespace UnsafeCodeApplication {
       static unsafe void Main(string[] args) {
          int var = 20;
          int* p = &var;
-         
+
          Console.WriteLine("Data is: {0} ",  var);
          Console.WriteLine("Address is: {0}",  (int)p);
          Console.ReadKey();
@@ -27,7 +28,9 @@ namespace UnsafeCodeApplication {
    }
 }
 ```
+
 - Returns:
+
 ```
 Data is: 20
 Address is: 99215364
@@ -37,6 +40,7 @@ Address is: 99215364
 
 - You can retrieve the data stored at the located referenced by the pointer variable, using the ToString() method;
 - For example:
+
 ```
 using System;
 
@@ -46,7 +50,7 @@ namespace UnsafeCodeApplication {
          unsafe {
             int var = 20;
             int* p = &var;
-            
+
             Console.WriteLine("Data is: {0} " , var);
             Console.WriteLine("Data is: {0} " , p->ToString());
             Console.WriteLine("Address is: {0} " , (int)p);
@@ -56,7 +60,9 @@ namespace UnsafeCodeApplication {
    }
 }
 ```
+
 - Returns:
+
 ```
 Data is: 20
 Data is: 20
@@ -67,6 +73,7 @@ Address is: 77128984
 
 - You can pass a pointer variable to a method as parameter;
 - For example:
+
 ```
 using System;
 
@@ -83,7 +90,7 @@ namespace UnsafeCodeApplication {
          int var2 = 20;
          int* x = &var1;
          int* y = &var2;
-         
+
          Console.WriteLine("Before Swap: var1:{0}, var2: {1}", var1, var2);
          p.swap(x, y);
 
@@ -93,7 +100,9 @@ namespace UnsafeCodeApplication {
    }
 }
 ```
+
 - Returns:
+
 ```
 Before Swap: var1: 10, var2: 20
 After Swap: var1: 20, var2: 10
@@ -103,6 +112,7 @@ After Swap: var1: 20, var2: 10
 
 - If you need to access an array data using a pointer variable, you need to use the **fixed** keyword;
 - For example:
+
 ```
 using System;
 
@@ -111,19 +121,21 @@ namespace UnsafeCodeApplication {
       public unsafe static void Main() {
          int[]  list = {10, 100, 200};
          fixed(int *ptr = list)
-         
+
          /* let us have array address in pointer */
          for ( int i = 0; i < 3; i++) {
             Console.WriteLine("Address of list[{0}]={1}",i,(int)(ptr + i));
             Console.WriteLine("Value of list[{0}]={1}", i, *(ptr + i));
          }
-         
+
          Console.ReadKey();
       }
    }
 }
 ```
+
 - Returns:
+
 ```
 Address of list[0] = 31627168
 Value of list[0] = 10
@@ -137,9 +149,8 @@ Value of list[2] = 200
 
 - For compiling unsafe code, you have to specify the /unsafe command-line switch with command-line compiler;
 - For example:
-    - `csc /unsafe prog1.cs`;
+  - `csc /unsafe prog1.cs`;
 - You can also select the <allow unsafe code> option in the Visual Studio IDE;
-
 
 **Links:**
 
