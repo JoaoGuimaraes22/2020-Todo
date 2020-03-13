@@ -34,7 +34,7 @@
 }
 ```
 
-- **Access specifiers**  specify the access rules for the members as well as the class itself;
+- **Access specifiers** specify the access rules for the members as well as the class itself;
 - Example:
 
 ```
@@ -375,6 +375,7 @@ Variable num: 3
 - Property encapsulates a private field;
 - It provides getters (get{}) to retrieve the value of the underlying field and setters (set{}) to set the value of the underlying field;
 - For example:
+
 ```
 private int _myPropertyVar;
 
@@ -389,9 +390,11 @@ public int MyProperty
 
 - From C# 3.0 onwards, property declaration has been made easy if you don't want to apply some logic in get or set;
 - You can now just do this:
+
 ```
 public int MyAutoImplementedProperty { get; set; }
 ```
+
 - And the backing field will be created automatically by the compiler;
 
 **Partial Class and Methods:**
@@ -429,9 +432,8 @@ public partial class MyPartialClass
     }
 }
 ```
-- PartialClassFile1.cs contains the declaration of the partial method and PartialClassFile2.cs contains the implementation of the partial method;
 
- 
+- PartialClassFile1.cs contains the declaration of the partial method and PartialClassFile2.cs contains the implementation of the partial method;
 
 **Links:**
 
