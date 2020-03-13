@@ -10,9 +10,10 @@
 While(boolean expression)
 {
     //execute code as long as condition returns true
-    
+
 }
 ```
+
 - Includes a boolean expression as a condition which will return true or false;
 - It executes the code block, as long as the specified conditional expression returns true;
 - Example:
@@ -27,7 +28,9 @@ while (i < 10)
     i++;
 }
 ```
+
 - Returns:
+
 ```
 Value of i: 0
 Value of i: 1
@@ -45,6 +48,7 @@ Value of i: 9
 
 - Use the break keyword to exit from a while loop;
 - Example:
+
 ```
 int i = 0;
 
@@ -63,6 +67,7 @@ while (true)
 
 - Can be done;
 - Example:
+
 ```
 int i = 0;
 

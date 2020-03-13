@@ -6,10 +6,11 @@
 - Allows you to create an object with the new keyword without defining its class
 - The implicitly typed variable - `var` is used to hold the reference of anonymous types;
 - Example:
+
 ```
-var myAnonymousType = new { firstProperty = "First", 
-    secondProperty = 2, 
-    thirdProperty = true 
+var myAnonymousType = new { firstProperty = "First",
+    secondProperty = 2,
+    thirdProperty = true
 };
 ```
 
@@ -24,6 +25,7 @@ var myAnonymousType = new { firstProperty = "First",
 
 - An anonymous type can have another anonymous type as a property:
 - For example:
+
 ```
 var myAnonymousType = new
                         {
@@ -33,12 +35,14 @@ var myAnonymousType = new
                             anotherAnonymousType = new { nestedProperty = "Nested"}
                         };
 ```
+
 - Nested anonymous types also have intellisense support;
 
 **Scope of Anonymous Type:**
 
 - Usually, you cannot pass an anonymus type to another method; however, you can pass it to a method that accepts a parameter of dynamic type;
 - For example:
+
 ```
 static void Main(string[] args)
 {
@@ -47,7 +51,7 @@ static void Main(string[] args)
                             {
                                 firstProperty = "First Property",
                                 secondProperty = 2,
-                                thirdProperty = true               
+                                thirdProperty = true
                             };
 
     DoSomethig(myAnonymousType);
@@ -58,7 +62,9 @@ static void DoSomethig(dynamic param)
     Console.WriteLine(param.firstProperty);
 }
 ```
+
 - Returns:
+
 ```
 First Property
 ```
@@ -67,6 +73,7 @@ First Property
 
 - Linq Select clause creates an anonymous type as a result of a query to include various properties which is not defined in any class;
 - For example:
+
 ```
 public class Student
 {
@@ -79,17 +86,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        IList<Student> studentList = new List<Student>() { 
+        IList<Student> studentList = new List<Student>() {
                         new Student() { StudentID = 1, StudentName = "John", age = 18 } ,
                         new Student() { StudentID = 2, StudentName = "Steve",  age = 21 } ,
                         new Student() { StudentID = 3, StudentName = "Bill",  age = 18 } ,
                         new Student() { StudentID = 4, StudentName = "Ram" , age = 20  } ,
-                        new Student() { StudentID = 5, StudentName = "Ron" , age = 21 } 
+                        new Student() { StudentID = 5, StudentName = "Ron" , age = 21 }
                     };
 
         var studentNames = from s in studentList
-                           select new { StudentID = s.StudentID, 
-                                        StudentName = s.StudentName 
+                           select new { StudentID = s.StudentID,
+                                        StudentName = s.StudentName
                                       };
     }
 }

@@ -5,8 +5,9 @@
 - Var can only be defined in a method as a local variable;
 - The compiler will infer its type based on the value to the right of the "=" operator;
 - Example:
+
 ```
-int i = 100;// explicitly typed 
+int i = 100;// explicitly typed
 var j = 100; // implicitly typed
 ```
 
@@ -16,12 +17,12 @@ var j = 100; // implicitly typed
 - Multiple declerations of `var` variables in a single statement is not allowed;
 - `var` cannot be used for function parameters;
 - `var` variables can be used for following different contexts:
-    - Local variable in a function;
-    - For loop;
-    - Foreach loop;
-    - Using statement;
-    - As an anonymous type;
-    - In a LINQ query expression;
+  - Local variable in a function;
+  - For loop;
+  - Foreach loop;
+  - Using statement;
+  - As an anonymous type;
+  - In a LINQ query expression;
 
 **Points to Remember:**
 

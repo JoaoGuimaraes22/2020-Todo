@@ -26,7 +26,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+
         Console.WriteLine(MyStaticClass.myStaticVariable);
 
         MyStaticClass.MyStaticMethod();
@@ -37,7 +37,9 @@ class Program
     }
 }
 ```
+
 - Returns:
+
 ```
 0
 This is a static method.
@@ -54,6 +56,7 @@ This is a static method.
 - A static constructor in a non-static class runs only once when the class is instantiated for the first time;
 - A static constructor in a static class runs only once when any of its static members accessed for the first time;
 - Example:
+
 ```
 public static class MyStaticClass
 {
@@ -77,7 +80,7 @@ class Program
 
     static void Main(string[] args)
     {
-        
+
         MyStaticClass.myStaticVariable = 100;
 
         MyStaticClass.MyStaticProperty = 200;
@@ -89,14 +92,16 @@ class Program
     }
 }
 ```
+
 - Returns:
+
 ```
 Inside static constructor.
 ```
 
 **Memory Allocation for Static Items:**
 
-- Static members are stored in a special area inside the heap called High Frequency Heap; 
+- Static members are stored in a special area inside the heap called High Frequency Heap;
 - So the changes done by one instance will be reflected in all the other instances;
 
 **Points to Remember:**
@@ -107,7 +112,7 @@ Inside static constructor.
 - Static cannot be used with indexers, destructors or types other than classes;
 - A static constructor in a non-static class runs only once when the class is instantiated for the first time;
 - A static constructor in a static class runs only once when any of its static members accessed for the first time;
-- Static members are allocated in high frequency heap area of the memory; 
+- Static members are allocated in high frequency heap area of the memory;
 
 **Links:**
 

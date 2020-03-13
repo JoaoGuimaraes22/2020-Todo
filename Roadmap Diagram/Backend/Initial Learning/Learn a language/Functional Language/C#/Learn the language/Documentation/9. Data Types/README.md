@@ -42,6 +42,7 @@
 - Can be assigned values of any other types, value types, reference types, predefined or user-defined types;
 - When a value type is converted to object type, and when an object type is converted to a value type, it is called unboxing.
 - For example:
+
 ```
 object obj;
 obj = 100; // this is boxing
@@ -68,12 +69,14 @@ obj = 100; // this is boxing
 - Is a type that doesn't have any name;
 - The implicitly typed variable- var is used to hold the reference of anonymous types;
 - Example:
+
 ```
-var myAnonymousType = new { firstProperty = "First", 
-    secondProperty = 2, 
-    thirdProperty = true 
+var myAnonymousType = new { firstProperty = "First",
+    secondProperty = 2,
+    thirdProperty = true
 };
-``` 
+```
+
 - An anonymous type is a temporary data type that is inferred based on the data that you include in an object initializer;
 - Properties of anonymous types will be read-only properties so you cannot change their values;
 
@@ -81,6 +84,7 @@ var myAnonymousType = new { firstProperty = "First",
 
 - An anonymous type can have another anonymous type as a property;
 - For example:
+
 ```
 var myAnonymousType = new
                         {
@@ -96,6 +100,7 @@ var myAnonymousType = new
 - An anonymous type will always be local to the method where it is defined;
 - You can only pass them a method that accepts a parameter of dynamic type;
 - Example:
+
 ```
 static void Main(string[] args)
 {
@@ -104,7 +109,7 @@ static void Main(string[] args)
                             {
                                 firstProperty = "First Property",
                                 secondProperty = 2,
-                                thirdProperty = true               
+                                thirdProperty = true
                             };
 
     DoSomethig(myAnonymousType);
@@ -115,7 +120,9 @@ static void DoSomethig(dynamic param)
     Console.WriteLine(param.firstProperty);
 }
 ```
+
 - Returns:
+
 ```
 First Property
 ```
@@ -135,6 +142,7 @@ First Property
 - Every data type has a default value;
 - Numeric type is 0, boolean has false and char has '/0' as default value;
 - Use default(typename) to assign a default value of the data type or C# 7.1 onward, use default literal, for example:
+
 ```
 int i = default(int); // 0
 float f = default(float);// 0
@@ -149,6 +157,7 @@ decimal d = default;// 0
 bool b = default;// false
 char c = default;// '\0'
 ```
+
 **See More:**
 
 - See more in-depth about:
@@ -166,7 +175,6 @@ char c = default;// '\0'
 - Value type passes byval by default;
 - Reference type passes byref by default;
 - Value types and reference types stored in Stack and Heap in the memory depends on the scope of the variable;
-
 
 **Links:**
 

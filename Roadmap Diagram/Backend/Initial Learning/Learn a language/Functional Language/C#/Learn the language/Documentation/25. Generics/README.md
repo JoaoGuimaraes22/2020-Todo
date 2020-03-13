@@ -3,7 +3,7 @@
 **Here you will learn about:**
 
 - Generics;
-   - Generics Constraints;
+  - Generics Constraints;
 
 **Overview:**
 

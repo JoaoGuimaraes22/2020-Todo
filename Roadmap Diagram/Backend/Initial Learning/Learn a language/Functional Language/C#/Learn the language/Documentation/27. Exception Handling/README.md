@@ -169,7 +169,7 @@ Catch(Exception e) {
 - The finally block cannot have a return or break because it isn't allow to leave the control;
 - Nested try-catch blocks are allowed in C#;
 - An Exception will be catched in the inner catch block if appropriate filter found, otherwise will be catched by outer catch block;
-- 
+-
 
 **Links:**
 

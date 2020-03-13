@@ -9,15 +9,16 @@
 ```
 for (variable initialization; condition; steps)
 {
-    //execute this code block as long as condition is satisfied 
+    //execute this code block as long as condition is satisfied
 }
 ```
+
 - Variable initialization:
-    - Declare & initialize a variable here which will be used in conditional expression and steps part;
+  - Declare & initialize a variable here which will be used in conditional expression and steps part;
 - Condition:
-    - The condition is a boolean expression which will return either true or false;
+  - The condition is a boolean expression which will return either true or false;
 - Steps:
-    - The steps defines the incremental or decremental part;
+  - The steps defines the incremental or decremental part;
 
 **Example:**
 
@@ -27,7 +28,9 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine("Value of i: {0}", i);
 }
 ```
+
 - Returns:
+
 ```
 Value of i: 0
 Value of i: 1
@@ -50,19 +53,22 @@ Value of i: 9
 
 - It will be an infinite loop if for loop does not contain initialization, condition or steps part;
 - Example:
+
 ```
 for (  ;  ; )
 {
     Console.Write(1);
 }
 ```
-- Returns: 
-    - `1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1...`;
+
+- Returns:
+  - `1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1...`;
 
 **break in for Loop:**
 
 - You can exit from a for loop using `break`;
 - Example:
+
 ```
 for (int i = 0; i < 10; i++)
 {
@@ -72,7 +78,9 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine("Value of i: {0}", i);
 }
 ```
+
 - Returns:
+
 ```
 Value of i: 0
 Value of i: 1
@@ -85,6 +93,7 @@ Value of i: 4
 
 - C# allows a for loop inside another for loop:
 - Example:
+
 ```
 for (int i = 0; i < 10; i++)
 {

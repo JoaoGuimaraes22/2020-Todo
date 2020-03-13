@@ -60,6 +60,7 @@ Welcome Tutorials Point
 
 - Events can pass data as an argument to their subscribed handler;
 - Example:
+
 ```
 public class PrintHelper
 {
@@ -98,7 +99,7 @@ public class PrintHelper
 
         Console.WriteLine("Temperature: {0,4:N1} F", num);
     }
-    
+
     public void PrintHexadecimal(int dec)
     {
         if (beforePrintEvent != null)

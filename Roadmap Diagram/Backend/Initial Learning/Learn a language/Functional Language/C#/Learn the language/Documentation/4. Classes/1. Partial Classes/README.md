@@ -21,6 +21,7 @@ public partial class MyPartialClass
 }
 
 ```
+
 ```
 PartialClassFile2.cs
 
@@ -32,14 +33,16 @@ public partial class MyPartialClass
     }
 }
 ```
+
 - Then, the compiler combines these two partial classes into one class as shown below:
+
 ```
 public class MyPartialClass
 {
     public MyPartialClass()
     {
     }
-        
+
     public void Method1(int val)
     {
         Console.WriteLine(val);
@@ -69,6 +72,7 @@ public class MyPartialClass
 - A partial class or struct may contain partial methods;
 - If the partial method doesn't have an implementation in any part then the compiler will not generate that method in the final class;
 - For example:
+
 ```
 PartialClassFile1.cs:
 
@@ -78,7 +82,7 @@ public partial class MyPartialClass
 
     public MyPartialClass()
     {
-            
+
     }
 
     public void Method2(int val)
@@ -87,6 +91,7 @@ public partial class MyPartialClass
     }
 }
 ```
+
 ```
 PartialClassFile2.cs
 
@@ -103,6 +108,7 @@ public partial class MyPartialClass
     }
 }
 ```
+
 - Here, PartialClassFile1.cs contains the declaration of the partial method and PartialClassFile2.cs contains the implementation of the partial method;
 
 **Requirements for Partial Method:**

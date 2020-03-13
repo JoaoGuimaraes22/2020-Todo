@@ -1,13 +1,13 @@
 ## Numbers
- 
+
 **Overview:**
 
 - Can be divided into two types:
-    - Integer type numbers are whole numbers without decimal points;
-    - Floating-point type is numbers with one or more decimal points;
+  - Integer type numbers are whole numbers without decimal points;
+  - Floating-point type is numbers with one or more decimal points;
 
 **Integer Types:**
-   
+
 - Positive or negative whole numbers without decimal points;
 - Includes byte, short, int, and long;
 
@@ -59,6 +59,7 @@
 
 - Use e or E to indicate the power of 10 as exponent part of scientific notation with float, double or decimal;
 - Example:
+
 ```
 double d = 0.12e2;
 Console.WriteLine(d);  // 12;

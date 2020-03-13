@@ -3,7 +3,7 @@
 **Here you will learn:**
 
 - Classes;
-   - Partial Classes;
+  - Partial Classes;
 
 **Overview:**
 

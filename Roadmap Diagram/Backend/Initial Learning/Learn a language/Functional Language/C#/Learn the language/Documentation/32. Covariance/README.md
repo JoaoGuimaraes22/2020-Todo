@@ -7,7 +7,7 @@
 
 ```
 public class Small
-{ 
+{
 
 }
 public class Big: Small
@@ -15,10 +15,11 @@ public class Big: Small
 
 }
 public class Bigger : Big
-{ 
-    
+{
+
 }
 ```
+
 - Here, small is a base class for big and big is a base class for bigger;
 - A derived class will always have something more than a base class, so the base class is relatively smaller than the derived class
 - An instance can accept big even if it demands small, but it cannot accept small if it demands big;
@@ -33,6 +34,7 @@ public class Bigger : Big
 **Covariance w/ delegate:**
 
 - Covariance in delegates allows flexiblity in the return type of delegate methods, for example:
+
 ```
 public delegate Small covarDel(Big mc);
 
@@ -42,16 +44,16 @@ class Program
     static Big Method1(Big bg)
     {
         Console.WriteLine("Method1");
-    
+
         return new Big();
     }
     static Small Method2(Big bg)
     {
         Console.WriteLine("Method2");
-    
+
         return new Small();
     }
-        
+
     static void Main(string[] args)
     {
         covarDel del = Method1;
@@ -63,11 +65,14 @@ class Program
     }
 }
 ```
+
 - Returns:
+
 ```
 Method1
 Method2
 ```
+
 - Here, covariance allows you to assign a method to the delegate that has a less derived return type;
 
 **Contravariance:**
@@ -75,6 +80,7 @@ Method2
 - Applied to parameters;
 - Allows a method with the parameter of a base class to be assigned to a delegate that expects the parameter of a derived class;
 - For example:
+
 ```
 delegate Small covarDel(Big mc);
 
@@ -94,7 +100,7 @@ class Program
     static Small Method3(Small sml)
     {
         Console.WriteLine("Method3");
-        
+
         return new Small();
     }
     static void Main(string[] args)
@@ -106,12 +112,15 @@ class Program
         Small sm = del(new Big());
 }
 ```
+
 - Returns:
+
 ```
 Method1
 Method2
 Method3
 ```
+
 - As you can see, Method3 has a parameter of Small class whereas delegate expects a parameter of Big class. Still, you can use Method3 with the delegate;
 
 - You can also use covariance and contravariance in the same method;

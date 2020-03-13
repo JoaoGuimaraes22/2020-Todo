@@ -9,6 +9,7 @@
 
 - Constraints can be applied using the where keyword;
 - Example:
+
 ```
 class MyGenericClass<T> where T: class
 {
@@ -23,16 +24,18 @@ class MyGenericClass<T> where T: class
     {
         Console.WriteLine("Parameter type: {0}, value: {1}", typeof(T).ToString(),genericParameter);
         Console.WriteLine("Return type: {0}, value: {1}", typeof(T).ToString(), genericMemberVariable);
-            
+
         return genericMemberVariable;
     }
 
     public T genericProperty { get; set; }
 }
 ```
+
 - So now, you cannot use int as a placeholder type. The following would give a compile time error;
 - String or any class type is a valid type because it is a reference type.
 - Example:
+
 ```
 MyGenericClass<string> strGenericClass = new MyGenericClass<string>("Hello World");
 
@@ -42,6 +45,7 @@ MyGenericClass<Student> strGenericClass = new MyGenericClass<Student>(new Studen
 **Multiple Constraints:**
 
 - A generic class can have multiple constraints as shown below:
+
 ```
 class MyGenericClass<T, U> where T: class where U:struct
 {

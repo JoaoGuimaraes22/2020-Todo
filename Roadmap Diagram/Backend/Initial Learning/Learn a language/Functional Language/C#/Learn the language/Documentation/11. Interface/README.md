@@ -27,9 +27,9 @@ public interface ITransactions {
 class Cello : IPen
 {
     public string Color { get; set; }
-        
+
     private bool isOpen = false;
-        
+
     public bool Close()
     {
         isOpen = false;
@@ -42,7 +42,7 @@ class Cello : IPen
     {
         isOpen = true;
         Console.WriteLine("Cello open for writing!");
-            
+
         return isOpen;
     }
 
@@ -59,13 +59,14 @@ class Cello : IPen
 
 - Explicit implementation is useful when class is implementing multiple interface thereby it is more readable and eliminates the confusion;
 - Example:
+
 ```
 class Cello : IPen
 {
     string IPen.Color { get; set; }
-        
+
     private bool isOpen = false;
-        
+
     bool IPen.Close()
     {
         isOpen = false;
@@ -78,7 +79,7 @@ class Cello : IPen
     {
         isOpen = true;
         Console.WriteLine("Cello open for writing!");
-            
+
         return isOpen;
     }
 
@@ -95,6 +96,7 @@ class Cello : IPen
 
 - A class or struct can implement multiple interfaces and must define all the members of all interfaces;
 - For example:
+
 ```
 interface IBrandedPen
 {
@@ -106,14 +108,16 @@ class Parker : IPen, IBrandedPen
     //Implement all members of IPen and IBrandedPen
 }
 ```
+
 - Now, the Parker class can be instantiated and assigned to either IPen or IBrandedPen interface, as shown below:
+
 ```
 IPen pen1 = new Parker();
-pen1.Open();// valid 
+pen1.Open();// valid
 pen1.GetBrandName(); //Compile-time error. Cannot call IBrandedPen method on the object of type IPen
 
 IBrandedPen pen2 = new Parker();
-pen2.GetBrandName();// valid 
+pen2.GetBrandName();// valid
 pen2.Open();//Compile-time error. Cannot call IPen method on the object of type IBrandedPen
 ```
 
@@ -129,8 +133,7 @@ pen2.Open();//Compile-time error. Cannot call IPen method on the object of type 
 - Implement interface explicitly using InterfaceName. with all the members;
 - An interface can inherit one or more interfaces;
 
-
 **Links:**
 
 - https://www.tutorialspoint.com/csharp/csharp_interfaces.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-interface ;   
+- https://www.tutorialsteacher.com/csharp/csharp-interface ;

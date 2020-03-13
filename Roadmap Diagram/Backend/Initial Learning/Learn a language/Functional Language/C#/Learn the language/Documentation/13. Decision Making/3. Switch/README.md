@@ -23,7 +23,7 @@ switch(expression)
     case <valueN>
         // code block
         break;
-    default 
+    default
         // code block
         break;
 }
@@ -32,6 +32,7 @@ switch(expression)
 **Example:**
 
 - Example:
+
 ```
 string statementType = "switch";
 
@@ -48,7 +49,9 @@ switch (statementType)
         break;
 }
 ```
+
 - Returns:
+
 ```
 switch statement
 ```
@@ -56,6 +59,7 @@ switch statement
 **Goto in switch:**
 
 - You can use goto to jump over a different case:
+
 ```
 string statementType = "switch";
 
@@ -75,10 +79,13 @@ switch (statementType)
         goto case "DecisionMaking";
 }
 ```
+
 - Returns:
+
 ```
 switch statement is a decision making statement.
 ```
+
 - Allows nesting;
 
 **Points to remember:**

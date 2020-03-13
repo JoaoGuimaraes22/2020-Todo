@@ -10,6 +10,7 @@
 ```
 dynamic dynamicVariable = 1;
 ```
+
 - Compiles into objects in most cases;
 
 **Features:**
@@ -24,9 +25,10 @@ dynamic dynamicVariable = 1;
 
 - A method can have dynamic type parameters so that it can accept any type of parameter at run time;
 - Example:
+
 ```
 class Program
-{    
+{
     static void PrintValue(dynamic val)
     {
         Console.WriteLine(val);
@@ -43,7 +45,9 @@ class Program
     }
 }
 ```
+
 - Returns:
+
 ```
 Hello World!!
 100
@@ -59,7 +63,6 @@ True
 - The dynamic types don't have Intellisense support in Visual Studio;
 - A method can have parameters of the dynamic type;
 - An exception is thrown at runtime if a method or property is not compatible;
-
 
 **Links:**
 

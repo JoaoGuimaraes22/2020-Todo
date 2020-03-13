@@ -39,10 +39,10 @@ class Program
     {
         // Print delegate points to PrintNumber
         Print printDel = PrintNumber;
-        
+
         // or
         // Print printDel = new Print(PrintNumber);
-            
+
         printDel(100000);
         printDel(200);
 
@@ -187,7 +187,6 @@ The String is: Hello World
 - A method that is going to assign to delegate must have same signature as delegate;
 - Delegates can be invoke like a normal function or Invoke() method;
 - Multiple methods can be assigned to the delegate using "+" operator. It is called multicast delegate;
-
 
 **Links:**
 

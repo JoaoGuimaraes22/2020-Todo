@@ -12,9 +12,12 @@
 
 - Lambda expression is a shorter way of representing anonymous method using some special syntax;
 - Example:
+
 ```
+
 s => s.age > 18;
 ```
+
 - Learn more in the LINQ Section;
 
 **Links:**

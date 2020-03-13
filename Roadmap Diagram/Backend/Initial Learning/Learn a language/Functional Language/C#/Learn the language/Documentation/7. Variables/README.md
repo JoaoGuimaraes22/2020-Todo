@@ -35,6 +35,7 @@
 - Variables can be initalized in their definition:
   - `<data_type> <variable_name> = value;`;
 - You can also do multi-line declarations, for example:
+
 ```
 int i, j, k, l = 0;
 
@@ -66,10 +67,12 @@ num = Convert.ToInt32(Console.ReadLine());
 - Var can only be defined in a method as a local variable;
 - The compiler will infer its type based on the value to the right of the "=" operator;
 - Example:
+
 ```
-int i = 100;// explicitly typed 
+int i = 100;// explicitly typed
 var j = 100; // implicitly typed
 ```
+
 - Implicitly-typed variables must be initialized;
 - Multiple declerations of var variables in a single statement is not allowed;
 - var cannot be used for function parameters;

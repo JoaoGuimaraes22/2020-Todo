@@ -15,7 +15,7 @@
 
 ```
 delegate void NumberChanger(int n);
-...   
+...
 NumberChanger nc = delegate(int x) {
    Console.WriteLine("Anonymous Method: {0}", x);
 };

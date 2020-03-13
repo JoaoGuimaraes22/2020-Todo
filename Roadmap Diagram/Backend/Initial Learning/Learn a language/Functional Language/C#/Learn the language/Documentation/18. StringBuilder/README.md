@@ -8,13 +8,15 @@
 **StringBuilder Initialization:**
 
 - Syntax:
+
 ```
 StringBuilder sb = new StringBuilder();
-            
+
 //or
 
 StringBuilder sb = new StringBuilder("Hello World!!");
 ```
+
 - You can give an initial capacity of characters by passing an int value in the constructor;
 
 **Important Methods of StringBuilder:**

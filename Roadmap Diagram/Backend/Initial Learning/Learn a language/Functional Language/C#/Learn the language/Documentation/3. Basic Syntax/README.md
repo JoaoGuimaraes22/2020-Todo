@@ -3,7 +3,7 @@
 **Here you will learn about:**
 
 - Basic Syntax;
-   - Keywords;
+  - Keywords;
 
 **Overview:**
 

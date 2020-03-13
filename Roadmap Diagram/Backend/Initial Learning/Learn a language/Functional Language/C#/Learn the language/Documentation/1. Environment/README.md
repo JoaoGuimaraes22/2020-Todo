@@ -33,7 +33,7 @@
 **Common Language Runtime (CLR):**
 
 - The CLR or CLI is platform on which the .Net programs are executed;
-- Features: 
+- Features:
   - Exception Handling:
   - Garbage Collection:
     - The process of removing unwanted resources when they are no longer required;

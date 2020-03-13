@@ -8,12 +8,13 @@
 
 - You can declare nullable types using Nullable<t> where T is a type;
 - Example:
-   - `Nullable<int> i = null;`;
+  - `Nullable<int> i = null;`;
 
 **Shorthand Syntax for Nullable Types:**
 
 - You can use the '?' operator to shorthand the syntax e.g. int?, long? instead of using Nullable<T>;
 - Example:
+
 ```
 int? i = null;
 double? D = null;
@@ -23,16 +24,19 @@ double? D = null;
 
 - Use the '??' operator to assign a nullable type to a non-nullable type;
 - Example:
+
 ```
 int? i = null;
-            
+
 int j = i ?? 0;
 
 Console.WriteLine(j);
 ```
+
 - Returns:
+
 ```
-0  
+0
 ```
 
 **Assignment Rules:**
@@ -46,6 +50,7 @@ Console.WriteLine(j);
 - Nullable static class is a helper class for Nullable types;
 - It provides a compare method to compare nullable types;
 - Example:
+
 ```
 static void Main(string[] args)
 {
@@ -58,9 +63,11 @@ static void Main(string[] args)
         Console.WriteLine("i > j");
     else
         Console.WriteLine("i = j");
-} 
+}
 ```
+
 - Returns:
+
 ```
 i < j
 ```

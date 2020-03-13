@@ -29,6 +29,7 @@ struct Employee
 - A struct cannot contain parameterless constructor;
 - Good for initializing struct members;
 - Example:
+
 ```
 struct Employee
 {
@@ -46,9 +47,9 @@ struct Employee
 
 Employee emp = new Employee(10, "Bill", "Gates");
 
-Console.Write(emp.EmpId); // prints 10  
-Console.Write(emp.FirstName); // prints Bill  
-Console.Write(emp.LastName); // prints Gates  
+Console.Write(emp.EmpId); // prints 10
+Console.Write(emp.FirstName); // prints Bill
+Console.Write(emp.LastName); // prints Gates
 ```
 
 **Features of Structures:**
