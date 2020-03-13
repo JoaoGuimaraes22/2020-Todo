@@ -25,6 +25,13 @@ Console.WriteLine(result);
   - `x is greater than y`;
 - The ternary operator can return any data type;
 
+**Points to Remember:**
+
+- Ternary operator: `boolean expression ? first statement : second statement`;
+- Ternary operator returns a value, it does not execute it;
+- It can be used to replace a short if-else statement;
+- A nested ternary operator is allowed. It will be evaluted from right to left;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-ternary-operator ;

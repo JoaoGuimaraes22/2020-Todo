@@ -1,5 +1,12 @@
 ## Decision Making
 
+**Here you will learn about:**
+
+- Decision Making;
+   - If Conditions;
+   - Ternary Operator;
+   - Switch;
+
 **Overview:**
 
 - Decision making structures requires the programmer to specify one or more conditions to be evaluated or tested by the program;

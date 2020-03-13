@@ -90,6 +90,14 @@ if (i > 0)
 }
 ```
 
+**Points to Remember:**
+
+- if-else statement controls the flow of program based on the evaluation of the boolean expression;
+- It should start from the if statement followed by else or else-if statements;
+- Only one else statement is allowed in the if-else chain;
+- Multiple else-if statements are allowed in a single if-else chain;
+- Nested if-else statement is allowed;
+
 **Links:**
 
 - https://www.tutorialsteacher.com/csharp/csharp-if-else;

@@ -87,6 +87,9 @@
 - `%=`:
   - Modulus AND assignment operator;
   - It takes modulus using two operands and assigns the result to left operand;
+- `??=`:
+  - Null-coalescing assignment;
+  - Assigns value of the right operand only if the left operand is null
 - There are more for shift and bitwise operations, less used;
 
 **Miscellaneous Operators:**
