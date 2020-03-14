@@ -4,9 +4,8 @@
 
 - Learn the language;
 - Frameworks and tools:
-  - .NET Core;
-  - .NET Framework;
   - ASP.NET;
   - Entity Framework;
+  - IoC;
   - LINQ;
   - Others;

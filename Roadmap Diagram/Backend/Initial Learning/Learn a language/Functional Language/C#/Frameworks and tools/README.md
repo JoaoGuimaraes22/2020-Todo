@@ -1,10 +1,9 @@
-## Frameworks and tools
+# Frameworks and tools
 
-**What you will learn is:**
+## What you will learn is
 
-- .NET Core;
-- .NET Framework;
 - ASP.NET;
 - Entity Framework;
+- IoC;
 - LINQ;
 - Others;
