@@ -1,6 +1,6 @@
-## Operators
+# Operators
 
-**What is it:**
+## What is it
 
 - It's a symbol that tells the compiler to perform specific mathematical or logical manipulations;
 - Some operators behave differently based on the type of the operands;
@@ -15,7 +15,7 @@
   - Type-cast operators;
   - Pointer related operators;
 
-**Arithmetic Operators:**
+## Arithmetic Operators
 
 - Examples:
   - `+`:
@@ -33,7 +33,7 @@
   - `--`:
     - Decrement operator decreases integer value by one;
 
-**Relational Operators:**
+## Relational Operators
 
 - Examples:
   - `==`:
@@ -49,7 +49,7 @@
   - `<=`:
     - Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true;
 
-**Logical Operators:**
+## Logical Operators
 
 - Examples:
   - `&&`:
@@ -63,11 +63,11 @@
     - Used to reverses the logical state of its operand;
     - If a condition is true then Logical NOT operator will make false;
 
-**Bitwise Operators:**
+## Bitwise Operators
 
 - Bitwise operator works on bits and perform bit by bit operation, with truth tables;
 
-**Assignment Operators:**
+## Assignment Operators
 
 - `=`:
   - Assignment operator;
@@ -92,7 +92,7 @@
   - Assigns value of the right operand only if the left operand is null
 - There are more for shift and bitwise operations, less used;
 
-**Miscellaneous Operators:**
+## Miscellaneous Operators
 
 - Examples:
   - `sizeof()`:
@@ -110,12 +110,12 @@
   - `as`:
     - Cast without raising an exception if the cast fails;
 
-**See more:**
+## See more
 
-- See more at -> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/ ;
+- See more at -> <https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/> ;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_operators.htm ;
-- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/ ;
-- https://www.tutorialsteacher.com/csharp/csharp-operators ;
+- <https://www.tutorialspoint.com/csharp/csharp_operators.htm> ;
+- <https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-operators> ;

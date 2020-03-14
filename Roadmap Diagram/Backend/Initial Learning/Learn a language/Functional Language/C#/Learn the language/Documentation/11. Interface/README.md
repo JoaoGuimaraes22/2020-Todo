@@ -1,6 +1,6 @@
-## Interfaces
+# Interfaces
 
-**Overview:**
+## Overview
 
 - Is defined as a syntactical contract that all the classes inheriting the interface should follow;
 - The interface defines the 'what' part of the syntactical contract and the deriving classes define the 'how' part of the syntactical contract;
@@ -8,12 +8,12 @@
 - You can't use access modifiers for interfaces;
 - Can only contain declarations;
 
-**Declaring Interfaces:**
+## Declaring Interfaces
 
 - Interfaces are declared using the interface keyword;
 - For example:
 
-```
+```c#
 public interface ITransactions {
    // interface members
    void showTransaction();
@@ -21,9 +21,9 @@ public interface ITransactions {
 }
 ```
 
-**Example:**
+## Example
 
-```
+```c#
 class Cello : IPen
 {
     public string Color { get; set; }
@@ -55,12 +55,12 @@ class Cello : IPen
 }
 ```
 
-**Explicit Interface Implementation:**
+## Explicit Interface Implementation
 
 - Explicit implementation is useful when class is implementing multiple interface thereby it is more readable and eliminates the confusion;
 - Example:
 
-```
+```c#
 class Cello : IPen
 {
     string IPen.Color { get; set; }
@@ -92,12 +92,12 @@ class Cello : IPen
 }
 ```
 
-**Implement Multiple Interfaces:**
+## Implement Multiple Interfaces
 
 - A class or struct can implement multiple interfaces and must define all the members of all interfaces;
 - For example:
 
-```
+```c#
 interface IBrandedPen
 {
     string GetBrandName();
@@ -111,7 +111,7 @@ class Parker : IPen, IBrandedPen
 
 - Now, the Parker class can be instantiated and assigned to either IPen or IBrandedPen interface, as shown below:
 
-```
+```c#
 IPen pen1 = new Parker();
 pen1.Open();// valid
 pen1.GetBrandName(); //Compile-time error. Cannot call IBrandedPen method on the object of type IPen
@@ -123,7 +123,7 @@ pen2.Open();//Compile-time error. Cannot call IPen method on the object of type 
 
 - An interface can also inherit one or more interfaces;
 
-**Points to Remember:**
+## Points to Remember
 
 - An interface only contains declarations of method, properties, indexers, and events;
 - An interface can be implement implicitly or explicitly by a class or struct;
@@ -133,7 +133,7 @@ pen2.Open();//Compile-time error. Cannot call IPen method on the object of type 
 - Implement interface explicitly using InterfaceName. with all the members;
 - An interface can inherit one or more interfaces;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_interfaces.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-interface ;
+- <https://www.tutorialspoint.com/csharp/csharp_interfaces.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-interface> ;

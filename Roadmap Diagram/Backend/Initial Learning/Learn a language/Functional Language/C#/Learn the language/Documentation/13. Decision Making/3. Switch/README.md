@@ -1,17 +1,17 @@
-## Switch
+# Switch
 
-**Overview:**
+## Overview
 
 - Executes the code block depending upon the resulted value of an expression;
 
-**Syntax:**
+## Syntax
 
 - Switch statement contains an expression into brackets;
 - Includes multiple case labels, where each case represents a particular literal value;
 - Seperated by a break keyword which stops the execution of a particular case;
 - Can include a default case to execute if no case value satisfies the expression
 
-```
+```c#
 switch(expression)
 {
     case <value1>
@@ -29,11 +29,11 @@ switch(expression)
 }
 ```
 
-**Example:**
+## Example
 
 - Example:
 
-```
+```c#
 string statementType = "switch";
 
 switch (statementType)
@@ -52,15 +52,15 @@ switch (statementType)
 
 - Returns:
 
-```
+```c#
 switch statement
 ```
 
-**Goto in switch:**
+## Goto in switch
 
 - You can use goto to jump over a different case:
 
-```
+```c#
 string statementType = "switch";
 
 switch (statementType)
@@ -82,13 +82,13 @@ switch (statementType)
 
 - Returns:
 
-```
+```markdown
 switch statement is a decision making statement.
 ```
 
 - Allows nesting;
 
-**Points to remember:**
+## Points to remember
 
 - The switch statement tests the variable against a set of constants.;
 - The switch statement contains multiple case labels;
@@ -96,6 +96,6 @@ switch statement is a decision making statement.
 - The default case executes when no case satisfies the expression;
 - A nested switch statement is allowed;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-switch ;
+- <https://www.tutorialsteacher.com/csharp/csharp-switch> ;

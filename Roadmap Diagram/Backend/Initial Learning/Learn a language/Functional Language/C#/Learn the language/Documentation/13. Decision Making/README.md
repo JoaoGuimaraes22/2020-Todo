@@ -1,19 +1,19 @@
-## Decision Making
+# Decision Making
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Decision Making;
-   - If Conditions;
-   - Ternary Operator;
-   - Switch;
+  - If Conditions;
+  - Ternary Operator;
+  - Switch;
 
-**Overview:**
+## Overview
 
 - Decision making structures requires the programmer to specify one or more conditions to be evaluated or tested by the program;
 - Then, you code a statement or statements to be executed if the condition is determined to be true;
 - And optionally, other statements to be executed if the condition is determined to be false;
 
-**Types of conditional statements:**
+## Types of conditional statements
 
 - `if` statement;
 - `if...else` statement;
@@ -22,12 +22,12 @@
 - nested `switch` statements;
 - ternary statements;
 
-**If statement:**
+## If statement
 
 - Consists of a boolean expression followed by one or more statements;
 - Syntax:
 
-```
+```c#
 if(boolean_expression) {
    /* statement(s) will execute if the boolean expression is true */
 }
@@ -38,7 +38,7 @@ if(boolean_expression) {
 - Can be followed by an optional else statement, which executes when the boolean expression is false;
 - Syntax:
 
-```
+```c#
 if(boolean_expression) {
    /* statement(s) will execute if the boolean expression is true */
 } else {
@@ -50,7 +50,7 @@ if(boolean_expression) {
 - You can use one if or else if statement inside another if or else if statement(s);
 - Syntax:
 
-```
+```c#
 if( boolean_expression 1) {
    /* Executes when the boolean expression 1 is true */
    if(boolean_expression 2) {
@@ -59,13 +59,13 @@ if( boolean_expression 1) {
 }
 ```
 
-**Switch statements:**
+## Switch statements
 
 - Allows a variable to be tested for equality against a list of values;
 - Each value is called a case, and the variable being switched on is checked for each switch case;
 - Syntax:
 
-```
+```c#
 switch(expression) {
    case constant-expression1  :
       statement(s);
@@ -88,11 +88,12 @@ switch(expression) {
 - When a break statement is reached, the switch terminates, and the flow of control jumps to the next line following the switch statement;
 - A switch statement can have an optional default case, which must appear at the end of the switch. The default case can be used for performing a task when none of the cases is true;
 
-**Goto in switch:**
+## Goto in switch
 
 - The switch case can use goto to jump over a different case;
 - Example:
-```
+
+```c#
 string statementType = "switch";
 
 switch (statementType)
@@ -112,40 +113,43 @@ switch (statementType)
 }
 ```
 
-**The ternary operator:**
+## The ternary operator
 
 - Can be used to replace if...else statements;
 - Syntax:
 
-```
+```c#
 Boolean Expression ? First Statement : Second Statement;
 ```
 
 - The value of a ? expression is determined as follows:
+
   - First part (before ?) includes conditional expression that returns boolean value true or false;
   - Second part (after ? and before :) contains a statement which will be returned if the conditional expression in the first part evalutes to true;
   - The third part includes another statement which will be returned if the conditional expression returns false;
 
 - Can return a value of any type;
 
-**Nested Ternary Operator:**
+## Nested Ternary Operator
 
 - Possible by including conditional expression as a second (after ?) or third part (after :) of the ternary operator;
 - Example:
-```
+
+```c#
 int x = 2, y = 10;
 
-string result = x > y ? "x is greater than y" : x < y ? 
-                "x is less than y" : x == y ? 
+string result = x > y ? "x is greater than y" : x < y ?
+                "x is less than y" : x == y ?
                 "x is equal to y" : "No result";
 ```
+
 - The ternary operator is right-associative;
 - The expression `a ? b : c ? d : e` is evaluated as `a ? b : (c ? d : e)`, not as `(a ? b : c) ? d : e`.
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_decision_making.htm ;
-- https://www.tutorialspoint.com/csharp/if_statement_in_csharp.htm ;
-- https://www.tutorialspoint.com/csharp/switch_statement_in_csharp.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-ternary-operator ;
-- https://www.tutorialsteacher.com/csharp/csharp-switch
+- <https://www.tutorialspoint.com/csharp/csharp_decision_making.htm> ;
+- <https://www.tutorialspoint.com/csharp/if_statement_in_csharp.htm> ;
+- <https://www.tutorialspoint.com/csharp/switch_statement_in_csharp.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-ternary-operator> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-switch>

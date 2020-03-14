@@ -1,32 +1,32 @@
-## Anonymous Type
+# Anonymous Type
 
-**Overview:**
+## Overview
 
 - Is a type that doesn't have any name;
 - Allows you to create an object with the new keyword without defining its class
 - The implicitly typed variable - `var` is used to hold the reference of anonymous types;
 - Example:
 
-```
+```c#
 var myAnonymousType = new { firstProperty = "First",
     secondProperty = 2,
     thirdProperty = true
 };
 ```
 
-**Features:**
+## Features
 
 - An anonymous type is a temporary data type that is inferred based on the data that you include in an object initializer;
 - Properties of anonymous types will be read-only properties so you cannot change their values;
 - Anonymous types have intellisense support in Visual Studio;
 - Internally, the compiler automatically generates the new type for anonymous types;
 
-**Nested Anonymous Type:**
+## Nested Anonymous Type
 
 - An anonymous type can have another anonymous type as a property:
 - For example:
 
-```
+```c#
 var myAnonymousType = new
                         {
                             firstProperty = "First",
@@ -38,12 +38,12 @@ var myAnonymousType = new
 
 - Nested anonymous types also have intellisense support;
 
-**Scope of Anonymous Type:**
+## Scope of Anonymous Type
 
 - Usually, you cannot pass an anonymus type to another method; however, you can pass it to a method that accepts a parameter of dynamic type;
 - For example:
 
-```
+```c#
 static void Main(string[] args)
 {
 
@@ -65,16 +65,16 @@ static void DoSomethig(dynamic param)
 
 - Returns:
 
-```
+```markdown
 First Property
 ```
 
-**Anonymous Types with a LINQ Query:**
+## Anonymous Types with a LINQ Query
 
 - Linq Select clause creates an anonymous type as a result of a query to include various properties which is not defined in any class;
 - For example:
 
-```
+```c#
 public class Student
 {
     public int StudentID { get; set; }
@@ -102,13 +102,13 @@ class Program
 }
 ```
 
-**Points to Remember:**
+## Points to Remember
 
 - Anonymous type can be defined using the new keyword and object initializer syntax;
 - The implicitly typed variable - `var`, is used to hold an anonymous type;
 - Anonymous type is a reference type and all the properties are read-only;
 - The scope of an anonymous type is local to the method where it is defined;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-anonymous-type ;
+- <https://www.tutorialsteacher.com/csharp/csharp-anonymous-type> ;
