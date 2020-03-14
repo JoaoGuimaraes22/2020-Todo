@@ -1,24 +1,24 @@
-## Web Development Roadmap
+# Web Development Roadmap
 
 - I'll follow the route described in the roadmap to upgrade myself;
 - There will be notes in the folders for every section;
 
-### How to follow this:
+## How to follow this:
 
 - Clone the repo;
 - Go through the files as described below + numerical order -> 1. , 2. , ... ;
 
-**Here you will learn about:**
+## Here you will learn about:
 
-- **The General Knowledge Route:**
+### The General Knowledge Route:
 
-  - Version Control;
-  - Basic Command Line;
-  - Web;
-  - Good Practises;
-  - Research;
-  - Code Editor;
-  - Data Structures and Algorithms;
+- Version Control;
+- Basic Command Line;
+- Web;
+- Good Practises;
+- Research;
+- Code Editor;
+- Data Structures and Algorithms;
 
 - **The Frontend Route:**
 
