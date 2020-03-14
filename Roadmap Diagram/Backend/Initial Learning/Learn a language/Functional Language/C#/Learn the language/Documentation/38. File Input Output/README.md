@@ -1,5 +1,12 @@
 ## File I/O
 
+**Here you will learn about:**
+
+- File Input Output:
+  - Stream I/O;
+  - File;
+  - File Info;
+
 **Overview:**
 
 - A file is a collection of data stored in a disk with a specific name and a directory path;
