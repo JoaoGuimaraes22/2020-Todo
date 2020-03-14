@@ -51,7 +51,7 @@ DateTime minDateTimeValue = DateTime.MinValue; // returns min value of DateTime
 - TimeSpan is a struct that is used to represent time in days, hour, minutes, seconds, and milliseconds;
 - Example:
 
-```
+```c#
 DateTime dt = new DateTime(2015, 12, 31);
 
 TimeSpan ts = new TimeSpan(25,20,55);
@@ -114,6 +114,6 @@ else
     Console.WriteLine($"{str} is not a valid date string");
 ```
 
-**Link:**
+## Link
 
 - <https://www.tutorialsteacher.com/csharp/csharp-datetime> ;
