@@ -1,10 +1,10 @@
-## Namespaces
+# Namespaces
 
-**Overview:**
+## Overview:
 
 - Designed for providing a way to keep one set of names separate from another;
 
-**Defining a namespace:**
+## Defining a namespace:
 
 - Syntax:
 
@@ -51,7 +51,7 @@ Inside first_space
 Inside second_space
 ```
 
-**The `using` keyword:**
+## The `using` keyword:
 
 - States that the program is using the names in the given namespace;
 - For example, we are using the System namespace in our programs;
@@ -99,7 +99,7 @@ Inside first_space
 Inside second_space
 ```
 
-**Nested Namespaces:**
+## Nested Namespaces:
 
 - Syntax:
 
@@ -152,6 +152,6 @@ Inside first_space
 Inside second_space
 ```
 
-**Links:**
+## Links:
 
 - https://www.tutorialspoint.com/csharp/csharp_namespaces.htm ;

@@ -1,6 +1,6 @@
-## Methods
+# Methods
 
-**Overview:**
+## Overview:
 
 - Is a group of statements that together perform a task;
 - Every program has at least one class with a method named Main;
@@ -8,9 +8,9 @@
   - Define method;
   - Call the method;
 
-**Defining Methods in C#:**
+## Defining Methods:
 
-- The syntax is:
+- Syntax:
 
 ```
 <Access Specifier> <Return Type> <Method Name>(Parameter List) {
@@ -18,21 +18,22 @@
 }
 ```
 
-- The elements of a method are:
-  - Access specifier:
-    - Determines the visibility of a variable or a method from another class;
-  - Return value:
-    - May or may not return a value;
-    - The return type is the data type of the value the method returns;
-    - If the method is not returning any values, then the return type is void;
-  - Method name:
-    - Is a unique identifier;
-  - Paremeter List:
-    - Enclosed between parentheses, the parameters are used to pass and receive data from a method;
-    - The parameter list refers to the type, order, and number of the parameters of a method;
-    - Parameters are optional;
-  - Method body:
-    - Contains the set of instructions needed to complete the required activity;
+### The elements of a method are:
+
+- Access specifier:
+  - Determines the visibility of a variable or a method from another class;
+- Return value:
+  - May or may not return a value;
+  - The return type is the data type of the value the method returns;
+  - If the method is not returning any values, then the return type is void;
+- Method name:
+  - Is a unique identifier;
+- Paremeter List:
+  - Enclosed between parentheses, the parameters are used to pass and receive data from a method;
+  - The parameter list refers to the type, order, and number of the parameters of a method;
+  - Parameters are optional;
+- Method body:
+  - Contains the set of instructions needed to complete the required activity;
 - Example:
 
 ```
@@ -53,7 +54,7 @@ class NumberManipulator {
 }
 ```
 
-**Calling Methods:**
+## Calling Methods:
 
 - Example:
 
@@ -97,7 +98,7 @@ Max value is : 200
 
 - You can also call a method from an instance of a class;
 
-**Passing paramethers to a method:**
+## Passing paramethers to a method:
 
 - There are three ways paramethers can be passed to a method:
   - Value parameters:
@@ -109,7 +110,7 @@ Max value is : 200
   - Output parameters:
     - Helps in returning more than one value;
 
-**Links:**
+## Links:
 
 - https://www.tutorialspoint.com/csharp/csharp_methods.htm ;
 - https://docs.microsoft.com/en-us/dotnet/csharp/methods ;
