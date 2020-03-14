@@ -1,10 +1,10 @@
-## Unsafe Code
+# Unsafe Code
 
-**Overview:**
+## Overview
 
 - C# allows using pointer variables in a function of code block when it is marked by the unsafe modifier;
 
-**Pointers:**
+## Pointers
 
 - Is a variable whose value is the address of another variable;
 - You must declare a pointer before you can use it to store any variable address;
@@ -12,7 +12,7 @@
   - `type *var-name`;
 - For example:
 
-```
+```c#
 using System;
 
 namespace UnsafeCodeApplication {
@@ -31,17 +31,17 @@ namespace UnsafeCodeApplication {
 
 - Returns:
 
-```
+```markdown
 Data is: 20
 Address is: 99215364
 ```
 
-**Retrieving the Data Value using a pointer:**
+## Retrieving the Data Value using a pointer
 
 - You can retrieve the data stored at the located referenced by the pointer variable, using the ToString() method;
 - For example:
 
-```
+```c#
 using System;
 
 namespace UnsafeCodeApplication {
@@ -63,18 +63,18 @@ namespace UnsafeCodeApplication {
 
 - Returns:
 
-```
+```markdown
 Data is: 20
 Data is: 20
 Address is: 77128984
 ```
 
-**Passing pointers as paramethers to methods:**
+## Passing pointers as paramethers to methods
 
 - You can pass a pointer variable to a method as parameter;
 - For example:
 
-```
+```c#
 using System;
 
 namespace UnsafeCodeApplication {
@@ -103,17 +103,17 @@ namespace UnsafeCodeApplication {
 
 - Returns:
 
-```
+```markdown
 Before Swap: var1: 10, var2: 20
 After Swap: var1: 20, var2: 10
 ```
 
-**Accessing Array Elements using a pointer:**
+## Accessing Array Elements using a pointer
 
 - If you need to access an array data using a pointer variable, you need to use the **fixed** keyword;
 - For example:
 
-```
+```c#
 using System;
 
 namespace UnsafeCodeApplication {
@@ -136,7 +136,7 @@ namespace UnsafeCodeApplication {
 
 - Returns:
 
-```
+```markdown
 Address of list[0] = 31627168
 Value of list[0] = 10
 Address of list[1] = 31627172
@@ -145,13 +145,13 @@ Address of list[2] = 31627176
 Value of list[2] = 200
 ```
 
-**Compiling unsafe code:**
+## Compiling unsafe code
 
 - For compiling unsafe code, you have to specify the /unsafe command-line switch with command-line compiler;
 - For example:
   - `csc /unsafe prog1.cs`;
-- You can also select the <allow unsafe code> option in the Visual Studio IDE;
+- You can also select the `<allow unsafe code>` option in the Visual Studio IDE;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_unsafe_codes.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_unsafe_codes.htm> ;

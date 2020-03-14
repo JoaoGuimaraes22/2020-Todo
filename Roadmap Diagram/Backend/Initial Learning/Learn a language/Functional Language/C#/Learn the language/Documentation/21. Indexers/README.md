@@ -1,12 +1,12 @@
-## Indexers
+# Indexers
 
-**Overview:**
+## Overview
 
 - Allows an object to be indexed such as an array;
 
-**Syntax:**
+## Syntax
 
-```
+```c#
 element-type this[int index] {
 
    // The get accessor.
@@ -21,14 +21,14 @@ element-type this[int index] {
 }
 ```
 
-**Use of indexers:**
+## Use of indexers
 
 - Similar to the properties, you use get and set accessors for defining an indexer;
 - It breaks the instance data into smaller parts and indexes each part, gets or sets each part;
 - Indexers are not defined with names, but with the this keyword, which refers to the object instance;
 - For example:
 
-```
+```c#
 using System;
 
 namespace IndexerApplication {
@@ -80,7 +80,7 @@ namespace IndexerApplication {
 
 - Returns:
 
-```
+```markdown
 Zara
 Riz
 Nuha
@@ -93,12 +93,12 @@ N. A.
 N. A.
 ```
 
-**Overloaded Indexers:**
+## Overloaded Indexers
 
 - Indexers can be overloaded;
 - For example:
 
-```
+```C#
 using System;
 
 namespace IndexerApplication {
@@ -169,7 +169,7 @@ namespace IndexerApplication {
 
 - Returns:
 
-```
+```markdown
 Zara
 Riz
 Nuha
@@ -183,6 +183,6 @@ N. A.
 2
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_indexers.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_indexers.htm> ;

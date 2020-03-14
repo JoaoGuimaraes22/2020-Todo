@@ -1,34 +1,34 @@
-## Generic Collections
+# Generic Collections
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Generic Collections;
-  - List<T>;
-  - Dictionary<TKey, TValue>;
+  - List;
+  - Dictionary;
 
-**Overview:**
+## Overview
 
 - These types of collections can store any type of items;
 
-**Generic Collections:**
+## Types of Generic Collections
 
-- List<T>;
-- Dictionary<TKey, TValue>;
-- SortedList<TKey, TValue>:
+- `List<T>`;
+- `Dictionary<TKey, TValue>`;
+- `SortedList<TKey, TValue>`:
   - SortedList stores key and value pairs;
   - It automatically adds the elements in ascending order of key by default;
   - Elements are indexed;
-- HashSet<T>:
-  - Hashset<T> contains non-duplicate elements;
+- `HashSet<T>`:
+  - `Hashset<T>` contains non-duplicate elements;
   - It eliminates duplicate elements;
-- Queue<T>:
-  - Queue<T> stores the values in FIFO style (First In First Out);
+- `Queue<T>`:
+  - `Queue<T>` stores the values in FIFO style (First In First Out);
   - It keeps the order in which the values were added;
   - It provides an Enqueue() method to add values and a Dequeue() method to retrieve values from the collection;
-- Stack<T>:
-  - Stack<T> stores the values as LIFO (Last In First Out);
+- `Stack<T>`:
+  - `Stack<T>` stores the values as LIFO (Last In First Out);
   - It provides a Push() method to add a value and Pop() & Peek() methods to retrieve values;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-generic-collections ;
+- <https://www.tutorialsteacher.com/csharp/csharp-generic-collections> ;

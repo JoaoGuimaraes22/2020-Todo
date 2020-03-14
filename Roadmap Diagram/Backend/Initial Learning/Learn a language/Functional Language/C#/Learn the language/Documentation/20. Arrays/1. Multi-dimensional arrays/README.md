@@ -1,6 +1,6 @@
-## Multi-dimensional arrays
+# Multi-dimensional arrays
 
-**Overview:**
+## Overview
 
 - Multi-dimensional arrays are also called rectangular arrays;
 - Syntax for creating a 2 dimensional string array:
@@ -9,7 +9,7 @@
   - `int [ , , ] m;`;
 - And so on and so on, you get the gist of it;
 
-**Two-Dimensional Arrays:**
+## Two-Dimensional Arrays
 
 - A 2-dimensional array is a list of one-dimensional arrays;
 - A 2-dimensional array can be thought of as a table, which has x number of rows and y number of columns;
@@ -17,12 +17,12 @@
   ![2 Dimensional Array Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/img/two_dimensional_arrays.jpg)
 - Here, every element in the array a is identified by an element name of the form a[ i , j ], where a is the name of the array, and i and j are the subscripts that uniquely identify each element in array a;
 
-**Initializing two-dimensional arrays:**
+## Initializing two-dimensional arrays
 
 - May be initialized by specifying bracketed values for each row;
 - For example:
 
-```
+```c#
 int [,] a = new int [3,4] {
    {0, 1, 2, 3} ,   /*  initializers for row indexed by 0 */
    {4, 5, 6, 7} ,   /*  initializers for row indexed by 1 */
@@ -30,14 +30,14 @@ int [,] a = new int [3,4] {
 };
 ```
 
-**Accessing two-dimensional arrays:**
+## Accessing two-dimensional arrays
 
 - Accessed by using the subscripts, row and collumn index of the array;
 - Syntax:
   - `int val = a[2,3];`;
 - Example:
 
-```
+```c#
 using System;
 
 namespace ArrayApplication {
@@ -62,7 +62,7 @@ namespace ArrayApplication {
 
 - Returns:
 
-```
+```markdown
 a[0,0]: 0
 a[0,1]: 0
 a[1,0]: 1
@@ -75,6 +75,6 @@ a[4,0]: 4
 a[4,1]: 8
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_multi_dimensional_arrays.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_multi_dimensional_arrays.htm> ;

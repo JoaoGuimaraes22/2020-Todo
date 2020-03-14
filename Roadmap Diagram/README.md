@@ -3,14 +3,16 @@
 - I'll follow the route described in the roadmap to upgrade myself;
 - There will be notes in the folders for every section;
 
-## How to follow this:
+## How to follow this
 
 - Clone the repo;
-- Go through the files as described below + numerical order -> 1. , 2. , ... ;
+- Use a userscript to sort the files by alphabetical order -> <https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content> ;
+- Sort the files;
+- Go through the files as described below + numerical order -> 1. , 2. , 3. , ... ;
 
-## Here you will learn about:
+## Here you will learn about
 
-### The General Knowledge Route:
+### The General Knowledge Route
 
 - Version Control;
 - Basic Command Line;
@@ -20,7 +22,7 @@
 - Code Editor;
 - Data Structures and Algorithms;
 
-### The Frontend Route:
+### The Frontend Route
 
 - Basic Understanding:
 - Domain Name;
@@ -161,7 +163,7 @@
   - Rust;
   - Others...;
 
-### The Backend Route:
+### The Backend Route
 
 - OSs and General Knowledge:
   - Terminal Usage;

@@ -1,11 +1,11 @@
-## The Array Class
+# The Array Class
 
-**Overview:**
+## Overview
 
 - Is the base class for all the arrays;
 - Defined in the System namespace;
 
-**Properties of the Array class:**
+## Properties of the Array class
 
 - IsFixedSize:
   - Returns a bollean indicating whether the Array has a fixed size;
@@ -18,7 +18,7 @@
 - Rank:
   - Gets the rank (number of dimensions) of the Array;
 
-**Methods of the Array class:**
+## Methods of the Array class
 
 - Clear:
   - Sets a range of elements in the Array to zero, to false, or to null, depending on the element type;
@@ -52,11 +52,11 @@
 - ToString:
   - Returns a string that represents the current object. (Inherited from Object.);
 
-**All:**
+## See More
 
-- For a complete list see -> https://docs.microsoft.com/en-us/dotnet/api/system.array?view=netframework-4.8 ;
+- For a complete list see -> <https://docs.microsoft.com/en-us/dotnet/api/system.array?view=netframework-4.8> ;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_array_class.htm ;
-- https://docs.microsoft.com/en-us/dotnet/api/system.array.isfixedsize?view=netframework-4.8 ;
+- <https://www.tutorialspoint.com/csharp/csharp_array_class.htm> ;
+- <https://docs.microsoft.com/en-us/dotnet/api/system.array.isfixedsize?view=netframework-4.8> ;

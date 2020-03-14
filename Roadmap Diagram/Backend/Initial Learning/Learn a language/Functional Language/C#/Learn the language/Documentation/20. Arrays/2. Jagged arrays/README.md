@@ -1,6 +1,6 @@
-## Jagged Arrays
+# Jagged Arrays
 
-**Overview:**
+## Overview
 
 - A jagged array is an array of arrays;
 - Example:
@@ -8,7 +8,7 @@
 - Declaring an array, does not create the array in memory;
 - To create one, do:
 
-```
+```c#
 int[][] scores = new int[5][];
 for (int i = 0; i < scores.Length; i++) {
    scores[i] = new int[4];
@@ -17,15 +17,15 @@ for (int i = 0; i < scores.Length; i++) {
 
 - You can initialize a jagged array as:
 
-```
+```c#
 int[][] scores = new int[2][]{new int[]{92,93,94},new int[]{85,66,87,88}};
 ```
 
 - Here, scores is an array of two arrays of integers - scores[0] is an array of 3 integers and scores[1] is an array of 4 integers;
 
-**Example:**
+## Example
 
-```
+```c#
 using System;
 
 namespace ArrayApplication {
@@ -51,7 +51,7 @@ namespace ArrayApplication {
 
 - Returns:
 
-```
+```markdown
 a[0][0]: 0
 a[0][1]: 0
 a[1][0]: 1
@@ -64,6 +64,6 @@ a[4][0]: 4
 a[4][1]: 8
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_jagged_arrays.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_jagged_arrays.htm> ;

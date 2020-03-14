@@ -1,12 +1,12 @@
-## While Loops
+# While Loops
 
-**Overview:**
+## Overview
 
 - Executes a block of code repeatedly;
 
-**Syntax:**
+## Syntax
 
-```
+```c#
 While(boolean expression)
 {
     //execute code as long as condition returns true
@@ -18,7 +18,7 @@ While(boolean expression)
 - It executes the code block, as long as the specified conditional expression returns true;
 - Example:
 
-```
+```c#
 int i = 0;
 
 while (i < 10)
@@ -31,7 +31,7 @@ while (i < 10)
 
 - Returns:
 
-```
+```markdown
 Value of i: 0
 Value of i: 1
 Value of i: 2
@@ -44,12 +44,12 @@ Value of i: 8
 Value of i: 9
 ```
 
-**Using break in a while Loop:**
+## Using break in a while Loop
 
 - Use the break keyword to exit from a while loop;
 - Example:
 
-```
+```c#
 int i = 0;
 
 while (true)
@@ -68,7 +68,7 @@ while (true)
 - Can be done;
 - Example:
 
-```
+```c#
 int i = 0;
 
 while (i < 2)
@@ -86,13 +86,13 @@ while (i < 2)
 }
 ```
 
-**Points to Remember:**
+## Points to Remember
 
 - The while loop executes the block of code repeatedly;
 - The while loop includes condition expression. Increment/decrement step should be inside the loop;
 - Use break keyword to stop the execution and exit from while loop;
 - An nested while loop is allowed;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-while-loop;
+- <https://www.tutorialsteacher.com/csharp/csharp-while-loop;>

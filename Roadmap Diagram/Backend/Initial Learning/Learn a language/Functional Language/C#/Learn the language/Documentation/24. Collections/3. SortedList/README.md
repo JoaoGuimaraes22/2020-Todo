@@ -1,17 +1,20 @@
-## SortedList
+# SortedList
 
-**Overview:**
+## Overview
 
 - Stores key-value pairs in the ascending order of key by default;
 - A sorted list is a combination of an array and a hash table;
 - Contains a list of items that can be accessed using a key or an index;
 
-**Creating a SortedList:**
+## Creating a SortedList
 
 - Example:
-  - `SortedList sortedList1 = new SortedList();`;
 
-**Properties:**
+```c#
+SortedList sortedList1 = new SortedList();
+```
+
+## Properties
 
 - Capacity:
   - Gets or sets the number of elements that the SortedList can contain;
@@ -28,7 +31,7 @@
 - Values:
   - Gets list of values;
 
-**Methods:**
+## Methods
 
 - Add(object key, object value)):
   - Add key-value pairs;
@@ -50,11 +53,11 @@
 - IndexOfValue(object value):
   - Returns an index of specified value stored in internal array;
 
-**See more:**
+## See more
 
-- See more in -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.8 ;
+- See more in -> <https://docs.microsoft.com/en-us/dotnet/api/system.collections.sortedlist?view=netframework-4.8> ;
 
-**Points to Remember:**
+## Points to Remember
 
 - C# has generic and non-generic SortedList;
 - SortedList stores the key-value pairs in ascending order of the key. Key must be unique and cannot be null whereas value can be null or duplicate;
@@ -62,7 +65,7 @@
 - Key-value pair can be cast to DictionaryEntry;
 - Access individual value using indexer. SortedList indexer accepts key to return value associated with it;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-sortedlist ;
-- https://www.tutorialspoint.com/csharp/csharp_sortedlist.htm ;
+- <https://www.tutorialsteacher.com/csharp/csharp-sortedlist> ;
+- <https://www.tutorialspoint.com/csharp/csharp_sortedlist.htm> ;

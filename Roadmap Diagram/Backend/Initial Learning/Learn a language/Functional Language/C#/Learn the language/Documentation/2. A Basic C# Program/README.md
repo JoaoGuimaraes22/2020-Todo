@@ -1,4 +1,4 @@
-# 2. A basic C# Program
+# A Basic C# Program
 
 ## What makes a C# program
 

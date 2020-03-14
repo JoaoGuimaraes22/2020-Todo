@@ -1,18 +1,18 @@
-## Properties
+# Properties
 
-**Overview:**
+## Overview
 
 - They are named members of classes, structures, and interfaces;
 - Member variables or methods in a class or structures are called Fields;
 - Properties are an extension of fields and are accessed using the same syntax;
 - They use accessors through which the values of the private fields can be read, written or manipulated;
 
-**Accessors:**
+## Accessors
 
 - The accessor of a property contains the executable statements that helps in getting (reading or computing) or setting (writing) the property;
 - Example:
 
-```
+```c#
 // Declare a Code property of type string:
 public string Code {
    get {
@@ -46,7 +46,7 @@ public int Age {
 
 - For example:
 
-```
+```c#
 using System;
 namespace tutorialspoint {
    class Student {
@@ -111,16 +111,16 @@ namespace tutorialspoint {
 
 - Returns:
 
-```
+```markdown
 Student Info: Code = 001, Name = Zara, Age = 9
 Student Info: Code = 001, Name = Zara, Age = 10
 ```
 
-**Abstract Properties:**
+## Abstract Properties
 
 - Example:
 
-```
+```c#
 using System;
 
 namespace tutorialspoint {
@@ -195,11 +195,11 @@ namespace tutorialspoint {
 
 - Returns:
 
-```
+```markdown
 Student Info: Code = 001, Name = Zara, Age = 9
 Student Info: Code = 001, Name = Zara, Age = 10
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_properties.htm;
+- <https://www.tutorialspoint.com/csharp/csharp_properties.htm;>

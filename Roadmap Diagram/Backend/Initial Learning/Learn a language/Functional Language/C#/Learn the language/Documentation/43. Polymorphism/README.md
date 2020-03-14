@@ -1,6 +1,6 @@
-## Polymorphism
+# Polymorphism
 
-**What is it:**
+## What is it
 
 - The concept that objects of different types can be accessed through the same interface;
 - Each type can provide its own, independent implementation of this interface;
@@ -9,21 +9,21 @@
 - In static polymorphism, the response to a function is determined at the compile time;
 - In dynamic polymorphism, it is decided at run-time;
 
-**Static Polymorphism:**
+## Static Polymorphism
 
 - The mechanism of linking a function with an object during compile time is called early binding or static binding;
 - There are two techniques to implement static polymorphism:
   - Function overloading;
   - Operator overloading;
 
-**Function overloading:**
+## Function overloading
 
 - You can have multiple definitions for the same function name in the same scope;
 - The definition of the function must differ from each other by the types and/or the number of arguments in the argument list;
 - You cannot overload function declarations that differ only by return type;
 - For example:
 
-```
+```c#
 using System;
 
 namespace PolymorphismApplication {
@@ -56,13 +56,13 @@ namespace PolymorphismApplication {
 
 - Returns:
 
-```
+```markdown
 Printing int: 5
 Printing float: 500.263
 Printing string: Hello C++
 ```
 
-**Dynamic Polymorphism:**
+## Dynamic Polymorphism
 
 - Allows you to create abstract classes that are used to provide partial class implementation of an interface;
 - Implementation is completed when a derived class inherits from it;
@@ -74,7 +74,7 @@ Printing string: Hello C++
   - When a class is declared sealed, it cannot be inherited, abstract classes cannot be declared sealed;
 - For example:
 
-```
+```c#
 using System;
 
 namespace PolymorphismApplication {
@@ -108,7 +108,7 @@ namespace PolymorphismApplication {
 
 - Returns:
 
-```
+```markdown
 Rectangle class area :
 Area: 70
 ```
@@ -118,7 +118,7 @@ Area: 70
 - Dynamic polymorphism is implemented by abstract classes and virtual functions;
 - For example:
 
-```
+```c#
 using System;
 
 namespace PolymorphismApplication {
@@ -174,14 +174,14 @@ namespace PolymorphismApplication {
 
 - Returns:
 
-```
+```markdown
 Rectangle class area:
 Area: 70
 Triangle class area:
 Area: 25
 ```
 
-**Links:**
+## Links
 
-- https://stackify.com/oop-concept-polymorphism/ ;
-- https://www.tutorialspoint.com/csharp/csharp_polymorphism.htm ;
+- <https://stackify.com/oop-concept-polymorphism/> ;
+- <https://www.tutorialspoint.com/csharp/csharp_polymorphism.htm> ;

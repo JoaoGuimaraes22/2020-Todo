@@ -1,11 +1,11 @@
-## Passing arrays to functions
+# Passing arrays to functions
 
 **Overview:**
 
 - You can pass an array to a function as an argument;
 - For example:
 
-```
+```c#
 using System;
 
 namespace ArrayApplication {
@@ -41,10 +41,10 @@ namespace ArrayApplication {
 
 - Returns:
 
-```
+```markdown
 Average value is: 214.4
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_passing_arrays_to_functions.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_passing_arrays_to_functions.htm> ;

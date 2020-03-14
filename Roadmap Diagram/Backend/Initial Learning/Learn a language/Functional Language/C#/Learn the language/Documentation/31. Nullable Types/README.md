@@ -1,31 +1,31 @@
-## Nullable Type
+# Nullable Type
 
-**Overview:**
+## Overview
 
 - Nullable types that allow you to assign null to value type variables;
 
-**Syntax:**
+## Syntax
 
-- You can declare nullable types using Nullable<t> where T is a type;
+- You can declare nullable types using `Nullable<T>` where T is a type;
 - Example:
   - `Nullable<int> i = null;`;
 
-**Shorthand Syntax for Nullable Types:**
+## Shorthand Syntax for Nullable Types
 
-- You can use the '?' operator to shorthand the syntax e.g. int?, long? instead of using Nullable<T>;
+- You can use the '?' operator to shorthand the syntax e.g. int?, long? instead of using `Nullable<T>`;
 - Example:
 
-```
+```c#
 int? i = null;
 double? D = null;
 ```
 
-**?? Operator:**
+## ?? Operator
 
 - Use the '??' operator to assign a nullable type to a non-nullable type;
 - Example:
 
-```
+```c#
 int? i = null;
 
 int j = i ?? 0;
@@ -35,23 +35,23 @@ Console.WriteLine(j);
 
 - Returns:
 
-```
+```markdown
 0
 ```
 
-**Assignment Rules:**
+## Assignment Rules
 
 - A nullable type has the same assignment rules as a value type;
 - It must be assigned a value before using it if nullable types are declared in a function as local variables;
 
-**Nullable Helper Class:**
+## Nullable Helper Class
 
 - Null is considered to be less than any value;
 - Nullable static class is a helper class for Nullable types;
 - It provides a compare method to compare nullable types;
 - Example:
 
-```
+```c#
 static void Main(string[] args)
 {
     int? i = null;
@@ -68,26 +68,26 @@ static void Main(string[] args)
 
 - Returns:
 
-```
+```markdown
 i < j
 ```
 
-**Characteristics of Nullable Types:**
+## Characteristics of Nullable Types
 
 - Can only be used with value types;
 - The Value property will throw an InvalidOperationException if value is null; otherwise it will return the value;
 - The HasValue property returns true if the variable contains a value, or false if it is null;
 - You can only use == and != operators with a nullable type. For other comparison use the Nullable static class;
-- Nested nullable types are not allowed. Nullable<Nullable<int>> i; will give a compile time error;
+- Nested nullable types are not allowed, eg. `Nullable<Nullable<int>> i` will give a compile time error;
 
-**Points to Remember:**
+## Points to Remember
 
-- Nullable<T> type allows assignment of null to value types;
+- `Nullable<T>` type allows assignment of null to value types;
 - ? operator is a shorthand syntax for Nullable types;
 - Use value property to get the value of nullable type;
 - Use HasValue property to check whether value is assigned to nullable type or not;
 - Static Nullable class is a helper class to compare nullable types;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-nullable-types ;
+- <https://www.tutorialsteacher.com/csharp/csharp-nullable-types> ;

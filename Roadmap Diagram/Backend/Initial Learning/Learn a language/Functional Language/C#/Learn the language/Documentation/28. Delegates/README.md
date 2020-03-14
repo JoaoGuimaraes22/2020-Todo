@@ -1,13 +1,13 @@
-## Delegates
+# Delegates
 
-**Overview:**
+## Overview
 
 - A delegate is like a pointer to a function;
 - Is a reference type variable that holds the reference to a method;
 - Used for implementing events and the call-back methods;
 - Derived from the System.Delegate class;
 
-**Declaring Delegates:**
+## Declaring Delegates
 
 - Delegate declaration determines the methods that can be referenced by the delegate;
 - For example:
@@ -15,12 +15,12 @@
 - Syntax:
   - `<access modifier> delegate <return type> <delegate_name>(<parameters>)`;
 
-**Instantiating Delegates:**
+## Instantiating Delegates
 
 - A delegate object must be created with the new keyword and be associated with a particular method;
 - For example:
 
-```
+```c#
 public delegate void printString(string s);
 ...
 printString ps1 = new printString(WriteToScreen);
@@ -29,7 +29,7 @@ printString ps2 = new printString(WriteToFile);
 
 - Example:
 
-```
+```c#
 class Program
 {
     // declare delegate
@@ -67,21 +67,21 @@ class Program
 
 - Returns:
 
-```
+```markdown
 Number: 10,000
 Number: 200
 Money: $ 10,000.00
 Money: $ 200.00
 ```
 
-**Multicasting of a Delegate:**
+## Multicasting of a Delegate
 
 - Delegate objects can be composed using the "+" operator;
 - A composed delegate calls the two delegates it was composed from;
 - Using this property of delegates you can create an invocation list of methods that will be called when a delegate is invoked;
 - For example:
 
-```
+```c#
 using System;
 
 delegate int NumberChanger(int n);
@@ -120,15 +120,15 @@ namespace DelegateAppl {
 
 - Returns:
 
-```
+```markdown
 Value of Num: 75
 ```
 
-**Using delegates:**
+Using delegates
 
 - Example:
 
-```
+```c#
 using System;
 using System.IO;
 
@@ -176,19 +176,19 @@ namespace DelegateAppl {
 
 - Returns:
 
-```
+```markdown
 The String is: Hello World
 ```
 
-**Points to remember:**
+## Points to remember
 
 - Delegate is a function pointer. It is reference type data type;
-- Syntax: public delegate void <function name>(<parameters>);
+- Syntax: `public delegate void <function name>(<parameters>)`;
 - A method that is going to assign to delegate must have same signature as delegate;
 - Delegates can be invoke like a normal function or Invoke() method;
 - Multiple methods can be assigned to the delegate using "+" operator. It is called multicast delegate;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_delegates.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-delegates ;
+- <https://www.tutorialspoint.com/csharp/csharp_delegates.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-delegates> ;

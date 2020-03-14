@@ -1,17 +1,17 @@
-## Generics
+# Generics
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Generics;
   - Generics Constraints;
 
-**Overview:**
+## Overview
 
 - Allow you to write a class or method that can work with any data type;
 - A generic class can be defined using angle brackets <>;
 - For example:
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 
@@ -69,12 +69,12 @@ namespace GenericApplication {
 
 - Returns:
 
-```
+```markdown
 0 5 10 15 20
 a b c d e
 ```
 
-**Features of Generics:**
+## Features of Generics
 
 - It helps you to maximize code reuse, type safety, and performance;
 - You can create generic collection classes (we'll see more about this later);
@@ -82,11 +82,11 @@ a b c d e
 - You may create generic classes constrained to enable access to methods on particular data types;
 - You may get information on the types used in a generic data type at run-time by means of reflection;
 
-**Generic Methods:**
+## Generic Methods
 
 - For example:
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 
@@ -126,8 +126,11 @@ namespace GenericMethodAppl {
       }
    }
 }
-When the above code is compiled and executed, it produces the following result −
+```
 
+- When the above code is compiled and executed, it produces the following result:
+
+```markdown
 Int values before calling swap:
 a = 10, b = 20
 Char values before calling swap:
@@ -140,7 +143,7 @@ c = V, d = I
 
 - Returns:
 
-```
+```markdown
 Int values before calling swap:
 a = 10, b = 20
 Char values before calling swap:
@@ -151,17 +154,17 @@ Char values after calling swap:
 c = V, d = I
 ```
 
-**Generic Delegates:**
+## Generic Delegates
 
 - For example:
 
-```
+```c#
 delegate T NumberChanger<T>(T n);
 ```
 
 - Example:
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 
@@ -200,25 +203,25 @@ namespace GenericDelegateAppl {
 
 - Returns:
 
-```
+```markdown
 Value of Num: 35
 Value of Num: 175
 ```
 
-**Advantages of Generics:**
+## Advantages of Generics
 
 - Increases the reusability of the code;
 - Generic are type safe. You get compile time errors if you try to use a different type of data than the one specified in the definition;
 - Generic has a performance advantage because it removes the possibilities of boxing and unboxing;
 
-**Points to Remember:**
+## Points to Remember
 
 - Generics denotes with angel bracket <>;
 - Compiler applys specified type for generics at compile time;
 - Generics can be applied to interface, abstrct class, method, static method, property, event, delegate and operator;
 - Generics performs faster by not doing boxing & unboxing;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_generics.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-generics ;
+- <https://www.tutorialspoint.com/csharp/csharp_generics.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-generics> ;

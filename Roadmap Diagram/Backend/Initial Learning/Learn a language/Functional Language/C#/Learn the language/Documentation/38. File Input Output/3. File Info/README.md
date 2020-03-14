@@ -1,10 +1,10 @@
-## FileInfo
+# FileInfo
 
-**Overview:**
+## Overview
 
 - The FileInfo class provides the same functionality as the static File class but you have more control on read/write operations on files by writing code manually for reading or writing bytes from a file;
 
-**Important Properties of FileInfo:**
+## Important Properties of FileInfo
 
 - Directory:
   - Gets an instance of the parent directory;
@@ -27,7 +27,7 @@
 - Name:
   - Gets the name of the file;
 
-**Important Methods of FileInfo::**
+## Important Methods of FileInfo
 
 - AppendText:
   - Creates a StreamWriter that appends text to the file represented by this instance of the FileInfo;
@@ -60,9 +60,9 @@
 - ToString:
   - Returns a path as string;
 
-**Example:**
+## Example
 
-```
+```c#
 //Create FileInfo object for DummyFile.txt
 FileInfo fi = new FileInfo(@"D:\DummyFile.txt");
 
@@ -90,6 +90,6 @@ fsToRead.Close();
 fsToWrite.Close();
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-fileinfo ;
+- <https://www.tutorialsteacher.com/csharp/csharp-fileinfo> ;

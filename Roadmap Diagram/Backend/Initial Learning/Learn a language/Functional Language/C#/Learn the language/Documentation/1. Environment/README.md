@@ -1,4 +1,4 @@
-# 1. The C# Environment
+# The C# Environment
 
 ## The .NET framework
 

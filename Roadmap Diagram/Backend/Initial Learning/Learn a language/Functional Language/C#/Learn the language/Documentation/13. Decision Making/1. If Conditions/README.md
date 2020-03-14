@@ -1,13 +1,13 @@
-## If Conditions
+# If Conditions
 
-**Overview:**
+## Overview
 
 - Contains boolean expression inside brackets followed by a single or multi line code block;
 - At runtime, if a boolean expression is evalutes to true then the code block will be executed;
 
-**Example:**
+## Example
 
-```
+```c#
 int i = 10, j = 20;
 
 if (i > j)
@@ -26,13 +26,13 @@ if (i == j)
 }
 ```
 
-**if-else statements:**
+## if-else statements
 
 - The else statement must follow if or else if statement;
 - else statement can appear only one time in a if-else statement chain;
 - Example:
 
-```
+```c#
 int i = 10, j = 20;
 
 if (i > j)
@@ -45,12 +45,12 @@ else
 }
 ```
 
-**else if statement:**
+## else if statement
 
 - The 'if' statement can also follow an 'else' statement, if you want to check for another condition in the else part;
 - Example:
 
-```
+```c#
 static void Main(string[] args)
 {
     int i = 10, j = 20;
@@ -70,11 +70,11 @@ static void Main(string[] args)
 }
 ```
 
-**Nested if statements:**
+## Nested if statements
 
 - Example:
 
-```
+```c#
 int i = 10;
 
 if (i > 0)
@@ -90,7 +90,7 @@ if (i > 0)
 }
 ```
 
-**Points to Remember:**
+## Points to Remember
 
 - if-else statement controls the flow of program based on the evaluation of the boolean expression;
 - It should start from the if statement followed by else or else-if statements;
@@ -98,6 +98,6 @@ if (i > 0)
 - Multiple else-if statements are allowed in a single if-else chain;
 - Nested if-else statement is allowed;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-if-else;
+- <https://www.tutorialsteacher.com/csharp/csharp-if-else;>

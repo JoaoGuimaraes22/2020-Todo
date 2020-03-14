@@ -1,6 +1,6 @@
-## Collections
+# Collections
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Collections;
   - ArrayList;
@@ -9,13 +9,13 @@
   - Stack;
   - Queue;
 
-**Overview:**
+## Overview
 
 - Collection classes are specialized classes for data storage and retrieval;
 - Provide support for stacks, queues, lists, and hash tables;
 - Derived from the System.Collection namespace;
 
-**Various Collections and their usages:**
+## Various Collections and their usages
 
 - Non-Generic:
   - ArrayList;
@@ -28,8 +28,9 @@
     - Used when you need to store the bits but do not know the number of bits in advance;
     - You can access items from the BitArray collection by using an integer index, which starts from zero;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_collections.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-collection ;
+- <https://www.tutorialspoint.com/csharp/csharp_collections.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-collection> ;
+
 -

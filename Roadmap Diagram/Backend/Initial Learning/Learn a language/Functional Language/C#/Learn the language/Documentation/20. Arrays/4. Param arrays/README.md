@@ -1,10 +1,10 @@
-## Param arrays
+# Param arrays
 
 - At times, while declaring a method, you are not sure of the number of arguments passed as a parameter;
 - This is where param arrays come into play;
 - For example:
 
-```
+```c#
 using System;
 
 namespace ArrayApplication {
@@ -32,10 +32,10 @@ namespace ArrayApplication {
 
 - Returns:
 
-```
+```markdown
 The sum is: 2938
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_param_arrays.htm
+- <https://www.tutorialspoint.com/csharp/csharp_param_arrays.htm>

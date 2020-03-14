@@ -1,12 +1,12 @@
-## Events
+# Events
 
-**Overview:**
+## Overview
 
 - Are user actions;
 - Applications need to respond to events when they occur;
 - Used for inter-process communication;
 
-**Using delegates with events:**
+## Using delegates with events
 
 - The events are declared and raised in a class and associated with the event handlers using delegates within the same class or some other class;
 - The class containing the event is used to publish the event;
@@ -16,16 +16,16 @@
 - A publisher is an object that contains the definition of the event and the delegate;
 - A subscriber is an object that accepts the event and provides an event handler;
 
-**Declaring events:**
+## Declaring events
 
 - First, you must declare a delegate type for the even as:
   - `public delegate string BoilerLogHandler(string str);`;
 - Then, you can declare the event:
   - `event BoilerLogHandler BoilerEventLog;`;
 
-**Example:**
+## Example
 
-```
+```c#
 using System;
 
 namespace SampleApp {
@@ -51,17 +51,16 @@ namespace SampleApp {
 
 - Returns:
 
-```
+```markdown
 Welcome Tutorials Point
-
 ```
 
-**Event Arguments:**
+## Event Arguments
 
 - Events can pass data as an argument to their subscribed handler;
 - Example:
 
-```
+```c#
 public class PrintHelper
 {
     public delegate void BeforePrint(string message);
@@ -110,7 +109,7 @@ public class PrintHelper
 }
 ```
 
-**Points to remember:**
+## Points to remember
 
 - Use event keyword with delegate type to declare an event;
 - Check event is null or not before raising an event;
@@ -123,7 +122,7 @@ public class PrintHelper
 - Event handlers are invoked synchronously if there are multiple subscribers;
 - The .NET framework uses an EventHandler delegate and an EventArgs base class;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_events.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-event ;
+- <https://www.tutorialspoint.com/csharp/csharp_events.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-event> ;

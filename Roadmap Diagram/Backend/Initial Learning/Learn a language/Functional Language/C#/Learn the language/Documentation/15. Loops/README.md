@@ -1,17 +1,17 @@
-## Loops
+# Loops
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Loops;
   - for loop;
   - while loop;
   - do-while loops;
 
-**Overview:**
+## Overview
 
 - Allows us to execute a statement or group of statements multiple times;
 
-**Loops:**
+## Types of Loops
 
 - while loop;
 - for loop;
@@ -19,7 +19,7 @@
 - nested loops;
 - foreach loop;
 
-**Loop Control Statements:**
+## Loop Control Statements
 
 - break statements:
   - Terminates the loop or switch statement and transfers execution to the statement immediately following the loop or switch;
@@ -28,6 +28,6 @@
 - goto:
   - Transfers control to the labeled statement;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/cprogramming/c_loops.htm;
+- <https://www.tutorialspoint.com/cprogramming/c_loops.htm;>

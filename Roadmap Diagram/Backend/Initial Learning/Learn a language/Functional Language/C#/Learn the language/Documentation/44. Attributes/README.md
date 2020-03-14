@@ -1,6 +1,6 @@
-## Attributes
+# Attributes
 
-**Overview:**
+## Overview
 
 - It's a declarative tag that is used to convey information to runtime about the behaviors of various elements;
 - Used for adding metadata, such as compiler instruction and other information such as comments, description, methods and classes to a program;
@@ -8,11 +8,11 @@
   - The pre-defined attributes;
   - The custom built attributes;
 
-**Specifying an attribute:**
+## Specifying an attribute
 
 - Syntax:
 
-```
+```c#
 [attribute(positional_parameters, name_parameter = value, ...)]
 element
 ```
@@ -20,20 +20,20 @@ element
 - Name of the attribute and its values are specified within the square brackets, before the element to which the attribute is applied;
 - Positional parameters specify the essential information and the name parameters specify the optional information;
 
-**Predefined attributes:**
+## Predefined attributes
 
 - There are three pre-defined attributes:
   - AttributeUsage;
   - Conditional;
   - Obsolete;
 
-**AttributeUsage:**
+## AttributeUsage
 
 - Describes how a custom attribute class can be used;
 - Specifies the types of items to which the attribute can be applied;
 - Syntax:
 
-```
+```c#
 [AttributeUsage (
    validon,
    AllowMultiple = allowmultiple,
@@ -41,13 +41,14 @@ element
 )]
 ```
 
-- Where:
-  - The parameter validon specifies the language elements on which the attribute can be placed. It is a combination of the value of an enumerator AttributeTargets. The default value is AttributeTargets.All;
-  - he parameter allowmultiple (optional) provides value for the AllowMultiple property of this attribute, a Boolean value. If this is true, the attribute is multiuse. The default is false (single-use);
-  - The parameter inherited (optional) provides value for the Inherited property of this attribute, a Boolean value. If it is true, the attribute is inherited by derived classes. The default value is false (not inherited);
+### Parameters
+
+- The parameter validon specifies the language elements on which the attribute can be placed. It is a combination of the value of an enumerator AttributeTargets. The default value is AttributeTargets.All;
+- he parameter allowmultiple (optional) provides value for the AllowMultiple property of this attribute, a Boolean value. If this is true, the attribute is multiuse. The default is false (single-use);
+- The parameter inherited (optional) provides value for the Inherited property of this attribute, a Boolean value. If it is true, the attribute is inherited by derived classes. The default value is false (not inherited);
 - For example:
 
-```
+```c#
 [AttributeUsage(
    AttributeTargets.Class |
    AttributeTargets.Constructor |
@@ -57,13 +58,13 @@ element
    AllowMultiple = true)]
 ```
 
-**Conditional:**
+## Conditional
 
 - Marks a conditional method whose execution depends on a specified preprocessing identifier;
 - Causes conditional compilation of method calls, depending on the specified value such as Debug or Trace;
 - Syntax:
 
-```
+```c#
 [Conditional(
    conditionalSymbol
 )]
@@ -71,13 +72,13 @@ element
 
 - For example:
 
-```
+```c#
 [Conditional("DEBUG")]
 ```
 
 - Example:
 
-```
+```c#
 #define DEBUG
 using System;
 using System.Diagnostics;
@@ -107,19 +108,19 @@ class Test {
 
 - Returns:
 
-```
+```markdown
 In Main function
 In Function 1
 In Function 2
 ```
 
-**Obsolete:**
+## Obsolete
 
 - Marks a program entity that should not be used;
 - Enables you to inform the compiler to discard a particular target element;
 - Syntax:
 
-```
+```c#
 [Obsolete (
    message
 )]
@@ -130,14 +131,14 @@ In Function 2
 )]
 ```
 
-- Where:
+### Where
 
-  - The parameter message, is a string describing the reason why the item is obsolete and what to use instead;
-  - The parameter iserror, is a Boolean value. If its value is true, the compiler should treat the use of the item as an error. Default value is false (compiler generates a warning);
+- The parameter message, is a string describing the reason why the item is obsolete and what to use instead;
+- The parameter iserror, is a Boolean value. If its value is true, the compiler should treat the use of the item as an error. Default value is false (compiler generates a warning);
 
 - For example:
 
-```
+```c#
 using System;
 
 public class MyClass {
@@ -157,11 +158,11 @@ public class MyClass {
 
 - Returns:
 
-```
- Don't use OldMethod, use NewMethod instead
+```markdown
+Don't use OldMethod, use NewMethod instead
 ```
 
-**Creating custom attributes:**
+## Creating custom attributes
 
 - Creating and using custom attributes involve four steps:
   - Declaring a custom attribute;
@@ -169,12 +170,12 @@ public class MyClass {
   - Apply the custom attribute on a target program element,
   - Accessing Attributes Through Reflection;
 
-**Declaring a Custom Attribute:**
+## Declaring a Custom Attribute
 
 - A custom attribute is derived from the System.Attribute class:
 - For example:
 
-```
+```c#
 //a custom attribute BugFix to be assigned to a class and its members
 [AttributeUsage(
    AttributeTargets.Class |
@@ -189,7 +190,7 @@ public class DeBugInfo : System.Attribute
 
 - Here, we created a new custom attribute, `DeBugInfo`;
 
-**Constructing the Custom Attribute:**
+## Constructing the Custom Attribute
 
 - This custom example will have the following properties:
 
@@ -200,7 +201,7 @@ public class DeBugInfo : System.Attribute
 
 - Example:
 
-```
+```c#
 //a custom attribute BugFix to be assigned to a class and its members
 [AttributeUsage(
    AttributeTargets.Class |
@@ -247,11 +248,11 @@ public class DeBugInfo : System.Attribute {
 }
 ```
 
-**Applying a custom attribute:**
+## Applying a custom attribute
 
 - Example:
 
-```
+```c#
 [DeBugInfo(45, "Zara Ali", "12/8/2012", Message = "Return type mismatch")]
 [DeBugInfo(49, "Nuha Ali", "10/10/2012", Message = "Unused variable")]
 class Rectangle {
@@ -277,6 +278,6 @@ class Rectangle {
 }
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_attributes.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_attributes.htm> ;

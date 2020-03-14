@@ -1,28 +1,36 @@
-## Multithreading
+# Multithreading
 
-**Overview:**
+## Overview
 
 - A thread is defined as the execution path of a program;
 - Each thread defines a unique flow of control;
 - If your application involves complicated and time consuming operations, then it is often helpful to set different execution paths or threads, with each thread performing a particular job;
 - Use of threads saves wastage of CPU cycle and increase efficiency of an application;
 
-**Thread Life Cycle:**
+## Thread Life Cycle
 
 - The life cycle of a thread starts when an object of the System.Threading.Thread class is created and ends when the thread is terminated or completes execution;
-- **The Unstarted State**:
-  - When the instance of the thread is created but the Start method is not called;
-- **The Ready State**:
-  - When the thread is ready to run and waiting CPU cycle;
-- **The Not Runnable State**:
-  - A thread is not executable, when:
-    - Sleep method has been called;
-    - Wait method has been called;
-    - Blocked by I/O operations;
-- **The Dead State**:
-  - When the thread completes execution or is aborted;
 
-**The Main Thread:**
+### The Unstarted State
+
+- When the instance of the thread is created but the Start method is not called;
+
+### The Ready State
+
+- When the thread is ready to run and waiting CPU cycle;
+
+### The Not Runnable State
+
+- A thread is not executable, when:
+  - Sleep method has been called;
+  - Wait method has been called;
+  - Blocked by I/O operations;
+
+### The Dead State
+
+- When the thread completes execution or is aborted;
+
+## The Main Thread
 
 - The first thread to be executed in a process is called the main thread;
 - When a program starts execution, the main thread is automatically created;
@@ -30,7 +38,7 @@
 - You can access a thread using the CurrentThread property of the Thread class;
 - For example:
 
-```
+```c#
 using System;
 using System.Threading;
 
@@ -49,23 +57,22 @@ namespace MultithreadingApplication {
 
 - Returns:
 
-```
+```markdown
 This is MainThread
-
 ```
 
-**Methods and properties of System.Threading:**
+## Methods and properties of System.Threading
 
 - There are many;
-- See all in -> https://docs.microsoft.com/en-us/dotnet/api/system.threading?view=netframework-4.8 ;
+- See all in -> <https://docs.microsoft.com/en-us/dotnet/api/system.threading?view=netframework-4.8> ;
 
-**Creating Threads:**
+## Creating Threads
 
 - Threads are created by extending the Thread class;
 - The extended Thread class then calls the Start() method to begin the child thread execution;
 - Example:
 
-```
+```c#
 using System;
 using System.Threading;
 
@@ -87,16 +94,16 @@ namespace MultithreadingApplication {
 
 - Returns:
 
-```
+```markdown
 In Main: Creating the Child thread
 Child thread starts
 ```
 
-**Managing Threads:**
+## Managing Threads
 
 - The following example demonstrates the use of the sleep() method for making a thread pause for a specific period of time:
 
-```
+```c#
 using System;
 using System.Threading;
 
@@ -127,20 +134,20 @@ namespace MultithreadingApplication {
 
 - Returns:
 
-```
+```markdown
 In Main: Creating the Child thread
 Child thread starts
 Child Thread Paused for 5 seconds
 Child thread resumes
 ```
 
-**Destroying Threads:**
+## Destroying Threads
 
 - The Abort() method is used for destroying threads;
 - The runtime aborts the thread by throwing a ThreadAbortException, which cannot be caught;
 - Example:
 
-```
+```c#
 using System;
 using System.Threading;
 
@@ -185,7 +192,7 @@ namespace MultithreadingApplication {
 
 - Returns:
 
-```
+```markdown
 In Main: Creating the Child thread
 Child thread starts
 0
@@ -196,6 +203,6 @@ Thread Abort Exception
 Couldn't catch the Thread Exception
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_multithreading.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_multithreading.htm> ;

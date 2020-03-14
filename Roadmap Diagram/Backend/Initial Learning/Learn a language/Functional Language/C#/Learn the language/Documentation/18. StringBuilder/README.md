@@ -1,15 +1,15 @@
-## StringBuilder
+# StringBuilder
 
-**Overview:**
+## Overview
 
 - A String is immutable, meaning String cannot be changed once created;
 - To solve this problem, StringBuilder is a dynamic object that allows you to expand the number of characters in the string;
 
-**StringBuilder Initialization:**
+## StringBuilder Initialization
 
 - Syntax:
 
-```
+```c#
 StringBuilder sb = new StringBuilder();
 
 //or
@@ -19,7 +19,7 @@ StringBuilder sb = new StringBuilder("Hello World!!");
 
 - You can give an initial capacity of characters by passing an int value in the constructor;
 
-**Important Methods of StringBuilder:**
+## Important Methods of StringBuilder
 
 - StringBuilder.Append(valueToAppend):
   - Appends the passed values to the end of the current StringBuilder object;
@@ -32,11 +32,11 @@ StringBuilder sb = new StringBuilder("Hello World!!");
 - StringBuilder.Replace(oldValue, newValue):
   - Replaces characters with new characters;
 
-**ToString():**
+## ToString()
 
 - Use the `.ToString()` method to get a string of a StringBuilder;
 
-**Points to Remember:**
+## Points to Remember
 
 - StringBuilder is mutable;
 - StringBuilder performs faster than string when appending multiple string values;
@@ -45,6 +45,6 @@ StringBuilder sb = new StringBuilder("Hello World!!");
 - Use Append() method to add or append strings with StringBuilder.;
 - Use ToString() method to get the string from StringBuilder;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-stringbuilder ;
+- <https://www.tutorialsteacher.com/csharp/csharp-stringbuilder> ;

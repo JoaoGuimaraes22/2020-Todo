@@ -1,6 +1,6 @@
-## Exception Handling
+# Exception Handling
 
-**Overview:**
+## Overview
 
 - An exception is a problem that arises during the execution of a program;
 - Exception handling is built upon four keywords: try, catch, finally, and throw:
@@ -16,9 +16,9 @@
 - throw:
   - Throws an exception when a problem shows up;
 
-**Syntax:**
+## Syntax
 
-```
+```c#
 try {
    // statements causing exception
 } catch( ExceptionName e1 ) {
@@ -34,7 +34,7 @@ try {
 
 - You can list down multiple catch statements to catch different type of exceptions in case your try block raises more than one exception in different situations;
 
-**Exception Classes:**
+## Exception Classes
 
 - Exception are mainly derived from the System.Exception class;
 - Exception classes:
@@ -55,12 +55,12 @@ try {
   - System.StackOverflowException:
     - Handles errors generated from stack overflow;
 
-**Handling exceptions:**
+## Handling exceptions
 
 - Using a structured solution to the exception handling in the form of try and catch blocks;
 - For example:
 
-```
+```c#
 using System;
 
 namespace ErrorHandlingApplication {
@@ -90,18 +90,18 @@ namespace ErrorHandlingApplication {
 
 - Returns:
 
-```
+```markdown
 Exception caught: System.DivideByZeroException: Attempted to divide by zero.
 at ...
 Result: 0
 ```
 
-**Creating user-defined exceptions:**
+## Creating user-defined exceptions
 
 - User-defined exception classes are derived from the Exception class;
 - For example:
 
-```
+```c#
 using System;
 
 namespace UserDefinedException {
@@ -137,23 +137,23 @@ public class Temperature {
 
 - Returns:
 
-```
+```markdown
 TempIsZeroException: Zero Temperature found
 ```
 
-**Throwing Objects:**
+## Throwing Objects
 
 - You can throw an object if it is either directly or indirectly derived from the System.Exception class;
 - For example:
 
-```
+```c#
 Catch(Exception e) {
    ...
    Throw e
 }
 ```
 
-**Points to Remember:**
+## Points to Remember
 
 - Exception is a base class for any type of exception class in C#;
 - Exception types: SystemException and ApplicationException;
@@ -169,10 +169,9 @@ Catch(Exception e) {
 - The finally block cannot have a return or break because it isn't allow to leave the control;
 - Nested try-catch blocks are allowed in C#;
 - An Exception will be catched in the inner catch block if appropriate filter found, otherwise will be catched by outer catch block;
--
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-exception ;
-- https://www.tutorialsteacher.com/csharp/csharp-exception-handling ;
+- <https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-exception> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-exception-handling> ;

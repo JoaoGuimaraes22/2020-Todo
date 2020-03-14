@@ -1,11 +1,11 @@
-## Covariance and Contravariance
+# Covariance and Contravariance
 
-**Overview:**
+## Overview
 
 - Covariance and contravariance allow us to be flexible when dealing with class hierarchy;
 - For example:
 
-```
+```c#
 public class Small
 {
 
@@ -24,18 +24,18 @@ public class Bigger : Big
 - A derived class will always have something more than a base class, so the base class is relatively smaller than the derived class
 - An instance can accept big even if it demands small, but it cannot accept small if it demands big;
 
-**Covariance:**
+## Covariance
 
 - Enables you to pass a derived type where a base type is expected;
 - The base class and other derived classes are considered to be the same kind of class that adds extra functionalities to the base type;
 - Allows you to use a derived class where a base class is expected;
 - Can be applied on delegate, generic, array, interface, etc.;
 
-**Covariance w/ delegate:**
+## Covariance w/ delegate
 
 - Covariance in delegates allows flexiblity in the return type of delegate methods, for example:
 
-```
+```c#
 public delegate Small covarDel(Big mc);
 
 class Program
@@ -68,20 +68,20 @@ class Program
 
 - Returns:
 
-```
+```markdown
 Method1
 Method2
 ```
 
 - Here, covariance allows you to assign a method to the delegate that has a less derived return type;
 
-**Contravariance:**
+## Contravariance
 
 - Applied to parameters;
 - Allows a method with the parameter of a base class to be assigned to a delegate that expects the parameter of a derived class;
 - For example:
 
-```
+```c#
 delegate Small covarDel(Big mc);
 
 class Program
@@ -115,7 +115,7 @@ class Program
 
 - Returns:
 
-```
+```markdown
 Method1
 Method2
 Method3
@@ -125,6 +125,6 @@ Method3
 
 - You can also use covariance and contravariance in the same method;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-covariance-and-contravariance;
+- <https://www.tutorialsteacher.com/csharp/csharp-covariance-and-contravariance;>

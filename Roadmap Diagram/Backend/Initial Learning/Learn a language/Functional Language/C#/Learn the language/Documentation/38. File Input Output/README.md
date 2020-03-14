@@ -1,13 +1,13 @@
-## File I/O
+# File I/O
 
-**Here you will learn about:**
+## Here you will learn about
 
 - File Input Output:
   - Stream I/O;
   - File;
   - File Info;
 
-**Overview:**
+## Overview
 
 - A file is a collection of data stored in a disk with a specific name and a directory path;
 - When a file is opened for reading or writing, it becomes a stream;
@@ -17,7 +17,7 @@
   - The output stream:
     - For writing into the file (write operations);
 
-**I/O Classes:**
+## I/O Classes
 
 - Classes from the System.IO namespace;
 - Binary Reader:
@@ -51,60 +51,61 @@
 - StringWriter:
   - Used for writing into a string buffer;
 
-**The FileStream Class:**
+## The FileStream Class
 
 - Helps in reading from, writing to and closing files;
 - Syntax:
 
-```
+```c#
 FileStream <object_name> = new FileStream( <file_name>, <FileMode Enumerator>,
    <FileAccess Enumerator>, <FileShare Enumerator>);
 ```
 
 - For example, e create a FileStream object F for reading a file named sample.txt as shown:
 
-```
+```c#
 FileStream F = new FileStream("sample.txt", FileMode.Open, FileAccess.Read,
    FileShare.Read);
 ```
 
-- Parameters and descriptions:
+### Parameters and descriptions
 
-  - FileMode:
-    - The FileMode enumerator defines various methods for opening files:
-      - Append:
-        - Opens an existing file and puts cursor at the end of file, or creates the file, if the file does not exist;
-      - Create:
-        - Creates a new file;
-      - CreateNew:
-        - Specifies to the operating system, that it should create a file;
-      - Open:
-        - Open an existing file;
-      - OpenOrCreate:
-        - Specifies to the operating system that it should open a file if it exists, otherwise it should create a new file;
-      - Truncate:
-        - Opens an existing file and truncates its size to zero bytes;
-    - FileAccess:
-      - Has members:
-        - Read;
-        - ReadWrite;
-        - Write;
-    - FileShare:
-      - Has members:
-        - Inheritable:
-          - Allows a file handle to pass inheritance to the child processes;
-        - None:
-          - Declines sharing of the current file;
-        - Read:
-          - Allows opening the file for reading;
-        - ReadWrite:
-          - Allows opening the file for reading and writing;
-        - Write:
-          - Allows opening the file for writing;
+- FileMode:
+
+  - The FileMode enumerator defines various methods for opening files:
+    - Append:
+      - Opens an existing file and puts cursor at the end of file, or creates the file, if the file does not exist;
+    - Create:
+      - Creates a new file;
+    - CreateNew:
+      - Specifies to the operating system, that it should create a file;
+    - Open:
+      - Open an existing file;
+    - OpenOrCreate:
+      - Specifies to the operating system that it should open a file if it exists, otherwise it should create a new file;
+    - Truncate:
+      - Opens an existing file and truncates its size to zero bytes;
+  - FileAccess:
+    - Has members:
+      - Read;
+      - ReadWrite;
+      - Write;
+  - FileShare:
+    - Has members:
+      - Inheritable:
+        - Allows a file handle to pass inheritance to the child processes;
+      - None:
+        - Declines sharing of the current file;
+      - Read:
+        - Allows opening the file for reading;
+      - ReadWrite:
+        - Allows opening the file for reading and writing;
+      - Write:
+        - Allows opening the file for writing;
 
 - Example:
 
-```
+```c#
 using System;
 using System.IO;
 
@@ -130,24 +131,24 @@ namespace FileIOApplication {
 
 - Returns:
 
-```
+```markdown
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 -1
 ```
 
-**Advanced File Operations:**
+## Advanced File Operations
 
 - Reading and writing into text files:
   - Involves reading from and writing into text files;
   - The StreamReader and StreamWriter class helps to accomplish it;
-  - **See in** -> https://www.tutorialspoint.com/csharp/csharp_text_files.htm ;
+  - **See in** -> <https://www.tutorialspoint.com/csharp/csharp_text_files.htm> ;
 - Reading from and Writing into Binary files:
   - Involves reading from and writing into binary files;
   - The BinaryReader and BinaryWriter class helps to accomplish this;
-  - **See in** -> https://www.tutorialspoint.com/csharp/csharp_binary_files.htm ;
+  - **See in** -> <https://www.tutorialspoint.com/csharp/csharp_binary_files.htm> ;
 - Manipulating the Windows file system:
   - It gives a C# programamer the ability to browse and locate Windows files and directories;
-  - **See in** -> https://www.tutorialspoint.com/csharp/csharp_windows_file_system.htm ;
+  - **See in** -> <https://www.tutorialspoint.com/csharp/csharp_windows_file_system.htm> ;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_file_io.htm
+- <https://www.tutorialspoint.com/csharp/csharp_file_io.htm>

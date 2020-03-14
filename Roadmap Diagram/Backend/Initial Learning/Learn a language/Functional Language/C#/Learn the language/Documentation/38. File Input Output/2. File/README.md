@@ -1,11 +1,11 @@
-## File
+# File
 
-**Overview:**
+## Overview
 
 - C# provides different classes to alter files and directories;
 - Can be used to access directories, access files, open files for reading or writing, create a new file or move existing files from one location to another, etc.;
 
-**Classes:**
+## Classes
 
 - File:
   - It's static class that provides different functionalities like copy, create, move, delete, open for reading or /writing, encrypt or decrypt, check if a file exists, append lines or text to a file’s content, get last access time, etc;
@@ -15,13 +15,13 @@
 - Directory:
   - It's a static class that provides functionality for creating, moving, deleting and accessing subdirectories;
 
-**File:**
+## File Class
 
 - C# includes static File class to perform I/O operation on physical file system;
 - It is not recommended to use File class for multiple operations on multiple files at the same time due to performance reasons;
 - Use FileInfo class in that scenario;
 
-**Important Methods of Static File Class:**
+## Important Methods of Static File Class
 
 - AppendAllLines:
   - Appends lines to a file, and then closes the file;
@@ -69,9 +69,9 @@
   - Creates a new file, writes the specified string to the file, and then closes the file;
   - If the target file already exists, it is overwritten;
 
-**Example:**
+## Example
 
-```
+```c#
 //Check whether file is exists or not at particular location
 bool isFileExists = File.Exists(@"C:\ DummyFile.txt"); // returns false
 
@@ -97,13 +97,13 @@ StreamReader sr = File.OpenText(@"D:\DummyFile.txt");
 File.Delete(@"C:\DummyFile.txt");
 ```
 
-**Points to Remeber:**
+## Points to Remeber
 
 - File is a static class to read\write from physical file with less coding;
 - Static File class provides functionalities such as create, read\write, copy, move, delete and others for physical files;
 - Static Directory class provides functionalities such as create, copy, move, delete etc for physical directories with less coding;
 - FileInfo and DirectoryInfo class provides same functionality as static File and Directory class;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-file ;
+- <https://www.tutorialsteacher.com/csharp/csharp-file> ;

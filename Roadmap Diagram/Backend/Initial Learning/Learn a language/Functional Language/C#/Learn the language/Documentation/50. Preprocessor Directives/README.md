@@ -1,13 +1,13 @@
-## Preprocessor Directives
+# Preprocessor Directives
 
-**Overiview:**
+## Overiview
 
 - They give instructions to the compiler to preprocess the information before actual compilation starts;
 - Begin with `#`;
 - Preprocessor directives are not statements, so they do not end with a semicolon (;);
 - Preprocessor directives are used to help in conditional compilation;
 
-**List of preprocessor directives:**
+## List of preprocessor directives
 
 - #define:
   - Defines a sequence of characters, called a symbol;
@@ -27,20 +27,20 @@
   - Lets you specify a block of code that you can expand or collapse when using the outlining feature of the Visual Studio Code Editor;
 - #endregion:
   - Marks the end of a #region block;
-- See all in -> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/ ;
+- See all in -> <https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/>;
 
-**The #define preprocessor:**
+## The #define preprocessor
 
 - Creates symbolic constants;
 - Syntax:
 
-```
+```c#
 #define symbol
 ```
 
 - For example:
 
-```
+```c#
 #define PI
 using System;
 
@@ -60,11 +60,11 @@ namespace PreprocessorDAppl {
 
 - Returns:
 
-```
+```markdown
 PI is defined
 ```
 
-**Conditional Directives:**
+## Conditional Directives
 
 - Use the #if directive to create a conditional directive;
 - for testing a symbol or symbols to check if they evaluate to true;
@@ -72,7 +72,7 @@ PI is defined
   - `#if symbol [operator symbol]...`;
 - For example:
 
-```
+```c#
 #define DEBUG
 #define VC_V10
 using System;
@@ -95,10 +95,10 @@ public class TestClass {
 
 - Returns:
 
-```
+```markdown
 DEBUG and VC_V10 are defined
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_preprocessor_directives.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_preprocessor_directives.htm> ;

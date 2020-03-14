@@ -1,18 +1,18 @@
-## ArrayList
+# ArrayList
 
-**Overview:**
+## Overview
 
 - Can contain elements of any data types;
 - It is similar to an array, except that it grows automatically as you add items in it;
 - You don't need to specify the size of ArrayList;
 - Implements IEnumerable, ICollection and IList interfaces;
 
-**Creating an ArrayList:**
+## Creating an ArrayList
 
 - Example:
   - `ArrayList myArryList = new ArrayList();`;
 
-**Properties of ArrayList:**
+## Properties of ArrayList
 
 - Capacity:
   - Gets or sets the number of elements that the ArrayList can contain;
@@ -25,7 +25,7 @@
 - Item:
   - Gets or sets the element at the specified index;
 
-**Methods:**
+## Methods
 
 - Add(object value) / AddRange(ICollection c):
   - Adds single elements at the end / Adds all the elements from the specified collection;
@@ -54,11 +54,11 @@
 - ToArray():
   - Returns compitible array from an ArrayList;
 
-**See more:**
+## See more
 
-- See more in -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=netframework-4.8 ;
+- See more in -> <https://docs.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=netframework-4.8> ;
 
-**Points to Remember:**
+## Points to Remember
 
 - ArrayList can store items(elements) of any datatype;
 - ArrayList resizes automatically as you add the elements;
@@ -67,7 +67,7 @@
 - ArrayList can be accessed using foreach or for loop or indexer;
 - Use Add(), AddRange(), Remove(), RemoveRange(), Insert(), InsertRange(), Sort(), Reverse() methods;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_arraylist.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-arraylist ;
+- <https://www.tutorialspoint.com/csharp/csharp_arraylist.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-arraylist> ;

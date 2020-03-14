@@ -1,14 +1,18 @@
-## Dictionary<TKey, TValue>
+# Dictionary<TKey, TValue>
 
-**Overview:**
+## Overview
 
 - It's a collection of Keys and Values;
 
-**Creating a Dictionary<TKey, TValue>:**
+## Creating a Dictionary<TKey, TValue
 
-- `Dictionary<int, string> dict = new Dictionary<int, string>();`;
+- Syntax:
 
-**Properties:**
+```c#
+Dictionary<int, string> dict = new Dictionary<int, string>();
+```
+
+## Properties
 
 - Count:
   - Returns the total number of elements;
@@ -21,7 +25,7 @@
 - Values:
   - Returns collection of values;
 
-**Methods:**
+## Methods
 
 - Add(TKey, TValue):
   - Adds the specified key and value;
@@ -36,11 +40,11 @@
 - TryGetValue(TKey, TValue):
   - Tries to get the value associated with the specified key, if can't returns false;
 
-**See more:**
+## See more
 
-- See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.8 ;
+- See more at -> <https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.8> ;
 
-**Points to Remember:**
+## Points to Remember
 
 - A Dictionary stores Key-Value pairs where the key must be unique;
 - Before adding a KeyValuePair into a dictionary, check that the key does not exist using the ContainsKey() method;
@@ -49,6 +53,6 @@
 - Use dictionary indexer to access individual item;
 - Use custom class that derives IEqualityComparer to compare object of custom class with Contains() method;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-dictionary ;
+- <https://www.tutorialsteacher.com/csharp/csharp-dictionary> ;

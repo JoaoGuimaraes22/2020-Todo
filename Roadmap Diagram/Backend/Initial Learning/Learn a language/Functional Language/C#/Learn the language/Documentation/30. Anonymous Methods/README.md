@@ -1,6 +1,6 @@
-## Anonymous Methods
+# Anonymous Methods
 
-**Overview:**
+## Overview
 
 - Anonymous methods provide a technique to pass a code block as a delegate parameter;
 - Are defined using the delegate keyword;
@@ -9,11 +9,11 @@
 - Can be passed to a method that accepts the delegate as a parameter;
 - Can be used as event handlers;
 
-**Writing an Anonymous method:**
+## Writing an Anonymous method
 
 - For example:
 
-```
+```c#
 delegate void NumberChanger(int n);
 ...
 NumberChanger nc = delegate(int x) {
@@ -21,14 +21,14 @@ NumberChanger nc = delegate(int x) {
 };
 ```
 
-**Anonymous Method Limitations:**
+## Anonymous Method Limitations
 
 - It cannot contain jump statement like goto, break or continue;
 - It cannot access ref or out parameter of an outer method;
 - It cannot have or access unsafe code;
 - It cannot be used on the left side of the is operator;
 
-**Points to Remember:**
+## Points to Remember
 
 - Anonymous method can be defined using the delegate keyword;
 - Anonymous method must be assigned to a delegate;
@@ -36,7 +36,7 @@ NumberChanger nc = delegate(int x) {
 - Anonymous method can be passed as a parameter;
 - Anonymous method can be used as event handlers;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_anonymous_methods.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-anonymous-method ;
+- <https://www.tutorialspoint.com/csharp/csharp_anonymous_methods.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-anonymous-method> ;

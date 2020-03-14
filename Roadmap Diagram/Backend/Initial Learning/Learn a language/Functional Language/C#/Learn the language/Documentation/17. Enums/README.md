@@ -1,17 +1,17 @@
-## Enums
+# Enums
 
-**Overview:**
+## Overview
 
 - An enumeration is a set of named integer constants;
 - Enumerations are value data types;
 - Enumeration contains its own values and cannot inherit or cannot pass inheritance;
 - Used to define a constant set of values;
 
-**Declaring `enum` Variables:**
+## Declaring `enum` Variables
 
 - Syntax:
 
-```
+```c#
 enum <enum_name> {
    enumeration list
 };
@@ -23,9 +23,9 @@ enum <enum_name> {
 - For example:
   - `enum Days { Sun, Mon, tue, Wed, thu, Fri, Sat };`;
 
-**Example:**
+## Example
 
-```
+```c#
 using System;
 
 namespace EnumApplication {
@@ -46,15 +46,15 @@ namespace EnumApplication {
 
 - Returns:
 
-```
+```c#
 Monday: 1
 Friday: 5
 ```
 
-**Enum Methods:**
+## Enum Methods
 
 - Format:
-  -     Converts the specified value of enum type to the specified string format;
+  - Converts the specified value of enum type to the specified string format;
 - GetName / GetNames:
   - Returns the name / array of names of the constant / all constants of the specified value of specified enum;
 - GetValues:
@@ -64,14 +64,14 @@ Friday: 5
 - bool TryParse(string, out TEnum):
   - Converts the string representation of the name or numeric value of one or more enumerated constants to an equivalent enumerated object. The return value indicates whether the conversion succeeded;
 
-**Points to Remember:**
+## Points to Remember
 
 - The enum is a set of named constants;
 - The value of enum constants starts from 0. Enum can have value of any valid numeric type;
 - String enum is not supported in C#;
 - Use of enum makes code more readable and manageable;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_enums.htm ;
-- https://www.guru99.com/c-sharp-enum.html ;
+- <https://www.tutorialspoint.com/csharp/csharp_enums.htm> ;
+- <https://www.guru99.com/c-sharp-enum.html> ;

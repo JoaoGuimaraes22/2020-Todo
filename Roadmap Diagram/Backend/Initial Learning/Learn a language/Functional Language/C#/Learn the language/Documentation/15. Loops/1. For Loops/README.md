@@ -1,12 +1,12 @@
-## For Loops
+# For Loops
 
-**Overview:**
+## Overview
 
 - The `for` keyword indicates a loop;
 
-**Syntax:**
+## Syntax
 
-```
+```c#
 for (variable initialization; condition; steps)
 {
     //execute this code block as long as condition is satisfied
@@ -20,9 +20,9 @@ for (variable initialization; condition; steps)
 - Steps:
   - The steps defines the incremental or decremental part;
 
-**Example:**
+## Example
 
-```
+```c#
 for (int i = 0; i < 10; i++)
 {
     Console.WriteLine("Value of i: {0}", i);
@@ -31,7 +31,7 @@ for (int i = 0; i < 10; i++)
 
 - Returns:
 
-```
+```markdown
 Value of i: 0
 Value of i: 1
 Value of i: 2
@@ -44,17 +44,17 @@ Value of i: 8
 Value of i: 9
 ```
 
-**Features:**
+## Features
 
 - It is not necessary to put the initialization, condition and steps into brackets;
 - You can initialize a variable before the 'for' loop, and the condition and steps can be defined inside the for loop;
 
-**Infinite for Loop:**
+## Infinite for Loop
 
 - It will be an infinite loop if for loop does not contain initialization, condition or steps part;
 - Example:
 
-```
+```c#
 for (  ;  ; )
 {
     Console.Write(1);
@@ -64,12 +64,12 @@ for (  ;  ; )
 - Returns:
   - `1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1...`;
 
-**break in for Loop:**
+## break in for Loop
 
 - You can exit from a for loop using `break`;
 - Example:
 
-```
+```c#
 for (int i = 0; i < 10; i++)
 {
     if( i == 5 )
@@ -81,7 +81,7 @@ for (int i = 0; i < 10; i++)
 
 - Returns:
 
-```
+```markdown
 Value of i: 0
 Value of i: 1
 Value of i: 2
@@ -89,12 +89,12 @@ Value of i: 3
 Value of i: 4
 ```
 
-**Nested for loop:**
+## Nested for loop
 
 - C# allows a for loop inside another for loop:
 - Example:
 
-```
+```c#
 for (int i = 0; i < 10; i++)
 {
     for(int j =i; j< 10; j++)
@@ -102,7 +102,7 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
-**Points to remeber:**
+## Points to remeber
 
 - The for loop executes the block of code repeatedly;
 - The for loop has three steps: initialization, condition and increment/decrement;
@@ -110,6 +110,6 @@ for (int i = 0; i < 10; i++)
 - Use break keyword to stop the execution and exit from for loop;
 - Nested for loop is allowed in C#;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-for-loop;
+- <https://www.tutorialsteacher.com/csharp/csharp-for-loop;>

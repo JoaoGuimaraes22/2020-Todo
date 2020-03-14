@@ -1,26 +1,26 @@
-## Reflection
+# Reflection
 
-**Overview:**
+## Overview
 
 - Used for obtaining type information at runtime;
 - In the System.Reflection namespace;
 - Contains classes that allow you to obtain information about the application and to dynamically add types, values, and objects to the application;
 
-**Applications of reflection:**
+## Applications of reflection
 
 - Allows viewing of attribute information at runtime;
 - Allows examining various types in an assembly and instantiate these types;
 - Allows late binding to methods and properties;
 - Allows creating new types at runtime and then performs some tasks using those types;
 
-**Viewing Metadata:**
+## Viewing Metadata
 
 - The MemberInfo object of the System.Reflection class needs to be initialized for discovering the attributes associated with a class;
 - Syntax:
   - `System.Reflection.MemberInfo info = typeof(MyClass);`;
 - For example:
 
-```
+```c#
 using System;
 
 [AttributeUsage(AttributeTargets.All)]
@@ -63,13 +63,13 @@ namespace AttributeAppl {
 
 - Returns:
 
-```
+```markdown
 HelpAttribute
 ```
 
-**Example:**
+## Example
 
-```
+```c#
 using System;
 using System.Reflection;
 
@@ -182,7 +182,7 @@ namespace BugFixApplication {
 
 - Returns:
 
-```
+```markdown
 Length: 4.5
 Width: 7.5
 Area: 33.75
@@ -204,6 +204,6 @@ Last Reviewed: 19/10/2012
 Remarks:
 ```
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_reflection.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_reflection.htm> ;

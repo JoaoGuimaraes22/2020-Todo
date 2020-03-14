@@ -1,6 +1,6 @@
-## Arrays
+# Arrays
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Arrays:
   - Multi-dimensional arrays;
@@ -9,14 +9,14 @@
   - Param arrays;
   - The Array class;
 
-**Overview:**
+## Overview
 
 - Stores a fixed-size sequential collection of elements of the same type;
 - Used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type stored at contiguous memory locations;
 - All arrays consist of contiguous memory locations;
 - The lowest address corresponds to the first element and the highest address to the last element (all elements are indexed);
 
-**Declaring arrays:**
+## Declaring arrays
 
 - Syntax:
   - `datatype[] arrayName;`;
@@ -27,13 +27,13 @@
   - Example:
     - `double[] balance;`
 
-**Initializing an array:**
+## Initializing an array
 
 - Array is a reference type, so you need to use the `new` keyword to create an instance of an array;
 - For example:
   - `double[] balance = new double[10]`;
 
-**Assigning values to an array:**
+## Assigning values to an array
 
 - You can assign values to individual array elements, by using the index number;
 - Syntax:
@@ -54,7 +54,7 @@
   - `int [] marks = new int[] { 99, 98, 92, 97, 95};`;
   - `int[] score = marks;`;
 
-**Accesing Array Elements:**
+## Accesing Array Elements
 
 - An element is accessed through it's index;
 - This is done by placing the index of the element within square brackets after the name of the array;
@@ -62,7 +62,7 @@
   - `double salary = balance[9]`;
 - For example:
 
-```
+```c#
 using System;
 
 namespace ArrayApplication {
@@ -88,7 +88,7 @@ namespace ArrayApplication {
 
 - Returns:
 
-```
+```markdown
 Element[0] = 100
 Element[1] = 101
 Element[2] = 102
@@ -101,12 +101,12 @@ Element[8] = 108
 Element[9] = 109
 ```
 
-**Using the `foreach` loop:**
+## Using the `foreach` loop
 
 - You can also use a `foreach` statement to iterate through an array;
 - For example:
 
-```
+```c#
 using System;
 
 namespace ArrayApplication {
@@ -132,7 +132,7 @@ namespace ArrayApplication {
 
 - Returns:
 
-```
+```markdown
 Element[0] = 100
 Element[1] = 101
 Element[2] = 102
@@ -145,7 +145,7 @@ Element[8] = 108
 Element[9] = 109
 ```
 
-**Array Concepts:**
+## Array Concepts
 
 - There are following few important concepts related to array which should be clear to a C# programmers:
   - Multi-dimensional arrays;
@@ -154,6 +154,6 @@ Element[9] = 109
   - Param arrays;
   - The Array class;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_arrays.htm
+- <https://www.tutorialspoint.com/csharp/csharp_arrays.htm>

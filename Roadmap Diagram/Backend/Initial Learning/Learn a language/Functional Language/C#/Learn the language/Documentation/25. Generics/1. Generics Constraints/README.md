@@ -1,16 +1,16 @@
-## Generic Constraints
+# Generic Constraints
 
-**Overview:**
+## Overview
 
 - Generics allow you to define a class with placeholders for the type of its fields, methods, parameters, etc;
 - C# includes Constraints to specify which type of placeholder type with the generic class is allowed;
 
-**Syntax:**
+## Syntax
 
 - Constraints can be applied using the where keyword;
 - Example:
 
-```
+```c#
 class MyGenericClass<T> where T: class
 {
     private T genericMemberVariable;
@@ -36,35 +36,35 @@ class MyGenericClass<T> where T: class
 - String or any class type is a valid type because it is a reference type.
 - Example:
 
-```
+```c#
 MyGenericClass<string> strGenericClass = new MyGenericClass<string>("Hello World");
 
 MyGenericClass<Student> strGenericClass = new MyGenericClass<Student>(new Student());
 ```
 
-**Multiple Constraints:**
+## Multiple Constraints
 
 - A generic class can have multiple constraints as shown below:
 
-```
+```c#
 class MyGenericClass<T, U> where T: class where U:struct
 {
     ...
 }
 ```
 
-**Constraint on Generic Methods:**
+## Constraint on Generic Methods
 
 - You can apply constraints on the generic methods also;
 - Thus, constraints can be applied on generic types;
 
-**Points to remember:**
+## Points to remember
 
 - Constraints specifies the kind of types allowed with the generics;
 - Constraints can be applied using the where keyword;
 - Six types of constraints can be applied: class, struct, new(), base class name, interface and derived type;
 - Multiple constraints also can be applied;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/constraints-in-generic-csharp ;
+- <https://www.tutorialsteacher.com/csharp/constraints-in-generic-csharp> ;

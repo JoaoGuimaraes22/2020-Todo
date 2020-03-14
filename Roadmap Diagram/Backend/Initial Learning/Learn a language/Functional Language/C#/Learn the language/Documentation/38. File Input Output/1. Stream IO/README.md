@@ -1,10 +1,10 @@
-## Stream I/O
+# Stream I/O
 
-**Overview:**
+## Overview
 
 - C# includes following standard IO (Input/Output) classes to read/write from different sources like a file, memory, network, isolated storage, etc;
 
-**Stream:**
+## Stream
 
 - System.IO.Stream is an abstract class that provides standard methods to transfer bytes (read, write, etc.) to the source;
 - It's like a wrapper class to transfer bytes;
@@ -25,7 +25,7 @@
 - CryptoStream:
   - For linking data streams to cryptographic transformations;
 
-**Stream Readers and Writers:**
+## Stream Readers and Writers
 
 - StreamReader:
   - It's a helper class for reading characters from a Stream by converting bytes into characters using an encoded value;
@@ -38,13 +38,13 @@
 - BinaryWriter:
   - Writes primitive types in binary;
 
-**Points to Remember:**
+## Points to Remember
 
 - Stream is an abstract class for transfering bytes from different sources. It is base class for all other class that reads\writes bytes to different sources;
 - FileStream class provides reading and writing functionality of bytes to physical file;
 - Reader & writer classes provides functionality to read bytes from Stream classes (FileStream, MemoryStream etc) and converts bytes into appropriate encoding;
 - StreamReader provides a helper method to read string from FileStream by converting bytes into strings. StreamWriter provides a helper method to write string to FileStream by converting strings into bytes;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-stream-io ;
+- <https://www.tutorialsteacher.com/csharp/csharp-stream-io> ;

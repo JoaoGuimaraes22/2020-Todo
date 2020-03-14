@@ -1,17 +1,20 @@
-## Hashtable
+# Hashtable
 
-**Overview:**
+## Overview
 
 - Similar to generic Dictionary collection;
 - Stores key-value pairs;
 - Optimizes lookups by computing the hash code of each key and stores it in a different bucket internally and then matches the hash code of the specified key at the time of accessing values;
 
-**Creating a Hashtable:**
+## Creating a Hashtable
 
 - Example:
-  - `Hashtable ht = new Hashtable();`;
 
-**Properties:**
+```c#
+Hashtable ht = new Hashtable();
+```
+
+## Properties
 
 - Count:
   - Gets the number of key/value pairs;
@@ -24,7 +27,7 @@
 - Values:
   - Gets an ICollection of values;
 
-**Methods:**
+## Methods
 
 - Add(object key, object value):
   - Adds an item with a key and value;
@@ -39,11 +42,11 @@
 - GetHash(object key):
   - Returns the hash code for the specified key;
 
-**See more:**
+## See more
 
-- See more at -> https://docs.microsoft.com/en-us/dotnet/api/system.collections.hashtable?view=netframework-4.8 ;
+- See more at -> <https://docs.microsoft.com/en-us/dotnet/api/system.collections.hashtable?view=netframework-4.8> ;
 
-**Points to Remember:**
+## Points to Remember
 
 - Hashtable stores key-value pairs of any datatype where the Key must be unique;
 - The Hashtable key cannot be null whereas the value can be null;
@@ -51,7 +54,7 @@
 - Hashtable uses the default hashcode provider which is object.GetHashCode(). You can also use a custom hashcode provider;
 - Use DictionaryEntry with foreach statement to iterate Hashtable;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-hashtable ;
-- https://www.tutorialspoint.com/csharp/csharp_hashtable.htm ;
+- <https://www.tutorialsteacher.com/csharp/csharp-hashtable> ;
+- <https://www.tutorialspoint.com/csharp/csharp_hashtable.htm> ;

@@ -1,13 +1,13 @@
-## Structure
+# Structure
 
-**Overview:**
+## Overview
 
 - A structure is a value data type;
 - Helps you make a singe variable hold related data of various data types;
 - Useful to hold small data value;
 - Structures are used to represent a record;
 
-**Defining a structure:**
+## Defining a structure
 
 - To define a structure, you must use the struct statement with public or internal modifier;
 - Default is internal;
@@ -15,7 +15,7 @@
 - The struct statement defines a new data type, with more than one member for your program;
 - For example:
 
-```
+```c#
 struct Employee
 {
     public int EmpId;
@@ -24,13 +24,13 @@ struct Employee
 }
 ```
 
-**Constructors in Struct:**
+## Constructors in Struct
 
 - A struct cannot contain parameterless constructor;
 - Good for initializing struct members;
 - Example:
 
-```
+```c#
 struct Employee
 {
     public int EmpId;
@@ -52,7 +52,7 @@ Console.Write(emp.FirstName); // prints Bill
 Console.Write(emp.LastName); // prints Gates
 ```
 
-**Features of Structures:**
+## Features of Structures
 
 - The C# structures have the following features:
   - Can have methods, fields, indexers, properties, operator methods, and events;
@@ -67,7 +67,7 @@ Console.Write(emp.LastName); // prints Gates
   - Structs can be instantiated without using the New operator;
   - If the New operator is not used, the fields remain unassigned and the object cannot be used until all the fields are initialized;
 
-**Classes versus Structures:**
+## Classes versus Structures
 
 - Classes are reference types and structs are value types;
 - Structures do not support inheritance;
@@ -75,7 +75,7 @@ Console.Write(emp.LastName); // prints Gates
 - Struct can be instasntiated without the new operator. However, you won't be able to use any of its methods, events or properties if you do so;
 - However, you won't be able to use any of its methods, events or properties if you do so;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_struct.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-struct ;
+- <https://www.tutorialspoint.com/csharp/csharp_struct.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-struct> ;

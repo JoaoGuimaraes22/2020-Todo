@@ -1,12 +1,12 @@
-## Object Initializer
+# Object Initializer
 
-**Overview:**
+## Overview
 
 - C# 3.0 (.NET 3.5) introduced Object Initializer Syntax, a new way to initialize an object of a class or collection. Object initializers allow you to assign values to the fields or properties at the time of creating an object without invoking a constructor;
 
-**Syntax:**
+## Syntax
 
-```
+```c#
 public class Student
 {
     public int StudentID { get; set; }
@@ -26,14 +26,13 @@ class Program
                                     };
     }
 }
-
 ```
 
-**Collection Initializer Syntax:**
+## Collection Initializer Syntax
 
 - Collection can be initialized the same way as class objects using collection initializer syntax:
 
-```
+```c#
 IList<Student> studentList = new List<Student>() {
                     new Student() { StudentID = 1, StudentName = "John"} ,
                     new Student() { StudentID = 2, StudentName = "Steve"} ,
@@ -44,11 +43,11 @@ IList<Student> studentList = new List<Student>() {
                 };
 ```
 
-**Advantages of Initializers:**
+## Advantages of Initializers
 
 - Initializer syntax makes a code more readable, easy to add elements into the collection.;
 - Useful in multi-threading;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-object-initializer;
+- <https://www.tutorialsteacher.com/csharp/csharp-object-initializer;>

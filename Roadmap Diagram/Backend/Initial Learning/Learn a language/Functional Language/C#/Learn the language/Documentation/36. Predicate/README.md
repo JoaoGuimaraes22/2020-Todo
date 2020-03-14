@@ -1,16 +1,16 @@
-## Predicate Delegate
+# Predicate Delegate
 
-**Overview:**
+## Overview
 
 - It represents a method that contains a set of criteria and checks whether the passed parameter meets those criteria or not;
 - A predicate delegate methods must take one input parameter and return a boolean - true or false;
 
-**Predicate:**
+## Predicate
 
 - Same as other delegate types, Predicate can also be used with any method, anonymous method or lambda expression;
 - Example:
 
-```
+```c#
 static bool IsUpperCase(string str)
 {
     return str.Equals(str.ToUpper());
@@ -28,15 +28,15 @@ static void Main(string[] args)
 
 - Returns:
 
-```
+```markdown
 false
 ```
 
-**Anonymous Methdods with Predicate:**
+## Anonymous Methdods with Predicate
 
 - An anonymous method can also be assigned to a Predicate delegate type as shown below:
 
-```
+```c#
 static void Main(string[] args)
 {
     Predicate<string> isUpper = delegate(string s) { return s.Equals(s.ToUpper());};
@@ -44,11 +44,11 @@ static void Main(string[] args)
 }
 ```
 
-**Lambda Expressions with Predicate:**
+## Lambda Expressions with Predicate
 
 - A lambda expression can also be assigned to a Predicate delegate type as shown below:
 
-```
+```c#
 static void Main(string[] args)
 {
     Predicate<string> isUpper = s => s.Equals(s.ToUpper());
@@ -56,11 +56,11 @@ static void Main(string[] args)
 }
 ```
 
-**Points to Remember:**
+## Points to Remember
 
 - Predicate delegate takes one input parameter and boolean return type;
 - Anonymous method and Lambda expression can be assigned to the predicate delegate;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-predicate;
+- <https://www.tutorialsteacher.com/csharp/csharp-predicate;>
