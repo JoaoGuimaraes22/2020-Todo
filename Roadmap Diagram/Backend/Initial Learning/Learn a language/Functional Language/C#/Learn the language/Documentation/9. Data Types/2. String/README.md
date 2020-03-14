@@ -1,6 +1,6 @@
-## String
+# String
 
-**Overview:**
+## Overview
 
 - A string is a series of characters that is used to represent text;
 - C# provides the String data type to store string literals:
@@ -8,13 +8,13 @@
 - A string is a collection or an array of characters;
 - A string can be created using a char array or accessed like a char array;
 
-**Special Characters:**
+## Special Characters
 
 - A text in the real world can include any character;
 - C# includes escaping character \ (backslash) before special characters to include in a string;
 - Example:
 
-```
+```c#
 string text = "This is a \"string\" in C#.";
 string str = "xyzdef\\rabc";
 string path = "\\\\mypc\\ shared\\project";
@@ -22,18 +22,18 @@ string path = "\\\\mypc\\ shared\\project";
 
 - Use @ and \ to declare a multi-line string:
 
-```
+```c#
 string str = @"this is a \
 multi line \
 string";
 ```
 
-**String Concatenation:**
+## String Concatenation
 
 - Multiple strings can be concatenated with + operator;
 - Example:
 
-```
+```c#
 string name = "Mr." + "James " + "Bond" + ", Code: 007";
 
 string firstName = "James";
@@ -47,13 +47,13 @@ string agent = "Mr." + firstName + " " + lastName + ", Code: " + code;
 - It means it is read-only and cannot be changed once created in the memory;
 - So, it is recommended to use StringBuilder instead of string if you concatenate more than five strings;
 
-**String Interpolation:**
+## String Interpolation
 
 - It's a better way of concatenating strings;
 - C# 6 includes a special character \$ to identify an interpolated string;
 - Example:
 
-```
+```c#
 string firstName = "James";
 string lastName = "Bond";
 string code = "007";
@@ -61,7 +61,7 @@ string code = "007";
 string fullName = $"Mr. {firstName} {lastName}, Code: {code}";
 ```
 
-**Creating a String object:**
+## Creating a String object
 
 - You can create string object using one of the following methods:
   - Assigning a string literal to a String variable;
@@ -71,7 +71,7 @@ string fullName = $"Mr. {firstName} {lastName}, Code: {code}";
   - Calling a formatting method to convert a value or an object to its string representation;
 - For example:
 
-```
+```c#
 using System;
 
 namespace StringApplication {
@@ -109,21 +109,21 @@ namespace StringApplication {
 
 - Returns:
 
-```
+```markdown
 Full Name: RowanAtkinson
 Greetings: Hello
 Message: Hello From Tutorials Point
 Message: Message sent at 5:58 PM on Wednesday, October 10, 2012
 ```
 
-**Properties of the String Class:**
+## Properties of the String Class
 
 - Chars:
   - Gets the Char object at a specified position in the current String object;
 - Length:
   - Gets the number of characters in the current String object;
 
-**Methods of the String Class:**
+## Methods of the String Class
 
 - Compare(string strA, string strB):
   - Compares two specified string objects and returns an integer that indicates their relative position in the sort order;
@@ -174,11 +174,11 @@ Message: Message sent at 5:58 PM on Wednesday, October 10, 2012
 - Trim():
   - Removes all leading and trailing white-space characters from the current String object;
 
-**See all:**
+### See all
 
-- See all in -> https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8 ;
+- See all in -> <https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8> ;
 
-**Links:**
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-string ;
-- https://www.tutorialspoint.com/csharp/csharp_strings.htm ;
+- <https://www.tutorialsteacher.com/csharp/csharp-string> ;
+- <https://www.tutorialspoint.com/csharp/csharp_strings.htm> ;

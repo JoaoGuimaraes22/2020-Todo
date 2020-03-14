@@ -1,6 +1,6 @@
-## Data Types
+# Data Types
 
-**Here you will learn about:**
+## Here you will learn about
 
 - Data Types;
   - Numbers;
@@ -9,14 +9,14 @@
   - Anonymous Type;
   - Dynamic Type;
 
-**Overview:**
+## Overview
 
 - Variables in C# can be:
   - Value Types;
   - Reference types;
   - Pointer types;
 
-**Value Types:**
+## Value Types
 
 - Value type variables can be assigned a value directly;
 - Derived from the class System.ValueType;
@@ -25,7 +25,7 @@
 - When you declare, for example, an **int** type, the system allocates memory to store the value;
 - You can get the syze of a variable with the `syzeof` method, for example like `syzeof(int)`;
 
-**Reference Types:**
+## Reference Types
 
 - They do not contain the actual data stored in a variable, but they contain a reference to the variables;
 - They refer to a memory location;
@@ -35,7 +35,7 @@
   - **dynamic**;
   - **string**;
 
-**Object Type:**
+### Object Type
 
 - Is the ultimate base class for all data types;
 - An alias for System.Object class;
@@ -43,12 +43,12 @@
 - When a value type is converted to object type, and when an object type is converted to a value type, it is called unboxing.
 - For example:
 
-```
+```c#
 object obj;
 obj = 100; // this is boxing
 ```
 
-**Dynamic Type:**
+### Dynamic Type
 
 - Can store any type of value;
 - Avoids compile time type checking;
@@ -56,21 +56,21 @@ obj = 100; // this is boxing
 - Example:
   - `dynamic dynamicVariable = 1;`;
 
-**Methods and Properties of Dynamic Type:**
+#### Methods and Properties of Dynamic Type
 
 - If you assign class object to the dynamic type then the compiler would not check for correct methods and properties name of a dynamic type that holds the custom class object;
 
-**Dynamic Type as a Method Parameter:**
+#### Dynamic Type as a Method Parameter
 
 - A method can have dynamic type parameters so that it can accept any type of parameter at run time;
 
-**Anonymous Type:**
+## Anonymous Type
 
 - Is a type that doesn't have any name;
 - The implicitly typed variable- var is used to hold the reference of anonymous types;
 - Example:
 
-```
+```c#
 var myAnonymousType = new { firstProperty = "First",
     secondProperty = 2,
     thirdProperty = true
@@ -80,12 +80,12 @@ var myAnonymousType = new { firstProperty = "First",
 - An anonymous type is a temporary data type that is inferred based on the data that you include in an object initializer;
 - Properties of anonymous types will be read-only properties so you cannot change their values;
 
-**Nested Anonymous Type:**
+### Nested Anonymous Type
 
 - An anonymous type can have another anonymous type as a property;
 - For example:
 
-```
+```c#
 var myAnonymousType = new
                         {
                             firstProperty = "First",
@@ -95,13 +95,13 @@ var myAnonymousType = new
                         };
 ```
 
-**Scope of Anonymous Type:**
+### Scope of Anonymous Type
 
 - An anonymous type will always be local to the method where it is defined;
 - You can only pass them a method that accepts a parameter of dynamic type;
 - Example:
 
-```
+```c#
 static void Main(string[] args)
 {
 
@@ -123,27 +123,27 @@ static void DoSomethig(dynamic param)
 
 - Returns:
 
-```
+```markdown
 First Property
 ```
 
-**Pointer Type:**
+## Pointer Type
 
 - Store the memory address of another type;
 - For example:
 
-  ```
-  char* cptr;
-  int* iptr;
-  ```
+```c#
+char* cptr;
+int* iptr;
+```
 
-**Default value:**
+## Default value
 
 - Every data type has a default value;
 - Numeric type is 0, boolean has false and char has '/0' as default value;
 - Use default(typename) to assign a default value of the data type or C# 7.1 onward, use default literal, for example:
 
-```
+```c#
 int i = default(int); // 0
 float f = default(float);// 0
 decimal d = default(decimal);// 0
@@ -158,7 +158,7 @@ bool b = default;// false
 char c = default;// '\0'
 ```
 
-**See More:**
+## See More
 
 - See more in-depth about:
   - Numbers;
@@ -167,7 +167,7 @@ char c = default;// '\0'
   - Anonymous Type;
   - Dynamic Type;
 
-**Points to remember:**
+## Points to remember
 
 - Value type stores the value in its memory space, whereas reference type stores the address of the value where it is stored.;
 - Primitive data types and struct are of the 'Value' type;
@@ -176,9 +176,9 @@ char c = default;// '\0'
 - Reference type passes byref by default;
 - Value types and reference types stored in Stack and Heap in the memory depends on the scope of the variable;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_data_types.htm ;
-- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types ;
-- https://www.tutorialsteacher.com/csharp/csharp-data-types ;
-- https://www.tutorialsteacher.com/csharp/csharp-anonymous-type ;
+- <https://www.tutorialspoint.com/csharp/csharp_data_types.htm> ;
+- <https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-data-types> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-anonymous-type> ;

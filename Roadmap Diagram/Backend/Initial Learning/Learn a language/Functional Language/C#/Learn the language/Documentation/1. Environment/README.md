@@ -1,13 +1,13 @@
 # The C# Environment
 
-## The .NET framework:
+## The .NET framework
 
 - It's a platform that helps you to write the following types of applications:
   - Windows applications;
   - Web applications;
   - Web services;
 
-## The .NET components:
+## The .NET components
 
 - Language:
   - WinForms;
@@ -30,7 +30,7 @@
   - Windows Communication Foundation (WCF);
   - LINQ
 
-## Common Language Runtime (CLR):
+## Common Language Runtime (CLR)
 
 - The CLR or CLI is platform on which the .Net programs are executed;
 - Features:
@@ -39,17 +39,17 @@
     - The process of removing unwanted resources when they are no longer required;
   - Working with various programming languages;
 
-## The Lifecycle:
+## The Lifecycle
 
 - The lifceycle in the .NET framework goes like so:
   - Programming Language -> Compiler -> Common Language Interpeter;
 
-## Class Library:
+## Class Library
 
 - Includes a set of standard class libraries;
 - Is a collection of methods and functions that can be used for the core purpose, organized in namespaces;
 
-## Languages:
+## Languages
 
 - WinForms:
   - For developing Forms-based applications, which would run on an end user machine;
@@ -58,7 +58,7 @@
 - ADO.Net:
   - To develop applications to interact with Databases;
 
-## .NET Framework Design Principles:
+## .NET Framework Design Principles
 
 - Interoperability:
   - Backwards support;
@@ -73,7 +73,7 @@
 - Simplified deployment:
   - Tools exist that can be used to package applications built on the .Net frameworK
 
-## IDE:
+## IDE
 
 - Visual Studio:
   - Can be used to create an application in any .Net language. Hence, a developer can use C#, VB.Net or even F# to develop an application;
@@ -84,9 +84,9 @@
   - Nuget Support;
   - Provides ALM (Application Life-cycle Management) support for different phases of the development;
 
-## Links:
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_environment_setup.htm;
-- https://www.guru99.com/net-framework.html ;
-- https://www.guru99.com/download-install-visual-studio.html ;
-- https://www.tutorialsteacher.com/csharp/csharp-environment-setup ;
+- <https://www.tutorialspoint.com/csharp/csharp_environment_setup.htm;>
+- <https://www.guru99.com/net-framework.html> ;
+- <https://www.guru99.com/download-install-visual-studio.html> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-environment-setup> ;

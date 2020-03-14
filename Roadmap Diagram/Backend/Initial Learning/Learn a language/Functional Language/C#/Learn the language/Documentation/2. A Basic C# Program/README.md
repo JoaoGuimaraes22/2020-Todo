@@ -1,6 +1,6 @@
-# A basic C# Program:
+# A basic C# Program
 
-## What makes a C# program:
+## What makes a C# program
 
 - Namespace declaration;
 - A class;
@@ -10,9 +10,9 @@
 - Statements and Expressions;
 - Comments;
 
-## For example:
+## For example
 
-```
+```c#
 using System;
 
 namespace HelloWorldApplication {
@@ -28,7 +28,7 @@ namespace HelloWorldApplication {
 
 - When it compiles, it produces the result "Hello World";
 
-### The various parts:
+### The various parts
 
 - `using System`:
   - Used to include the `System` namespace in the program;
@@ -43,12 +43,12 @@ namespace HelloWorldApplication {
 - The `Main` method specifies its behavior with the statement `Console.WriteLine("Hello World");`;
   - `WriteLine` is a method of the `Console` class in the `System` namespace;
 
-## Some Key Points:
+## Some Key Points
 
 - C# is case sensitive;
 - All statements and expressions must end with a semi-colon (;);
 - The program execution starts at the `Main` method;
 
-## Links:
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_program_structure.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_program_structure.htm>m> ;

@@ -1,19 +1,19 @@
 # Basic Syntax
 
-## Here you will learn about:
+## Here you will learn about
 
 - Basic Syntax;
   - Keywords;
 
-## Overview:
+## Overview
 
 - A program consists of various objects that interact with each other by means of actions;
 - The actions that an object may take are called methods;
 - There are multiple keywords in C#;
 
-## Example Program:
+## Example Program
 
-```
+```c#
 using System;
 
 namespace RectangleApplication {
@@ -47,38 +47,38 @@ namespace RectangleApplication {
 }
 ```
 
-### The `using` Keyword:
+### The `using` Keyword
 
 - Used for including the namespaces in the program;
 
-### The `class` Keyword:
+### The `class` Keyword
 
 - Used for declaring a class;
 
-### Comments in C#:
+### Comments in CSharp
 
 - Used for explaining code;
 - Compilers ignore the comment entries;
 - Multiline comments in C# programs start with /_ and terminates with the characters _/;
 - Single-line comments are indicated by the '//' symbol;
 
-### Member variables:
+### Member variables
 
 - Are attributes or data members of a class, used for storing data;
 
-### Member functions:
+### Member functions
 
 - Are set of statements that perform a specific task;
 - The member functions of a class are declared within the class;
 
-### Instantiating a Class:
+### Instantiating a Class
 
 - In the preceding program, the class ExecuteRectangle contains the Main() method and instantiates the Rectangle class;
 
-### Identifiers:
+### Identifiers
 
 - Used to identify a class, variable, function, or any other user-defined item;
 
-## Links:
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_basic_syntax.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_basic_syntax.htm>m> ;

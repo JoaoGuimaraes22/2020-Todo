@@ -1,24 +1,24 @@
 # Classes
 
-## Here you will learn:
+## Here you will learn
 
 - Classes;
   - Partial Classes;
 
-## Overview:
+## Overview
 
 - When you define a class, you define a blueprint for a data type;
 - Objects are instances of a class;
 - Defines the kinds of data and the functionality their objects will have
 - The methods and variables that constitute a class are called members of the class;
 
-## Defining a class:
+## Defining a class
 
 - A class definition starts with the keyword class followed by the class name;
 - The class body in enclosed in curly braces;
 - Syntax:
 
-```
+```c#
 <access specifier> class  class_name {
    // member variables
    <access specifier> <data type> variable1;
@@ -39,12 +39,12 @@
 }
 ```
 
-### Access specifiers:
+### Access specifiers
 
 - Specify the access rules for the members as well as the class itself;
 - Example:
 
-```
+```c#
 using System;
 
 namespace BoxApplication {
@@ -84,19 +84,19 @@ namespace BoxApplication {
 
 - Returns:
 
-```
+```markdown
 Volume of Box1 : 210
 Volume of Box2 : 1560
 ```
 
-## Member Functions and Encapsulation:
+## Member Functions and Encapsulation
 
 - A member function of a class is a function that has its definition or its prototype within the class definition similar to any other variable;
 - It operates on any object of the class of which it is a member, and has access to all the members of a class for that object;
 - These variables can only be accessed using the public member functions;
 - For example:
 
-```
+```c#
 using System;
 
 namespace BoxApplication {
@@ -151,19 +151,19 @@ namespace BoxApplication {
 
 - Returns:
 
-```
+```markdown
 Volume of Box1 : 210
 Volume of Box2 : 1560
 ```
 
-## Constructors:
+## Constructors
 
 - It's a special member function of a class that is executed whenever we create new objects of that class;
 - Are called when you create an instance of a class;
 - It has exactly the same name as that of class and it does not have any return type;
 - For example:
 
-```
+```c#
 using System;
 
 namespace LineApplication {
@@ -194,7 +194,7 @@ namespace LineApplication {
 
 - Returns:
 
-```
+```markdown
 Object is being created
 Length of line : 6
 ```
@@ -203,7 +203,7 @@ Length of line : 6
 - Helps you to assign initial value to an object at the time of its creation;
 - For example:
 
-```
+```c#
 using System;
 
 namespace LineApplication {
@@ -235,13 +235,13 @@ namespace LineApplication {
 
 - Returns:
 
-```
+```markdown
 Object is being created, length = 10
 Length of line : 10
 Length of line : 6
 ```
 
-## Destructors:
+## Destructors
 
 - It's a special member function of a class that is executed whenever an object of its class goes out of scope;
 - Has exactly the same name as that of the class with a prefixed tilde (~) and it can neither return a value nor can it take any parameters;
@@ -249,7 +249,7 @@ Length of line : 6
 - Cannot be inherited or overloaded;
 - For example:
 
-```
+```c#
 using System;
 
 namespace LineApplication {
@@ -281,13 +281,13 @@ namespace LineApplication {
 
 - Returns:
 
-```
+```markdown
 Object is being created
 Length of line : 6
 Object is being deleted
 ```
 
-## Static Members of a Class:
+## Static Members of a Class
 
 - We can define class members as static using the `static` keyword;
 - When we use it, it means no matter how many objects of the class are created, there is only one copy of the static member;
@@ -297,7 +297,7 @@ Object is being deleted
 - You can initialize static variables inside the class definition;
 - For example:
 
-```
+```c#
 using System;
 
 namespace StaticVarApplication {
@@ -334,7 +334,7 @@ namespace StaticVarApplication {
 
 - Returns:
 
-```
+```markdown
 Variable num for s1: 6
 Variable num for s2: 6
 ```
@@ -346,7 +346,7 @@ Variable num for s2: 6
 - They exist even before the object is created;
 - For example:
 
-```
+```c#
 using System;
 
 namespace StaticVarApplication {
@@ -378,14 +378,14 @@ When the above code is compiled and executed, it produces the following result â
 Variable num: 3
 ```
 
-## Properties:
+## Properties
 
 - Defined using getters and setters;
 - Property encapsulates a private field;
 - It provides getters (get{}) to retrieve the value of the underlying field and setters (set{}) to set the value of the underlying field;
 - For example:
 
-```
+```c#
 private int _myPropertyVar;
 
 public int MyProperty
@@ -395,23 +395,23 @@ public int MyProperty
 }
 ```
 
-## Auto-implemented Property:
+## Auto-implemented Property
 
 - From C# 3.0 onwards, property declaration has been made easy if you don't want to apply some logic in get or set;
 - You can now just do this:
 
-```
+```c#
 public int MyAutoImplementedProperty { get; set; }
 ```
 
 - And the backing field will be created automatically by the compiler;
 
-## Partial Class and Methods:
+## Partial Class and Methods
 
 - C# provides the ability to have a single class implementation in multiple .cs files using the partial modifier keyword;
 - For example, partial methods :
 
-```
+```c#
 PartialClass1.cs:
 
 public partial class MyPartialClass
@@ -444,8 +444,8 @@ public partial class MyPartialClass
 
 - PartialClassFile1.cs contains the declaration of the partial method and PartialClassFile2.cs contains the implementation of the partial method;
 
-## Links:
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_classes.htm ;
-- https://www.tutorialsteacher.com/csharp/csharp-class ;
-- https://www.tutorialsteacher.com/csharp/csharp-partial-class ;
+- <https://www.tutorialspoint.com/csharp/csharp_classes.htm> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-class> ;
+- <https://www.tutorialsteacher.com/csharp/csharp-partial-class> ;

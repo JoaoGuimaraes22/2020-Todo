@@ -1,14 +1,14 @@
 # Namespaces
 
-## Overview:
+## Overview
 
 - Designed for providing a way to keep one set of names separate from another;
 
-## Defining a namespace:
+## Defining a namespace
 
 - Syntax:
 
-```
+```c#
 namespace namespace_name {
    // code declarations
 }
@@ -16,7 +16,7 @@ namespace namespace_name {
 
 - Example:
 
-```
+```c#
 using System;
 
 namespace first_space {
@@ -46,12 +46,12 @@ class TestClass {
 
 - Returns:
 
-```
+```markdown
 Inside first_space
 Inside second_space
 ```
 
-## The `using` keyword:
+## The `using` keyword
 
 - States that the program is using the names in the given namespace;
 - For example, we are using the System namespace in our programs;
@@ -62,7 +62,7 @@ Inside second_space
   - `System.Console.WriteLine("Hello there");`;
 - For example, let us rewrite our preceding example, with using directive:
 
-```
+```c#
 using System;
 using first_space;
 using second_space;
@@ -94,16 +94,16 @@ class TestClass {
 
 - Returns:
 
-```
+```markdown
 Inside first_space
 Inside second_space
 ```
 
-## Nested Namespaces:
+## Nested Namespaces
 
 - Syntax:
 
-```
+```c#
 namespace namespace_name1 {
 
    // code declarations
@@ -115,7 +115,7 @@ namespace namespace_name1 {
 
 - Accessing these member can be done like:
 
-```
+```c#
 using System;
 using first_space;
 using first_space.second_space;
@@ -147,11 +147,11 @@ class TestClass {
 
 - Returns:
 
-```
+```markdown
 Inside first_space
 Inside second_space
 ```
 
-## Links:
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_namespaces.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_namespaces.htm> ;

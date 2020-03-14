@@ -1,10 +1,10 @@
 # Keywords
 
-## Overview:
+## Overview
 
 - C# contains reserved words, that have special meaning for the compiler, and these cannot be used as names identifiers for variables;
 
-## Modifier Keywords:
+## Modifier Keywords
 
 - Modifiers allow or prevent certain parts of programs from being modified by other parts:
   - abstract;
@@ -22,7 +22,7 @@
   - virtual;
   - volatile;
 
-## Access Modifier Keywords:
+## Access Modifier Keywords
 
 - Define the accessibility of the class and its members:
   - public:
@@ -34,7 +34,7 @@
   - protected:
     - Allows codes in the same class or a class that derives from that class to access the type or its members;
 
-## Statement Keywords:
+## Statement Keywords
 
 - Related to program flow:
   - if;
@@ -61,14 +61,14 @@
   - fixed;
   - lock;
 
-## Method Parameter Keywords:
+## Method Parameter Keywords
 
 - These keywords are applied on the parameters of a method:
   - params;
   - ref;
   - out;
 
-## Namespace Keywords:
+## Namespace Keywords
 
 - These keywords are applied with namespace and related operators;
   - using;
@@ -76,7 +76,7 @@
   - :: operator;
   - extern alias,
 
-## Operator Keywords:
+## Operator Keywords
 
 - These keywords are applied with namespace and related operators:
   - as;
@@ -89,13 +89,13 @@
   - checked;
   - unchecked;
 
-## Access Keywords:
+## Access Keywords
 
 - Access keywords are used to access the containing class or the base class of an object or class:
   - base;
   - this;
 
-## Literal Keywords:
+## Literal Keywords
 
 - Literal keywords apply to the current instance or value of an object:
   - null;
@@ -104,7 +104,7 @@
   - value;
   - void;
 
-## Type Keywords:
+## Type Keywords
 
 - Type keywords are used for data types:
   - bool;
@@ -125,7 +125,7 @@
   - ulong;
   - ushort;
 
-## Contextual Keywords:
+## Contextual Keywords
 
 - Contextual keywords are considered as keywords, only if used in certain contexts;
 - They are not reserved and so can be used as names or identifiers:
@@ -136,7 +136,7 @@
   - set;
   - value;
 
-## Query Keywords:
+## Query Keywords
 
 - Query keywords are contextual keywords used in LINQ queries:
   - from;
@@ -154,13 +154,13 @@
   - ascending;
   - descending;
 
-## Points to remember:
+## Points to remember
 
 - Keywords are reserved words that cannot be used as name or identifier;
 - Prefix '@' with keywords if you want to use it as identifier;
 - C# includes various categories of keywords e.g. modifier keywords, access modifiers keywords, statement keywords, method param keywords etc;
 - Contextual keywords can be used as identifier;
 
-## Links:
+## Links
 
-- https://www.tutorialsteacher.com/csharp/csharp-keywords ;
+- <https://www.tutorialsteacher.com/csharp/csharp-keywords> ;

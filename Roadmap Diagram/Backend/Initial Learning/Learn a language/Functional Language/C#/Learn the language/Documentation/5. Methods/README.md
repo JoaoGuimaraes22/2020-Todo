@@ -1,6 +1,6 @@
 # Methods
 
-## Overview:
+## Overview
 
 - Is a group of statements that together perform a task;
 - Every program has at least one class with a method named Main;
@@ -8,17 +8,17 @@
   - Define method;
   - Call the method;
 
-## Defining Methods:
+## Defining Methods
 
 - Syntax:
 
-```
+```c#
 <Access Specifier> <Return Type> <Method Name>(Parameter List) {
    Method Body
 }
 ```
 
-### The elements of a method are:
+### The elements of a method are
 
 - Access specifier:
   - Determines the visibility of a variable or a method from another class;
@@ -36,7 +36,7 @@
   - Contains the set of instructions needed to complete the required activity;
 - Example:
 
-```
+```c#
 class NumberManipulator {
 
    public int FindMax(int num1, int num2) {
@@ -54,11 +54,11 @@ class NumberManipulator {
 }
 ```
 
-## Calling Methods:
+## Calling Methods
 
 - Example:
 
-```
+```c#
 using System;
 
 namespace CalculatorApplication {
@@ -92,13 +92,13 @@ namespace CalculatorApplication {
 
 - Returns:
 
-```
+```markdown
 Max value is : 200
 ```
 
 - You can also call a method from an instance of a class;
 
-## Passing paramethers to a method:
+## Passing paramethers to a method
 
 - There are three ways paramethers can be passed to a method:
   - Value parameters:
@@ -110,7 +110,7 @@ Max value is : 200
   - Output parameters:
     - Helps in returning more than one value;
 
-## Links:
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_methods.htm ;
-- https://docs.microsoft.com/en-us/dotnet/csharp/methods ;
+- <https://www.tutorialspoint.com/csharp/csharp_methods.htm> ;
+- <https://docs.microsoft.com/en-us/dotnet/csharp/methods> ;
