@@ -2,7 +2,7 @@
 
 ## What you will learn is
 
-- ASP.NET;
+- ASP.NET Core;
 - Entity Framework;
 - IoC;
 - LINQ;

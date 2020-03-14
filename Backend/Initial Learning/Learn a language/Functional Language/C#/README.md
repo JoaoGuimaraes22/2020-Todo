@@ -4,7 +4,7 @@
 
 - Learn the language;
 - Frameworks and tools:
-  - ASP.NET;
+  - ASP.NET Core;
   - Entity Framework;
   - IoC;
   - LINQ;

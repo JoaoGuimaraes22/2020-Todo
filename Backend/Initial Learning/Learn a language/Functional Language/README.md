@@ -1,14 +1,13 @@
-## Functional Language
+# Functional Language
 
-**What you will learn is:**
+## What you will learn is
 
 - C# / .NET:
   - Learn the language;
   - Frameworks and tools:
-    - .NET Core;
-    - .NET Framework;
-    - ASP.NET;
+    - ASP.NET Core;
     - Entity Framework;
+    - IoC;
     - LINQ;
     - Others;
 - Java (opt.);
