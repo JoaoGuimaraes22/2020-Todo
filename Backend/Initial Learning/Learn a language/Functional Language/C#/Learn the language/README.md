@@ -2,8 +2,7 @@
 
 ## What you will learn is
 
-- Documentation:
-  - Object Oriented Programming Concepts;
+- Object Oriented Programming Concepts;
 
 ## What's CSharp
 
