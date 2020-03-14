@@ -1,12 +1,11 @@
-## Learn the language
+# Learn the language
 
-**What you will learn is:**
+## What you will learn is
 
 - Documentation:
   - Object Oriented Programming Concepts;
-  -
 
-**What's C#:**
+## What's CSharp
 
 - It's a modern, general-purpose programming language;
 - It's object oriented;
@@ -16,7 +15,7 @@
 - It can be compiled on a variety of computer platforms;
 - It is a part of .Net Framework;
 
-**Features:**
+## Features
 
 - Boolean Conditions;
 - Automatic Garbage Collection;
@@ -31,6 +30,6 @@
 - LINQ and Lambda Expressions;
 - Integration with Windows;
 
-**Links:**
+## Links
 
-- https://www.tutorialspoint.com/csharp/csharp_overview.htm ;
+- <https://www.tutorialspoint.com/csharp/csharp_overview.htm> ;

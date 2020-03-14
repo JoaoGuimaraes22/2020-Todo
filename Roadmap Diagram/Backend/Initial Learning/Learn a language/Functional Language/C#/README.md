@@ -1,6 +1,6 @@
-## C# / .NET
+# C# / .NET
 
-**What you will learn is:**
+## What you will learn is
 
 - Learn the language;
 - Frameworks and tools:
