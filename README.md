@@ -228,7 +228,7 @@ Here it is:
 
 - <https://coggle.it/diagram/XlUjP9ceSi-PCdqG/t/development-roadmap-2020/ac6d4f185ce018582e35d6e8cb1c4ff65aa441adc2f960746b9e13e44a8e5fd2>
 
-![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/img/Development_Roadmap_2020.png)
+![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/Development_Roadmap_2020.png)
 
 ## Web Development Roadmap
 

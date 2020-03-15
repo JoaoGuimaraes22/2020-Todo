@@ -27,7 +27,7 @@
 - Conditional Compilation;
 - Simple Multithreading;
 - LINQ and Lambda Expressions;
-- Integration with Windows;
+- Integration with Windows and Azure;
 
 ## Links
 
