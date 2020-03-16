@@ -2,10 +2,10 @@
 
 ## Here you will learn about
 
-- Decision Making;
-  - If Conditions;
-  - Ternary Operator;
-  - Switch;
+1. Decision Making:
+   1. If Conditions;
+   2. Ternary Operator;
+   3. Switch;
 
 ## Overview
 

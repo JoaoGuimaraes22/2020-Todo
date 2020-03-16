@@ -2,10 +2,10 @@
 
 ## Here you will learn about
 
-- Loops;
-  - for loop;
-  - while loop;
-  - do-while loops;
+1. Loops:
+   1. for loop;
+   2. while loop;
+   3. do-while loops;
 
 ## Overview
 

@@ -3,7 +3,7 @@
 ## Here you will learn
 
 1. Variables:
-   1. Implicitly-typed variables
+   1. Implicitly-typed variables;
 
 ## Overview
 

@@ -2,8 +2,8 @@
 
 ## Here you will learn about
 
-- Generics;
-  - Generics Constraints;
+1. Generics:
+   1. Generics Constraints;
 
 ## Overview
 

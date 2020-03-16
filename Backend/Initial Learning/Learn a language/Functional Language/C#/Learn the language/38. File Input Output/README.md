@@ -2,10 +2,10 @@
 
 ## Here you will learn about
 
-- File Input Output:
-  - Stream I/O;
-  - File;
-  - File Info;
+1. File Input Output:
+   1. Stream I/O
+   2. File;
+   3. File Info;
 
 ## Overview
 

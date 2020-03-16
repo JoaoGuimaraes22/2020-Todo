@@ -2,9 +2,9 @@
 
 ## Here you will learn about
 
-- Generic Collections;
-  - List;
-  - Dictionary;
+1. Generic Collections:
+   1. List;
+   2. Dictionary;
 
 ## Overview
 

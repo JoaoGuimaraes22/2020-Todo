@@ -2,12 +2,12 @@
 
 ## Here you will learn about
 
-- Arrays:
-  - Multi-dimensional arrays;
-  - Jagged Arrays;
-  - Passing arrays to functions;
-  - Param arrays;
-  - The Array class;
+1. Arrays:
+   1. Multi-dimensional arrays;
+   2. Jagged Arrays;
+   3. Passing arrays to functions;
+   4. Param arrays;
+   5. The Array class;
 
 ## Overview
 

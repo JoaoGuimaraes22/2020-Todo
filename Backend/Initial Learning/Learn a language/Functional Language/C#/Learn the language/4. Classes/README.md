@@ -2,8 +2,8 @@
 
 ## Here you will learn
 
-1. Classes
-   1. Partial Classes
+1. Classes:
+   1. Partial Classes;
 
 ## Overview
 

@@ -2,12 +2,12 @@
 
 ## Here you will learn about
 
-- Collections;
-  - ArrayList;
-  - Hastable;
-  - SortedList;
-  - Stack;
-  - Queue;
+1. Collections:
+   1. ArrayList;
+   2. Hastable;
+   3. SortedList;
+   4. Stack;
+   5. Queue;
 
 ## Overview
 

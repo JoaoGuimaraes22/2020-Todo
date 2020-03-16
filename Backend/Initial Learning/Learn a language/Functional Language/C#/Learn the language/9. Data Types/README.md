@@ -2,12 +2,12 @@
 
 ## Here you will learn about
 
-- Data Types;
-  - Numbers;
-  - String;
-  - DateTime;
-  - Anonymous Type;
-  - Dynamic Type;
+1. Data Types:
+   1. Numbers;
+   2. String;
+   3. DateTime;
+   4. Anonymous Type;
+   5. Dynamic Type;
 
 ## Overview
 
