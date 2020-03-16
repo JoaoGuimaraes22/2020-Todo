@@ -2,8 +2,8 @@
 
 ## Here you will learn about
 
-- Basic Syntax;
-  - Keywords;
+1. Basic Syntax
+   1. Keywords
 
 ## Overview
 
