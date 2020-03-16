@@ -2,8 +2,8 @@
 
 ## Here you will learn
 
-- Variables;
-  - Implicitly-typed variables;
+1. Variables:
+   1. Implicitly-typed variables
 
 ## Overview
 
