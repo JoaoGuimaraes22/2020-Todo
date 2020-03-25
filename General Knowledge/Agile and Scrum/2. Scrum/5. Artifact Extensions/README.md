@@ -14,7 +14,7 @@
 - Then, during the sprint, each member picks up tasks from the sprint backlog and works on them;
 - At the end of the day, they update the remaining hours for tasks to be completed;
 - Example:
-  ![Sprint Burndown Chart](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/burndown-chart-min.png)
+  ![Sprint Burndown Chart](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/General%20Knowledge/Agile%20and%20Scrum/.2.5-burndown-chart-min.png)
 
 ## Release burn-up chart
 
@@ -23,7 +23,7 @@
 - The horizontal axis of the release burn-up chart shows the sprints in a release, while the vertical axis shows the amount of work completed at the end of each sprint (typically trough story points);
 - Progress is plotted as a line that grows up to meet a horizontal line that represents the forecast scope; often shown with a forecast, based on progress to date, that indicates how much scope might be completed by a given release date or how many sprints it will take to complete the given scope;
 - Example:
-  ![Release Burn-Up Chart](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/burnup-chart-min.png)
+  ![Release Burn-Up Chart](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/General%20Knowledge/Agile%20and%20Scrum/.2.5-burnup-chart-min.png)
 
 ## Definition of ready (DoR)
 
