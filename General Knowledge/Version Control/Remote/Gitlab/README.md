@@ -1,6 +1,6 @@
-## Gitlab
+# Gitlab
 
-**What is Gitlab:**
+## What is Gitlab
 
 - GitLab is a complete DevOps platform;
 - With GitLab, you get a complete CI/CD toolchain in a single application. One interface, conversation and permission model
@@ -15,7 +15,7 @@
   - Issues with comments, merge requests with diffs and comments, labels, milestones, snippets, and other project entities;
 - Although Gitlab offers more features, Github is more community driven, so if you want to go where the largest dev community is, go to Github;
 
-**Links:**
+## Links
 
-- https://about.gitlab.com/ ;
-- https://usersnap.com/blog/gitlab-github/ ;
+- <https://about.gitlab.com/> ;
+- <https://usersnap.com/blog/gitlab-github/> ;

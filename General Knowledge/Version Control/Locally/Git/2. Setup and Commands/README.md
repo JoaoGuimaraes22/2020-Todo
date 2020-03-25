@@ -1,9 +1,9 @@
-## Git Documentation
+# Setup and Git Commands
 
-**Setup:**
+## Setup
 
 - Download Git:
-  - https://git-scm.com/downloads;
+  - <https://git-scm.com/downloads;>
 - Open Git Bash, do the following with the command line;
 - Check Git Version with:
   - `git --version`;
@@ -16,7 +16,7 @@
   - `git help <verb>`;
   - `git <verb> --help`;
 
-**Getting Started:**
+## Getting Started
 
 - Intilialize a repository in a folder;
   - Open your terminal in the folder of choice;
@@ -27,9 +27,9 @@
   - `git status`;
 - Add a file named **.gitignore** to your project/folder;
   - In the **.gitignore** file, you can type the folders/files you don't wish to add to your repository:
-    - See https://git-scm.com/docs/gitignore to check how to do this;
+    - See <https://git-scm.com/docs/gitignore> to check how to do this;
 
-**Work with git:**
+## Work with git
 
 - Run `git status` if you are ever in doubt on how things are doing;
 - Add your files to the staging area with:
@@ -48,7 +48,7 @@
   - `git log`;
 - Run `git diff` to see changes between commits, commit and working tree, etc;
 
-**Work effeciently with git:**
+## Work effeciently with git
 
 - Clone a remote repo (example: Github) using:
   - `git clone <url> <path_where_you_want_to_clone>`
@@ -69,7 +69,7 @@
 - Optionally, add multiple remote origin repos with:
   - `git remote set-url --add --push origin <remote_repo_url>`;
 
-**Branching and workflow:**
+## Branching and workflow
 
 - When you add a branch, you basically create a clone of your original directory;
 - In the branch, you can do all you can with git, and change all your files, without affecting other working trees;
@@ -88,7 +88,7 @@
 - You can add remote branches in your remote repo as you would withn your local machine:
   - `git push -u origin dev`, creates a new remote repo branch in origin, called dev;
 
-**Merging and pulling:**
+## Merging and pulling
 
 - To merge two branches, go to the file where you want the merging to happen, and run:
   - `git merge <branch_to_be_merged>`;
@@ -98,14 +98,14 @@
 - You can fetch from a repo with:
   - `git pull origin <branch_name>`
 
-**Helpfull optionall stuff:**
+## Helpfull optionall stuff
 
 - Check this stuff out:
   - Visual Studio Code Extension - GitLens;
   - GitKraken, a free Git GUI client, voted best developer tool 2019;
 
-**Links:**
+## Links
 
-- https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR;
-- https://git-scm.com/docs/
-- https://www.youtube.com/watch?v=SWYqp7iY_Tc
+- <https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR;>
+- <https://git-scm.com/docs/>
+- <https://www.youtube.com/watch?v=SWYqp7iY_Tc>
