@@ -14,7 +14,7 @@
 - A 2-dimensional array is a list of one-dimensional arrays;
 - A 2-dimensional array can be thought of as a table, which has x number of rows and y number of columns;
 - For example:
-  ![2 Dimensional Array Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/img/two_dimensional_arrays.jpg)
+  ![2 Dimensional Array Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/Backend/Initial%20Learning/Learn%20a%20language/Functional%20Language/C%23/1.20.1.two_dimensional_arrays-min.jpg)
 - Here, every element in the array a is identified by an element name of the form a[ i , j ], where a is the name of the array, and i and j are the subscripts that uniquely identify each element in array a;
 
 ## Initializing two-dimensional arrays

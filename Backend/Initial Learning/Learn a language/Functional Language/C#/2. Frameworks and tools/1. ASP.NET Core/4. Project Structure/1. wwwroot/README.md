@@ -9,7 +9,7 @@
 ## Structure
 
 - Generally, there should be separate folders for the different types of static files such as JavaScript, CSS, Images, library scripts etc;
-  ![Structure wwwroot](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/wwwroot.png)
+  ![Structure wwwroot](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/Backend/Initial%20Learning/Learn%20a%20language/Functional%20Language/C%23/2.1.4.1.wwwroot-min.png)
 
 ## Access Static Files
 
