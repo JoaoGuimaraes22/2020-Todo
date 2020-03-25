@@ -10,7 +10,7 @@
 
 - There are actually local version control systems;
 - But the best one, and the most popular one is actually a **Distributed Version Control**;
-  ![Version Control Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/img/distributedversioncontrol-min.png)
+  ![Version Control Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/General%20Knowledge/Version%20Control/1.distributedversioncontrol-min.png)
 
 ## Links
 
