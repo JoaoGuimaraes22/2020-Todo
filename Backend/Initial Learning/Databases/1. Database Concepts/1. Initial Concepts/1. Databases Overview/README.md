@@ -38,7 +38,6 @@
 ## Diferent Databases
 
 - Databases and DBMSs can be categorized according to the database model(s) that they support (such as relational or XML), the type(s) of computer they run on (from a server cluster to a mobile phone), the query language(s) used to access the database (such as SQL or XQuery), and their internal engineering, which affects performance, scalability, resilience, and security;
--
 
 ## Links
 
