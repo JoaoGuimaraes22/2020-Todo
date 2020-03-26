@@ -39,4 +39,4 @@
 
 ## Links
 
-- <https://www.tutorialsteacher.com/core/aspnet-core-application-project-structure;>
+- <https://www.tutorialsteacher.com/core/aspnet-core-application-project-structure> ;
