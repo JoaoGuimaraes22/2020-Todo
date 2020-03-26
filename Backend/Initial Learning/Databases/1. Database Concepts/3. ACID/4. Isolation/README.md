@@ -76,7 +76,7 @@
 
 ## Isolation levels, read phenomena, and locks
 
-![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/Others/Development_Roadmap_2020-min.png)
+![Isolation Image](https://github.com/JoaoGuimaraes22/2020-Todo/tree/master/Images/Backend/Initial%20Learning/Databases/1.%20Database%20Concepts)
 
 ## Links
 
