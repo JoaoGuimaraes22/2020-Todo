@@ -224,11 +224,11 @@ Here it is:
   - Visual Studio IntelliCode;
   - AREPL for Python;
 
-#### Zoom in to see diagram, details all of what I aim to learn
+#### See my development diagram, contains details of what I aim to learn
 
 - <https://coggle.it/diagram/XlUjP9ceSi-PCdqG/t/development-roadmap-2020/ac6d4f185ce018582e35d6e8cb1c4ff65aa441adc2f960746b9e13e44a8e5fd2>
 
-![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/Development_Roadmap_2020.png)
+![Roadmap Image](https://github.com/JoaoGuimaraes22/2020-Todo/blob/master/Images/Others/Development_Roadmap_2020-min.png)
 
 ## Web Development Roadmap
 
@@ -237,8 +237,9 @@ Here it is:
 
 ## How to follow this
 
-- Clone the repo;
-- Use a userscript to sort the files by alphabetical order -> <https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content> ;
+- To follow this in a better way, you should follow this in alphabeticall order;
+- Option 1: Clone the repo;
+- Option 2: Use a userscript -> <https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content> -> to sort the files by alphabetical order ;
 - Sort the files;
 - Go through the files as described below + numerical order -> 1. , 2. , 3. , ... ;
 
