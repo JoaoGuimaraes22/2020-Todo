@@ -37,7 +37,7 @@
 - Visual programming is a usage scenario in which an IDE is generally required;
 - For example, Visual Basic allows users to create new applications by moving programming, building blocks, or code nodes to create flowcharts or structure diagrams that are then compiled or interpreted;
 
-### Language Support 
+### Language Support
 
 - Some IDEs support multiple languages, or contain plugins to support multiple languages;
 
@@ -55,7 +55,7 @@
 
 - A Web IDE is a browser based IDE that allows for software development or web development accesed throught the browser, allowing for a portable work environment;
 
-## Should you use an IDE?
+## Should you use an IDE
 
 - Using an IDE is not required for learning a language;
 - In my opinion, you should use a code editor or an IDE, but only when you already know the basics of the lnmguage you're developing in;
@@ -64,8 +64,8 @@
 ## My IDEs / IDEs I use
 
 - Visual Studio:
-    - Only really use it for .NET / C# development;
-    - Although, nowadays I actually use Visual Studio Code for .NET Development;
+  - Only really use it for .NET / C# development;
+  - Although, nowadays I actually use Visual Studio Code for .NET Development;
 
 ## Links
 

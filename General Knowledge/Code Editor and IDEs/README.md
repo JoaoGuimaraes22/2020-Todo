@@ -1,4 +1,4 @@
-## Code Editor
+# Code Editor
 
 **Here you will learn about:**
 
