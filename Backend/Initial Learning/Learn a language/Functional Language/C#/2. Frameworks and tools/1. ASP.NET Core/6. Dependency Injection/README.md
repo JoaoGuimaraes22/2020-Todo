@@ -2,8 +2,8 @@
 
 ## Here you will learn about
 
-- Dependency Injection;
-  - Built-in IoC Container;
+1. Dependency Injection:
+   1. Built-in IoC Container;
 
 ## Overview
 
