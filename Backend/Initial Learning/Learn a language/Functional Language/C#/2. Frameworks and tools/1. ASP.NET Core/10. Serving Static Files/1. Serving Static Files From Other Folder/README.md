@@ -38,7 +38,7 @@ app.UseStaticFiles(new StaticFileOptions() {
 ```
 
 - The above code configures Content admin folder to serve static files on the request path /admin;
-- So now, we will be able to execute HTTP request http://localhost:1234/admin/admin.html to display static admin.html page.
+- So now, we will be able to execute HTTP request <http://localhost:1234/admin/admin.html> to display static admin.html page.
 
 ## Links
 

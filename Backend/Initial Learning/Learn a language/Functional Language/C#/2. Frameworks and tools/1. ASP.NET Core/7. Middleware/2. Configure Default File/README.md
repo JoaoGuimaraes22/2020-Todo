@@ -33,7 +33,7 @@ public class Startup
 }
 ```
 
-- This will display home.html from wwwroot folder on the root request http://localhost:<port>.
+- This will display home.html from wwwroot folder on the root request <http://localhost:port>.
 
 ## Links
 

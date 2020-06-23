@@ -91,7 +91,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 
 - Here we used `FileProvider` option to specify Images folder from which static files will be served;
 - The RequestPath option specifies the relative path in the URL which maps to the static folder;
-- Now, a request to http://localhost/app-images/MyImage.png will serve the MyImage.png file.
+- Now, a request to <http://localhost/app-images/MyImage.png> will serve the MyImage.png file.
 
 ## Set Default File
 
